@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,20)"
+     id="layer2"
+     style="display:inline">
+    <rect
+       width="579.95844"
+       height="270.52496"
+       ry="10.07578"
+       x="10.041562"
+       y="169.47504"
+       id="rect2991"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.68126202;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    <path
+       d="m 0,300 40,0"
+       id="path3784"
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <path
+       d="m 565,300 35,0"
+       id="path3786"
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
+    <path
+       d="m 100.53007,207.22708 102.2037,0 0,22.77292 -78.14175,0 0,58.94173 70.51816,0 0,22.77299 -70.51816,0 0,95.51239 -24.06195,0 0,-200.00003"
+       id="path3789"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans" />
+    <path
+       d="m 212.14413,207.22708 150.44669,0 0,22.77292 -63.13281,0 0,177.22711 -24.18106,0 0,-177.22711 -63.13282,0 0,-22.77292"
+       id="path3791"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans" />
+    <path
+       d="m 385.93805,207.22708 112.44789,0 0,22.77292 -88.38594,0 0,59.2097 84.69326,0 0,22.77292 -84.69326,0 0,72.47149 90.53008,0 0,22.773 -114.59203,0 0,-200.00003"
+       id="path3793"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#696969;fill-opacity:1;stroke:none;font-family:Sans" />
+  </g>
+  <g
+     id="layer3"
+     style="display:inline" />
+</svg>

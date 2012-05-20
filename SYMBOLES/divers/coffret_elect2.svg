@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-452.36218)"
+     id="layer1">
+    <rect
+       width="350"
+       height="340"
+       x="120"
+       y="582.36218"
+       id="rect5138"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.76819324;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       transform="matrix(0.44461425,0,0,0.46485514,161.52588,619.44133)"
+       id="g7165">
+      <path
+         d="m 24.689244,-160.5126 c 0.06787,-0.0509 0,0.16968 0,0 z"
+         id="path1965"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <g
+         transform="translate(8.146196,8.022892)"
+         id="g1889">
+        <path
+           d="M 299.09375,-8 C 285.2752,-7.992418 276.97358,5.3760798 271.875,16.53125 179.06241,177.95887 85.093615,338.77609 -7,500.5625 c -5.655568,16.18075 10.5954928,34.34286 27.3125,31.03037 189.5995,-0.27255 379.23688,0.62426 568.8125,-0.49912 16.59057,-3.16375 24.67537,-26.14951 13.37438,-38.92817 C 507.36358,328.05043 413.40661,163.19507 317.5,-0.4375 312.77524,-5.3226321 305.97101,-8.3168021 299.09375,-8 z"
+           id="path1875"
+           style="fill:#ffff00" />
+        <g
+           id="g4">
+          <path
+             d="M 597.6,499.6 313.8,8 C 310.9,3 305.6,0 299.9,0 294.2,0 288.9,3.1 286,8 L 2.2,499.6 c -2.9,5 -2.9,11.1 0,16 2.9,5 8.2,8 13.9,8 l 567.6,0 c 5.7,0 11,-3.1 13.9,-8 2.9,-5 2.9,-11.1 0,-16 z"
+             id="sign_border" />
+          <polygon
+             points="43.9,491.5 299.9,48.2 555.9,491.5 43.9,491.5 "
+             id="sign_bg"
+             style="fill:#f7f619" />
+        </g>
+        <path
+           d="m 279.93365,165.58262 -50.51092,171.94072 73.87885,-38.09379 -15.80744,115.72278 -15.10334,-22.05969 11.64027,72.56433 42.35765,-61.18092 -21.4523,13.33856 44.53945,-163.98217 -79.65065,43.86557 58.29504,-132.17388 -48.18661,0.0585 z"
+           id="path1933"
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.04826057px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

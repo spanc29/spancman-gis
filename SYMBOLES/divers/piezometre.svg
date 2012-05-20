@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="600"
+   height="600"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-452.36218)"
+     id="layer1">
+    <path
+       d="m 510,315 a 215,215 0 1 1 -430,0 215,215 0 1 1 430,0 z"
+       transform="matrix(0.72093023,0,0,0.72093021,87.325582,530.26916)"
+       id="path2993"
+       style="fill:#008080;fill-opacity:1;stroke:#000000;stroke-width:64.18625641;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <g
+       transform="matrix(0.95561713,0,0,0.9782711,9.2335166,-18.656166)"
+       id="text3793"
+       style="font-size:393.02050781px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono">
+      <path
+         d="m 205.38362,569.23193 c -2.2e-4,10.74683 -1.91926,21.10966 -5.75714,31.08854 -3.71036,9.85124 -9.46749,18.61487 -17.27141,26.29092 -7.67637,7.6763 -17.33555,13.81724 -28.97759,18.42284 -11.64236,4.60581 -25.33153,6.90866 -41.06757,6.90856 l -53.925176,0 0,98.63894 -36.653768,0 0,-258.87923 88.276094,0 c 15.99191,2.5e-4 29.93696,1.85533 41.83519,5.56523 11.89791,3.7104 21.81296,8.95579 29.7452,15.73617 7.93186,6.78086 13.88089,14.96878 17.84712,24.56378 3.96582,9.4675 5.94883,20.02224 5.94905,31.66425 m -36.84568,0.57571 c -1.8e-4,-15.99184 -5.24556,-28.08182 -15.73617,-36.26995 -10.49093,-8.31564 -26.22709,-12.47357 -47.20852,-12.4738 l -47.208516,0 0,101.90131 48.743756,0 c 10.49065,1.3e-4 19.57413,-1.3432 27.25044,-4.02999 7.80397,-2.81447 14.20078,-6.58859 19.19046,-11.32237 5.11728,-4.7335 8.8914,-10.36269 11.32237,-16.8876 2.43061,-6.52459 3.646,-13.49711 3.64618,-20.9176"
+         id="path3798" />
+    </g>
+  </g>
+</svg>
