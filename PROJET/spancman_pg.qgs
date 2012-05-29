@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>469753.254908</xmin>
-            <ymin>6745440.315605</ymin>
-            <xmax>469960.073426</xmax>
-            <ymax>6745561.255784</ymax>
+            <xmin>469682.289014</xmin>
+            <ymin>6745492.212216</ymin>
+            <xmax>469731.451587</xmax>
+            <ymax>6745523.131328</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -25,116 +25,121 @@
     </mapcanvas>
     <legend updateDrawingOrder="true">
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="dossiers"/>
-        <legendgroup open="true" checked="Qt::Checked" name="cana et regards">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Canalisations" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Checked" name="cana et regards">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="canalisations" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="canalisations20120417144444628" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="canalisations20120526210158934" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Regards" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="regards" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="regards20120424221453968" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="regards20120526210159262" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="prétraitements">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Pretraitements" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::Checked" name="prétraitements">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="pretraitements" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="pretraitements20120419143800678" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="pretraitements20120526210159231" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Ventilations" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ventilations" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Ventilations20120429154703820" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="ventilations20120526210159342" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="traitements">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Traitements classiques" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="traitements" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="traitements20120422153720697" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="traitements20120526210159325" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="filieres_agreees" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="filieres_agreees20120516223336678" visible="1"/>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="filieres_agreees" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="filieres_agreees20120526210159020" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="dispersions">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Infiltrations" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Infiltrations20120501221051536" visible="1"/>
+        <legendgroup open="true" checked="Qt::Checked" name="dispersions">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="infiltrations" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="infiltrations20120526210159109" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="dispersion_puits" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="dispersion_puits20120430225516857" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="dispersion_puits20120526210158958" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Rejets" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="rejets" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="rejets20120422223106148" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="rejets20120526210159289" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="terrain">
+        <legendgroup open="true" checked="Qt::Checked" name="terrain">
             <legendgroup open="false" checked="Qt::Checked" name="plantations">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Haies" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="haie20120408223634850" visible="1"/>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="haies" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="haies20120526210159035" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Arbres" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="arbres20120325222820388" visible="1"/>
+                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="arbres" showFeatureCount="0">
+                    <filegroup open="false" hidden="false">
+                        <legendlayerfile isInOverview="0" layerid="arbres20120526210158892" visible="1"/>
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Pentes" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="pentes" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="pentes20120409181327133" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="pentes20120526210159181" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="surfaces_terrain" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="surfaces_terrain20120501222845562" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="surfaces_terrain20120526210159310" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="divers"/>
-        <legendgroup open="false" checked="Qt::Checked" name="Immeubles">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Alim_AEP" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="alim_AEP20120409180648599" visible="1"/>
-                </filegroup>
-            </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Origines" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::Checked" name="Immeubles">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="alim_aep" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="origines20120405225644695" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="alim_aep20120526210158865" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pieces" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="pieces20120405224700019" visible="1"/>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="origines" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="origines20120526210159129" visible="1"/>
                 </filegroup>
             </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="pieces" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="pieces20120526210159217" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="batiments" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="batiments20120526212211844" visible="1"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Checked" name="cadastre">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Bâtiments" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="immeubles20120325221141705" visible="1"/>
                 </filegroup>
             </legendlayer>
-        </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="cadastre">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Parcelles_lignes" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Parcelles_lignes" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="parcelles_lignes20120319223742722" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="groupe">
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="base_point" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+        <legendgroup open="true" checked="Qt::Checked" name="groupe">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="base_point" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="base_point20120430222126708" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -143,8 +148,8 @@
                     <legendlayerfile isInOverview="0" layerid="base_ligne20120430221927778" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="base_polygone" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="base_polygone" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="base_polygone20120501222532989" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -2237,47 +2242,6 @@
                     </LayerItem>
                 </GroupItem>
                 <GroupItem text="terrain"/>
-                <LayerItem layerId="haie20120408223634850" text="Haies">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MapUnit" alpha="0,592156862745098" type="line" name="classificationSymbol">
-                                <layer pass="0" class="MarkerLine" locked="0">
-                                    <prop k="interval" v="1"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="placement" v="interval"/>
-                                    <prop k="rotate" v="0"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MapUnit" alpha="0,592156862745098" type="marker" name="@classificationSymbol@0">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="85,170,0,255"/>
-                                    <prop k="color_border" v="0,255,127,255"/>
-                                    <prop k="name" v="circle"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="1"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
-                <LayerItem layerId="arbres20120325222820388" text="Arbres">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
-                                <layer pass="0" class="SvgMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="fill" v="#000000"/>
-                                    <prop k="name" v="/vegetations/arbre2.svg"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="outline" v="#000000"/>
-                                    <prop k="outline-width" v="1"/>
-                                    <prop k="size" v="3"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
                 <GroupItem text="divers"/>
                 <GroupItem text="Immeubles">
                     <LayerItem layerId="alim_AEP20120409180648599" text="Alim_AEP">
@@ -2557,200 +2521,6 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </GroupItem>
-                <LayerItem layerId="pentes20120409181327133" text="Pentes">
-                    <VectorClassificationItemNg text="0 à 2%">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="flat"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="miter"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="dash dot"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.2"/>
-                                </layer>
-                                <layer pass="0" class="MarkerLine" locked="0">
-                                    <prop k="interval" v="50"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="placement" v="interval"/>
-                                    <prop k="rotate" v="1"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="marker" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="color_border" v="121,121,150,255"/>
-                                    <prop k="name" v="arrowhead"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="10 à 15%">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="0,6901960784313725" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="flat"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="miter"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="dash dot"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.2"/>
-                                </layer>
-                                <layer pass="0" class="MarkerLine" locked="0">
-                                    <prop k="interval" v="40"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="placement" v="interval"/>
-                                    <prop k="rotate" v="1"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="0,6901960784313725" type="marker" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="color_border" v="121,121,150,255"/>
-                                    <prop k="name" v="arrowhead"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="15 à 20%">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="flat"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="miter"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="dash dot"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.2"/>
-                                </layer>
-                                <layer pass="0" class="MarkerLine" locked="0">
-                                    <prop k="interval" v="30"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="placement" v="interval"/>
-                                    <prop k="rotate" v="1"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="marker" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="color_border" v="121,121,150,255"/>
-                                    <prop k="name" v="arrowhead"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="2 à 5%">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="flat"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="miter"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="dash dot"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.2"/>
-                                </layer>
-                                <layer pass="0" class="MarkerLine" locked="0">
-                                    <prop k="interval" v="20"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="placement" v="interval"/>
-                                    <prop k="rotate" v="1"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="marker" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="46,47,51,255"/>
-                                    <prop k="color_border" v="121,121,150,255"/>
-                                    <prop k="name" v="arrowhead"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="> 20%">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="flat"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="miter"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="dash dot"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.2"/>
-                                </layer>
-                                <layer pass="0" class="MarkerLine" locked="0">
-                                    <prop k="interval" v="20"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="placement" v="interval"/>
-                                    <prop k="rotate" v="1"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="marker" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="32,137,48,255"/>
-                                    <prop k="color_border" v="121,121,150,255"/>
-                                    <prop k="name" v="arrowhead"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="5 à 10%">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="0,796078431372549" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="flat"/>
-                                    <prop k="color" v="121,121,150,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="miter"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="dash dot"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.2"/>
-                                </layer>
-                                <layer pass="0" class="MarkerLine" locked="0">
-                                    <prop k="interval" v="10"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="placement" v="interval"/>
-                                    <prop k="rotate" v="1"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="0,796078431372549" type="marker" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="0,0,0,255"/>
-                                    <prop k="color_border" v="121,121,150,255"/>
-                                    <prop k="name" v="arrowhead"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="size" v="2"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
                 <GroupItem text="cadastre"/>
                 <LayerItem layerId="immeubles20120325221141705" text="Bâtiments">
                     <VectorClassificationItemNg text="">
@@ -2823,118 +2593,6 @@
                     </VectorClassificationItemNg>
                 </LayerItem>
                 <GroupItem text="plantations"/>
-                <LayerItem layerId="Infiltrations20120501221051536" text="Infiltrations">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="246,239,247,255"/>
-                                    <prop k="color_border" v="0,170,0,255"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="solid"/>
-                                    <prop k="style_border" v="dot"/>
-                                    <prop k="width_border" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="irrigation végétaux">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="170,255,127,255"/>
-                                    <prop k="color_border" v="0,170,0,255"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="diagonal_x"/>
-                                    <prop k="style_border" v="dot"/>
-                                    <prop k="width_border" v="0.26"/>
-                                </layer>
-                                <layer pass="0" class="SVGFill" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="svgFile" v="/biology/Coniferous.svg"/>
-                                    <prop k="svgFillColor" v="#000000"/>
-                                    <prop k="svgOutlineColor" v="#000000"/>
-                                    <prop k="svgOutlineWidth" v="1"/>
-                                    <prop k="width" v="5"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="square"/>
-                                    <prop k="color" v="0,0,0,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="bevel"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="no"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="lit">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="137,181,214,255"/>
-                                    <prop k="color_border" v="0,170,0,255"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="diagonal_x"/>
-                                    <prop k="style_border" v="dot"/>
-                                    <prop k="width_border" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="noues">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="170,255,0,255"/>
-                                    <prop k="color_border" v="0,170,0,255"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="diagonal_x"/>
-                                    <prop k="style_border" v="dot"/>
-                                    <prop k="width_border" v="0.26"/>
-                                </layer>
-                                <layer pass="0" class="SVGFill" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="svgFile" v="/traitements/phyto1.svg"/>
-                                    <prop k="svgFillColor" v="#000000"/>
-                                    <prop k="svgOutlineColor" v="#000000"/>
-                                    <prop k="svgOutlineWidth" v="1"/>
-                                    <prop k="width" v="5"/>
-                                </layer>
-                            </symbol>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="@classificationSymbol@1">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="square"/>
-                                    <prop k="color" v="0,0,0,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="bevel"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="no"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="tranchées">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
-                                <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="255,85,0,255"/>
-                                    <prop k="color_border" v="0,170,0,255"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="style" v="diagonal_x"/>
-                                    <prop k="style_border" v="dot"/>
-                                    <prop k="width_border" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
                 <LayerItem layerId="base_polygone20120501222532989" text="base_polygone">
                     <VectorClassificationItemNg text="">
                         <symbols>
@@ -2951,12 +2609,112 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
-                <LayerItem layerId="surfaces_terrain20120501222845562" text="surfaces_terrain">
+                <LayerItem layerId="alim_aep20120526210158865" text="alim_aep">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="170,49,217,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="arbres20120526210158892" text="arbres">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="243,160,121,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="canalisations20120526210158934" text="canalisations">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="line" name="classificationSymbol">
+                                <layer pass="0" class="SimpleLine" locked="0">
+                                    <prop k="capstyle" v="square"/>
+                                    <prop k="color" v="251,105,244,255"/>
+                                    <prop k="customdash" v="5;2"/>
+                                    <prop k="joinstyle" v="bevel"/>
+                                    <prop k="offset" v="0"/>
+                                    <prop k="penstyle" v="solid"/>
+                                    <prop k="use_custom_dash" v="0"/>
+                                    <prop k="width" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="dispersion_puits20120526210158958" text="dispersion_puits">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="159,127,85,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="filieres_agreees20120526210159020" text="filieres_agreees">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="197,243,144,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="haies20120526210159035" text="haies">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="line" name="classificationSymbol">
+                                <layer pass="0" class="SimpleLine" locked="0">
+                                    <prop k="capstyle" v="square"/>
+                                    <prop k="color" v="172,211,110,255"/>
+                                    <prop k="customdash" v="5;2"/>
+                                    <prop k="joinstyle" v="bevel"/>
+                                    <prop k="offset" v="0"/>
+                                    <prop k="penstyle" v="solid"/>
+                                    <prop k="use_custom_dash" v="0"/>
+                                    <prop k="width" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="infiltrations20120526210159109" text="infiltrations">
                     <VectorClassificationItemNg text="">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
                                 <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="188,187,250,255"/>
+                                    <prop k="color" v="35,238,144,255"/>
                                     <prop k="color_border" v="0,0,0,255"/>
                                     <prop k="offset" v="0,0"/>
                                     <prop k="style" v="solid"/>
@@ -2967,13 +2725,13 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
-                <LayerItem layerId="filieres_agreees20120516223336678" text="filieres_agreees">
+                <LayerItem layerId="origines20120526210159129" text="origines">
                     <VectorClassificationItemNg text="">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
-                                    <prop k="color" v="172,29,105,255"/>
+                                    <prop k="color" v="84,136,32,255"/>
                                     <prop k="color_border" v="0,0,0,255"/>
                                     <prop k="name" v="circle"/>
                                     <prop k="offset" v="0,0"/>
@@ -2983,8 +2741,154 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="pentes20120526210159181" text="pentes">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="line" name="classificationSymbol">
+                                <layer pass="0" class="SimpleLine" locked="0">
+                                    <prop k="capstyle" v="square"/>
+                                    <prop k="color" v="168,114,233,255"/>
+                                    <prop k="customdash" v="5;2"/>
+                                    <prop k="joinstyle" v="bevel"/>
+                                    <prop k="offset" v="0"/>
+                                    <prop k="penstyle" v="solid"/>
+                                    <prop k="use_custom_dash" v="0"/>
+                                    <prop k="width" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="pieces20120526210159217" text="pieces">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="165,169,109,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="pretraitements20120526210159231" text="pretraitements">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="149,125,28,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="regards20120526210159262" text="regards">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="192,88,109,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="rejets20120526210159289" text="rejets">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="63,174,191,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="surfaces_terrain20120526210159310" text="surfaces_terrain">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="222,96,233,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="traitements20120526210159325" text="traitements">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="77,151,168,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="ventilations20120526210159342" text="ventilations">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="75,224,29,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="circle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="2"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="batiments20120526212211844" text="batiments">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="158,236,201,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
             </Model>
-            <ComposerItem width="4" x="48,30937019969281" y="2,348003072196619" rotation="0" height="263" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1,563758389261745" id="" positionLock="false">
+            <ComposerItem width="4" x="48,30937019969281" y="2,348003072196619" rotation="0" height="312" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="1,563758389261745" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -3013,13 +2917,13 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <projectlayers layercount="22">
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Infiltrations20120501221051536</id>
-            <datasource>../COUCHES_SPANC/infiltrations.shp</datasource>
+    <projectlayers layercount="23">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>alim_aep20120525223905898</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  key='gid' table="spanc"."alim_aep" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Infiltrations</layername>
+            <layername>alim_aep</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -3033,137 +2937,33 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
-            <renderer-v2 attr="type_infil" symbollevels="0" type="categorizedSymbol">
-                <categories>
-                    <category symbol="0" value="" label=""/>
-                    <category symbol="1" value="irrigation végétaux" label="irrigation végétaux"/>
-                    <category symbol="2" value="lit" label="lit"/>
-                    <category symbol="3" value="noues" label="noues"/>
-                    <category symbol="4" value="tranchées" label="tranchées"/>
-                </categories>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="246,239,247,255"/>
-                            <prop k="color_border" v="0,170,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="dot"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="170,255,127,255"/>
-                            <prop k="color_border" v="0,170,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="diagonal_x"/>
-                            <prop k="style_border" v="dot"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                        <layer pass="0" class="SVGFill" locked="0">
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
-                            <prop k="svgFile" v="/biology/Coniferous.svg"/>
-                            <prop k="svgFillColor" v="#000000"/>
-                            <prop k="svgOutlineColor" v="#000000"/>
-                            <prop k="svgOutlineWidth" v="1"/>
-                            <prop k="width" v="5"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="137,181,214,255"/>
-                            <prop k="color_border" v="0,170,0,255"/>
+                            <prop k="color" v="147,122,30,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="style" v="diagonal_x"/>
-                            <prop k="style_border" v="dot"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="170,255,0,255"/>
-                            <prop k="color_border" v="0,170,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="diagonal_x"/>
-                            <prop k="style_border" v="dot"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                        <layer pass="0" class="SVGFill" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="svgFile" v="/traitements/phyto1.svg"/>
-                            <prop k="svgFillColor" v="#000000"/>
-                            <prop k="svgOutlineColor" v="#000000"/>
-                            <prop k="svgOutlineWidth" v="1"/>
-                            <prop k="width" v="5"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="4">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="255,85,0,255"/>
-                            <prop k="color_border" v="0,170,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="diagonal_x"/>
-                            <prop k="style_border" v="dot"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="@1@1">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="0,0,0,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="penstyle" v="no"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="@3@1">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="0,0,0,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="penstyle" v="no"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
+                            <prop k="size" v="2"/>
                         </layer>
                     </symbol>
                 </symbols>
-                <source-symbol>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="164,88,112,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </source-symbol>
-                <colorramp type="gradient" name="[source]">
-                    <prop k="color1" v="246,239,247,255"/>
-                    <prop k="color2" v="1,108,89,255"/>
-                    <prop k="stops" v="0.25;189,201,225,255:0.5;103,169,207,255:0.75;28,144,153,255"/>
-                </colorramp>
                 <rotation field=""/>
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>ident</displayfield>
+            <displayfield>gid</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Étiquette"/>
-                <family fieldname="" name="Century Schoolbook L"/>
+                <family fieldname="" name="Droid Sans"/>
                 <size fieldname="" units="pt" value="12"/>
                 <bold fieldname="" on="0"/>
-                <italic fieldname="" on="1"/>
+                <italic fieldname="" on="0"/>
                 <underline fieldname="" on="0"/>
                 <strikeout fieldname="" on="0"/>
                 <color fieldname="" red="0" blue="0" green="0"/>
@@ -3178,68 +2978,17 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <edittypes>
-                <edittype type="0" name="REFDOSS"/>
-                <edittype unchecked="non accessible" type="7" checked="accessible" name="accessible"/>
-                <edittype type="0" name="angle"/>
-                <edittype type="5" min="1900" step="5" name="annee_pose" max="2200"/>
-                <edittype type="12" name="comments"/>
-                <edittype type="0" name="cree_le"/>
-                <edittype type="0" name="ident"/>
-                <edittype unchecked="défaut(s)" type="7" checked="bon" name="intégrite"/>
-                <edittype unchecked="défaut" type="7" checked="ok" name="intégrité"/>
-                <edittype unchecked="défaut(s)" type="7" checked="bon" name="intégrit�"/>
-                <edittype type="0" name="largeur"/>
-                <edittype type="0" name="longueur"/>
-                <edittype type="0" name="modifie_le"/>
-                <edittype type="0" name="photo1"/>
-                <edittype type="0" name="profondeur"/>
-                <edittype unchecked="non entretenu(e)" type="7" checked="ok" name="propreté"/>
-                <edittype type="0" name="saisie"/>
-                <edittype unchecked="non sécurisé" type="7" checked="sécurisé" name="sécurité"/>
-                <edittype type="3" name="type_infil">
-                    <valuepair key="irrigation végétaux" value="irrigation végétaux"/>
-                    <valuepair key="lit" value="lit"/>
-                    <valuepair key="noues" value="noues"/>
-                    <valuepair key="tranchées" value="tranchées"/>
-                </edittype>
-                <edittype type="3" name="type_infilt">
-                    <valuepair key="irrigation végétaux" value="irrigation végétaux"/>
-                    <valuepair key="lit" value="lit"/>
-                    <valuepair key="noues" value="noues"/>
-                    <valuepair key="tranchées" value="tranchées"/>
-                </edittype>
-            </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
-            <aliases>
-                <alias field="accessible" index="8" name=""/>
-                <alias field="largeur" index="4" name=""/>
-                <alias field="longueur" index="3" name=""/>
-                <alias field="profondeur" index="5" name=""/>
-                <alias field="propreté" index="11" name=""/>
-                <alias field="sécurité" index="9" name=""/>
-            </aliases>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>Ventilations20120429154703820</id>
-            <datasource>../COUCHES_SPANC/ventilations.shp</datasource>
+            <id>alim_aep20120526210158865</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."alim_aep" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Ventilations</layername>
+            <layername>alim_aep</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -3253,313 +3002,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
-            <vectorjoins/>
-            <renderer-v2 attr="typ_ventil" symbollevels="0" type="categorizedSymbol">
-                <categories>
-                    <category symbol="0" value="" label=""/>
-                    <category symbol="1" value="autre" label="autre"/>
-                    <category symbol="2" value="chapeau simple" label="chapeau simple"/>
-                    <category symbol="3" value="clapet à membranes" label="clapet à membranes"/>
-                    <category symbol="4" value="extracteur éolien" label="extracteur éolien"/>
-                    <category symbol="5" value="extracteur statique" label="extracteur statique"/>
-                    <category symbol="6" value="inconnue" label="inconnue"/>
-                    <category symbol="7" value="mécanique" label="mécanique"/>
-                    <category symbol="8" value="non visible" label="non visible"/>
-                    <category symbol="9" value="sortie simple" label="sortie simple"/>
-                    <category symbol="10" value="tuyau coudé" label="tuyau coudé"/>
-                    <category symbol="11" value="ventilation primaire" label="ventilation primaire"/>
-                    <category symbol="12" value="ventilation secondaire" label="ventilation secondaire"/>
-                    <category symbol="13" value="VMC" label="VMC"/>
-                </categories>
-                <symbols>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="0">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="252,251,253,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="circle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="1"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="1">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="244,243,248,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="circle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="1"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="10">
-                        <layer pass="0" class="SvgMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="fill" v="#000000"/>
-                            <prop k="name" v="/ventilation/coudes.svg"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="outline" v="#000000"/>
-                            <prop k="outline-width" v="1"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="11">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="180"/>
-                            <prop k="color" v="221,175,233,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="triangle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                        <layer pass="0" class="FontMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="chr" v="1"/>
-                            <prop k="color" v="0,0,0,255"/>
-                            <prop k="font" v="Courier"/>
-                            <prop k="offset" v="0.5,0"/>
-                            <prop k="size" v="1"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="12">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="221,175,233,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="triangle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                        <layer pass="0" class="FontMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="chr" v="2"/>
-                            <prop k="color" v="0,0,0,255"/>
-                            <prop k="font" v="Courier"/>
-                            <prop k="offset" v="0.5,0"/>
-                            <prop k="size" v="1"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="13">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="221,175,233,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="regular_star"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="2">
-                        <layer pass="0" class="SvgMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="fill" v="#000000"/>
-                            <prop k="name" v="/ventilation/chapeau.svg"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="outline" v="#000000"/>
-                            <prop k="outline-width" v="1"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="3">
-                        <layer pass="0" class="SvgMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="fill" v="#000000"/>
-                            <prop k="name" v="/ventilation/aerateur_membrane.svg"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="outline" v="#000000"/>
-                            <prop k="outline-width" v="1"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="4">
-                        <layer pass="0" class="SvgMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="fill" v="#000000"/>
-                            <prop k="name" v="/ventilation/extract_eolien.svg"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="outline" v="#000000"/>
-                            <prop k="outline-width" v="1"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="5">
-                        <layer pass="0" class="SvgMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="fill" v="#000000"/>
-                            <prop k="name" v="/ventilation/extract_stat2.svg"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="outline" v="#000000"/>
-                            <prop k="outline-width" v="1"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="6">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="221,175,233,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="triangle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                        <layer pass="0" class="FontMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="chr" v="?"/>
-                            <prop k="color" v="255,0,0,255"/>
-                            <prop k="font" v="Courier 10 Pitch"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="0.5"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="7">
-                        <layer pass="0" class="SvgMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="fill" v="#000000"/>
-                            <prop k="name" v="/ventilation/mecanique.svg"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="outline" v="#000000"/>
-                            <prop k="outline-width" v="1"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="8">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="221,175,233,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="triangle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="255,0,0,255"/>
-                            <prop k="color_border" v="255,0,0,255"/>
-                            <prop k="name" v="cross2"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="1"/>
-                        </layer>
-                    </symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="9">
-                        <layer pass="0" class="SvgMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="fill" v="#000000"/>
-                            <prop k="name" v="/ventilation/pas_de_term.svg"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="outline" v="#000000"/>
-                            <prop k="outline-width" v="1"/>
-                            <prop k="size" v="0.8"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <source-symbol>
-                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="0">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="160,45,137,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="circle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="1"/>
-                        </layer>
-                    </symbol>
-                </source-symbol>
-                <colorramp type="gradient" name="[source]">
-                    <prop k="color1" v="252,251,253,255"/>
-                    <prop k="color2" v="63,0,125,255"/>
-                    <prop k="stops" v="0.13;239,237,245,255:0.26;218,218,235,255:0.39;188,189,220,255:0.52;158,154,200,255:0.65;128,125,186,255:0.75;106,81,163,255:0.9;84,39,143,255"/>
-                </colorramp>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>ident</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Étiquette"/>
-                <family fieldname="" name="Century Schoolbook L"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="1"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <edittypes>
-                <edittype type="0" name="REFDOSS"/>
-                <edittype type="0" name="angle"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2200"/>
-                <edittype type="12" name="comments"/>
-                <edittype type="13" name="cree_le"/>
-                <edittype type="5" min="0" step="10" name="diametre" max="200"/>
-                <edittype type="0" name="ident"/>
-                <edittype type="13" name="modifie_le"/>
-                <edittype type="8" name="photo1"/>
-                <edittype type="0" name="saisie_par"/>
-                <edittype unchecked="négatif" type="7" checked="positif" name="test_fumé"/>
-                <edittype type="3" name="typ_ventil">
-                    <valuepair key="VMC" value="VMC"/>
-                    <valuepair key="autre" value="autre"/>
-                    <valuepair key="chapeau simple" value="chapeau simple"/>
-                    <valuepair key="clapet à membranes" value="clapet à membranes"/>
-                    <valuepair key="extracteur statique" value="extracteur statique"/>
-                    <valuepair key="extracteur éolien" value="extracteur éolien"/>
-                    <valuepair key="inconnue" value="inconnue"/>
-                    <valuepair key="mécanique" value="mécanique"/>
-                    <valuepair key="non visible" value="non visible"/>
-                    <valuepair key="sortie simple" value="sortie simple"/>
-                    <valuepair key="tuyau coudé" value="tuyau coudé"/>
-                    <valuepair key="ventilation primaire" value="ventilation primaire"/>
-                    <valuepair key="ventilation secondaire" value="ventilation secondaire"/>
-                </edittype>
-            </edittypes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>alim_AEP20120409180648599</id>
-            <datasource>../COUCHES_SPANC/alim_AEP.shp</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Alim_AEP</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>145</srsid>
-                    <srid>2154</srid>
-                    <authid>EPSG:2154</authid>
-                    <description>RGF93 / Lambert-93</description>
-                    <projectionacronym>lcc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -3615,24 +3058,13 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>alim_aep20120525223905898</id>
-            <datasource>dbname='spancman' host=localhost port=5432 user='postgres' password='yp.goz' key='gid' table="spanc"."alim_aep" (the_geom) sql=</datasource>
+            <id>arbres20120526210158892</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."arbres" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>alim_aep</layername>
+            <layername>arbres</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -3647,71 +3079,6 @@
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
-                        <layer pass="0" class="SimpleMarker" locked="0">
-                            <prop k="angle" v="0"/>
-                            <prop k="color" v="147,122,30,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="name" v="circle"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield></displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Étiquette"/>
-                <family fieldname="" name="Droid Sans"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform></editform>
-            <editforminit></editforminit>
-            <annotationform></annotationform>
-            <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>arbres20120325222820388</id>
-            <datasource>../COUCHES_SPANC/arbres.shp</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Arbres</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>145</srsid>
-                    <srid>2154</srid>
-                    <authid>EPSG:2154</authid>
-                    <description>RGF93 / Lambert-93</description>
-                    <projectionacronym>lcc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
             <vectorjoins/>
             <renderer-v2 attr="a_couper" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -3796,17 +3163,6 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>base_ligne20120430221927778</id>
@@ -4078,12 +3434,12 @@
                 <scalingAttribute>0</scalingAttribute>
             </overlay>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="600" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
-            <id>canalisations20120417144444628</id>
-            <datasource>../COUCHES_SPANC/canalisations.shp</datasource>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>batiments20120526212211844</id>
+            <datasource>../../../ALAIN/batiments.shp</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Canalisations</layername>
+            <layername>batiments</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -4097,7 +3453,72 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="158,236,201,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Droid Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>canalisations20120526210158934</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 table="spanc"."canalisations" (the_geom) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>canalisations</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="type_eau" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -4534,21 +3955,10 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>dispersion_puits20120430225516857</id>
-            <datasource>../COUCHES_SPANC/dispersion_puits.shp</datasource>
+            <id>dispersion_puits20120526210158958</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."dispersion_puits" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>dispersion_puits</layername>
@@ -4565,7 +3975,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules>
@@ -4740,25 +4150,14 @@
                     <valuepair key="puits perdu" value="puits perdu"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>filieres_agreees20120516223336678</id>
-            <datasource>../COUCHES_SPANC/filieres_agreees.shp</datasource>
+            <id>filieres_agreees20120526210159020</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."filieres_agreees" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>filieres_agreees</layername>
@@ -4775,7 +4174,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="TYP_CUVE" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -4938,24 +4337,13 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>haie20120408223634850</id>
-            <datasource>../COUCHES_SPANC/haie.shp</datasource>
+            <id>haies20120526210159035</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 table="spanc"."haies" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Haies</layername>
+            <layername>haies</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -4969,7 +4357,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -5027,17 +4415,6 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>immeubles20120325221141705</id>
@@ -5104,12 +4481,12 @@
             <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>origines20120405225644695</id>
-            <datasource>../COUCHES_SPANC/origines.shp</datasource>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>infiltrations20120526210159109</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=MULTIPOLYGON table="spanc"."infiltrations" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Origines</layername>
+            <layername>infiltrations</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -5123,7 +4500,216 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 attr="type_infil" symbollevels="0" type="categorizedSymbol">
+                <categories>
+                    <category symbol="0" value="" label=""/>
+                    <category symbol="1" value="irrigation végétaux" label="irrigation végétaux"/>
+                    <category symbol="2" value="lit" label="lit"/>
+                    <category symbol="3" value="noues" label="noues"/>
+                    <category symbol="4" value="tranchées" label="tranchées"/>
+                </categories>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="246,239,247,255"/>
+                            <prop k="color_border" v="0,170,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="170,255,127,255"/>
+                            <prop k="color_border" v="0,170,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="diagonal_x"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                        <layer pass="0" class="SVGFill" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="svgFile" v="/biology/Coniferous.svg"/>
+                            <prop k="svgFillColor" v="#000000"/>
+                            <prop k="svgOutlineColor" v="#000000"/>
+                            <prop k="svgOutlineWidth" v="1"/>
+                            <prop k="width" v="5"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="137,181,214,255"/>
+                            <prop k="color_border" v="0,170,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="diagonal_x"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="3">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="170,255,0,255"/>
+                            <prop k="color_border" v="0,170,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="diagonal_x"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                        <layer pass="0" class="SVGFill" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="svgFile" v="/traitements/phyto1.svg"/>
+                            <prop k="svgFillColor" v="#000000"/>
+                            <prop k="svgOutlineColor" v="#000000"/>
+                            <prop k="svgOutlineWidth" v="1"/>
+                            <prop k="width" v="5"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="4">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="255,85,0,255"/>
+                            <prop k="color_border" v="0,170,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="diagonal_x"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="@1@1">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="no"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="@3@1">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="no"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <source-symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="164,88,112,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="gradient" name="[source]">
+                    <prop k="color1" v="246,239,247,255"/>
+                    <prop k="color2" v="1,108,89,255"/>
+                    <prop k="stops" v="0.25;189,201,225,255:0.5;103,169,207,255:0.75;28,144,153,255"/>
+                </colorramp>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ident</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Century Schoolbook L"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="1"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="REFDOSS"/>
+                <edittype unchecked="non accessible" type="7" checked="accessible" name="accessible"/>
+                <edittype type="0" name="angle"/>
+                <edittype type="5" min="1900" step="5" name="annee_pose" max="2200"/>
+                <edittype type="12" name="comments"/>
+                <edittype type="0" name="cree_le"/>
+                <edittype type="0" name="ident"/>
+                <edittype unchecked="défaut(s)" type="7" checked="bon" name="intégrite"/>
+                <edittype unchecked="défaut" type="7" checked="ok" name="intégrité"/>
+                <edittype unchecked="défaut(s)" type="7" checked="bon" name="intégrit�"/>
+                <edittype type="0" name="largeur"/>
+                <edittype type="0" name="longueur"/>
+                <edittype type="0" name="modifie_le"/>
+                <edittype type="0" name="photo1"/>
+                <edittype type="0" name="profondeur"/>
+                <edittype unchecked="non entretenu(e)" type="7" checked="ok" name="propreté"/>
+                <edittype type="0" name="saisie"/>
+                <edittype unchecked="non sécurisé" type="7" checked="sécurisé" name="sécurité"/>
+                <edittype type="3" name="type_infil">
+                    <valuepair key="irrigation végétaux" value="irrigation végétaux"/>
+                    <valuepair key="lit" value="lit"/>
+                    <valuepair key="noues" value="noues"/>
+                    <valuepair key="tranchées" value="tranchées"/>
+                </edittype>
+                <edittype type="3" name="type_infilt">
+                    <valuepair key="irrigation végétaux" value="irrigation végétaux"/>
+                    <valuepair key="lit" value="lit"/>
+                    <valuepair key="noues" value="noues"/>
+                    <valuepair key="tranchées" value="tranchées"/>
+                </edittype>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <aliases>
+                <alias field="accessible" index="9" name=""/>
+                <alias field="largeur" index="5" name=""/>
+                <alias field="longueur" index="4" name=""/>
+                <alias field="profondeur" index="6" name=""/>
+                <alias field="propreté" index="12" name=""/>
+                <alias field="sécurité" index="10" name=""/>
+            </aliases>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>origines20120526210159129</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."origines" (the_geom) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>origines</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="typ_origin" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -5283,17 +4869,6 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>parcelles_lignes20120319223742722</id>
@@ -5373,11 +4948,11 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>pentes20120409181327133</id>
-            <datasource>../COUCHES_SPANC/pentes.shp</datasource>
+            <id>pentes20120526210159181</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 table="spanc"."pentes" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Pentes</layername>
+            <layername>pentes</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -5391,7 +4966,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="pente" symbollevels="0" type="graduatedSymbol">
                 <ranges>
@@ -5655,11 +5230,11 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>pieces20120405224700019</id>
-            <datasource>../COUCHES_SPANC/pieces.shp</datasource>
+            <id>pieces20120526210159217</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."pieces" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Pieces</layername>
+            <layername>pieces</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -5673,7 +5248,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="pieces" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -5849,29 +5424,18 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="bati_id" index="1" name="référence bâtiment"/>
-                <alias field="nom" index="3" name="identification"/>
-                <alias field="pieces" index="2" name="type de pièces"/>
+                <alias field="bati_id" index="2" name="référence bâtiment"/>
+                <alias field="nom" index="4" name="identification"/>
+                <alias field="pieces" index="3" name="type de pièces"/>
             </aliases>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>pretraitements20120419143800678</id>
-            <datasource>../COUCHES_SPANC/pretraitements.shp</datasource>
+            <id>pretraitements20120526210159231</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."pretraitements" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Pretraitements</layername>
+            <layername>pretraitements</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -5885,7 +5449,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="type_pretr" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -6336,24 +5900,13 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>regards20120424221453968</id>
-            <datasource>../COUCHES_SPANC/regards.shp</datasource>
+            <id>regards20120526210159262</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."regards" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Regards</layername>
+            <layername>regards</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -6367,7 +5920,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="typ_regard" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -6750,24 +6303,13 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>rejets20120422223106148</id>
-            <datasource>../COUCHES_SPANC/rejets.shp</datasource>
+            <id>rejets20120526210159289</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."rejets" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Rejets</layername>
+            <layername>rejets</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -6781,7 +6323,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="RuleRenderer">
                 <rules>
@@ -6900,21 +6442,10 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>surfaces_terrain20120501222845562</id>
-            <datasource>../COUCHES_SPANC/surfaces_terrain.shp</datasource>
+            <id>surfaces_terrain20120526210159310</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=MULTIPOLYGON table="spanc"."surfaces_terrain" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>surfaces_terrain</layername>
@@ -6931,7 +6462,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="TYP_SURFAC" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -7145,11 +6676,11 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield>REFDOSS</displayfield>
+            <displayfield>gid</displayfield>
             <label>1</label>
-            <labelfield>TYP_SURFAC</labelfield>
+            <labelfield>typ_surfac</labelfield>
             <labelattributes>
-                <label fieldname="TYP_SURFAC" text=""/>
+                <label fieldname="typ_surfac" text=""/>
                 <family fieldname="" name="Century Schoolbook L"/>
                 <size fieldname="" units="mu" value="1"/>
                 <bold fieldname="" on="0"/>
@@ -7203,6 +6734,16 @@
                     <valuepair key="à préserver" value="à préserver"/>
                 </edittype>
                 <edittype type="0" name="TYP_SURFACE"/>
+                <edittype type="0" name="annee_pose"/>
+                <edittype type="0" name="comments"/>
+                <edittype type="0" name="cree_le"/>
+                <edittype type="0" name="gid"/>
+                <edittype type="0" name="ident"/>
+                <edittype type="0" name="modifie_le"/>
+                <edittype type="0" name="photo1"/>
+                <edittype type="0" name="refdoss"/>
+                <edittype type="0" name="saisie_par"/>
+                <edittype type="0" name="typ_surfac"/>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
@@ -7221,11 +6762,11 @@
             </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>traitements20120422153720697</id>
-            <datasource>../COUCHES_SPANC/traitements.shp</datasource>
+            <id>traitements20120526210159325</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=MULTIPOLYGON table="spanc"."traitements" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>Traitements classiques</layername>
+            <layername>traitements</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -7239,7 +6780,7 @@
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="System">postgres</provider>
             <vectorjoins/>
             <renderer-v2 attr="typ_traitt" symbollevels="0" type="categorizedSymbol">
                 <categories>
@@ -7682,17 +7223,301 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <attributeactions/>
-            <overlay display="false" type="diagram">
-                <renderer item_interpretation="linear">
-                    <diagramitem size="0" value="0"/>
-                    <diagramitem size="0" value="0"/>
-                </renderer>
-                <factory sizeUnits="MM" type="Pie">
-                    <wellknownname>Pie</wellknownname>
-                    <classificationfield>0</classificationfield>
-                </factory>
-                <scalingAttribute>0</scalingAttribute>
-            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>ventilations20120526210159342</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres'  sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."ventilations" (the_geom) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ventilations</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 attr="typ_ventil" symbollevels="0" type="categorizedSymbol">
+                <categories>
+                    <category symbol="0" value="" label=""/>
+                    <category symbol="1" value="autre" label="autre"/>
+                    <category symbol="2" value="chapeau simple" label="chapeau simple"/>
+                    <category symbol="3" value="clapet à membranes" label="clapet à membranes"/>
+                    <category symbol="4" value="extracteur éolien" label="extracteur éolien"/>
+                    <category symbol="5" value="extracteur statique" label="extracteur statique"/>
+                    <category symbol="6" value="inconnue" label="inconnue"/>
+                    <category symbol="7" value="mécanique" label="mécanique"/>
+                    <category symbol="8" value="non visible" label="non visible"/>
+                    <category symbol="9" value="sortie simple" label="sortie simple"/>
+                    <category symbol="10" value="tuyau coudé" label="tuyau coudé"/>
+                    <category symbol="11" value="ventilation primaire" label="ventilation primaire"/>
+                    <category symbol="12" value="ventilation secondaire" label="ventilation secondaire"/>
+                    <category symbol="13" value="VMC" label="VMC"/>
+                </categories>
+                <symbols>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="252,251,253,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="1">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="244,243,248,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="10">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/ventilation/coudes.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="11">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="180"/>
+                            <prop k="color" v="221,175,233,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="triangle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                        <layer pass="0" class="FontMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="chr" v="1"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="font" v="Courier"/>
+                            <prop k="offset" v="0.5,0"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="12">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="221,175,233,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="triangle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                        <layer pass="0" class="FontMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="chr" v="2"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="font" v="Courier"/>
+                            <prop k="offset" v="0.5,0"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="13">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="221,175,233,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="regular_star"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="2">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/ventilation/chapeau.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="3">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/ventilation/aerateur_membrane.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="4">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/ventilation/extract_eolien.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="5">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/ventilation/extract_stat2.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="6">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="221,175,233,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="triangle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                        <layer pass="0" class="FontMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="chr" v="?"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="font" v="Courier 10 Pitch"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="0.5"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="7">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/ventilation/mecanique.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="8">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="221,175,233,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="triangle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="255,0,0,255"/>
+                            <prop k="name" v="cross2"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="9">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/ventilation/pas_de_term.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="0.8"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <source-symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="160,45,137,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="gradient" name="[source]">
+                    <prop k="color1" v="252,251,253,255"/>
+                    <prop k="color2" v="63,0,125,255"/>
+                    <prop k="stops" v="0.13;239,237,245,255:0.26;218,218,235,255:0.39;188,189,220,255:0.52;158,154,200,255:0.65;128,125,186,255:0.75;106,81,163,255:0.9;84,39,143,255"/>
+                </colorramp>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ident</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Century Schoolbook L"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="1"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="REFDOSS"/>
+                <edittype type="0" name="angle"/>
+                <edittype type="5" min="1800" step="5" name="annee_pose" max="2200"/>
+                <edittype type="12" name="comments"/>
+                <edittype type="13" name="cree_le"/>
+                <edittype type="5" min="0" step="10" name="diametre" max="200"/>
+                <edittype type="0" name="ident"/>
+                <edittype type="13" name="modifie_le"/>
+                <edittype type="8" name="photo1"/>
+                <edittype type="0" name="saisie_par"/>
+                <edittype unchecked="négatif" type="7" checked="positif" name="test_fumé"/>
+                <edittype type="3" name="typ_ventil">
+                    <valuepair key="VMC" value="VMC"/>
+                    <valuepair key="autre" value="autre"/>
+                    <valuepair key="chapeau simple" value="chapeau simple"/>
+                    <valuepair key="clapet à membranes" value="clapet à membranes"/>
+                    <valuepair key="extracteur statique" value="extracteur statique"/>
+                    <valuepair key="extracteur éolien" value="extracteur éolien"/>
+                    <valuepair key="inconnue" value="inconnue"/>
+                    <valuepair key="mécanique" value="mécanique"/>
+                    <valuepair key="non visible" value="non visible"/>
+                    <valuepair key="sortie simple" value="sortie simple"/>
+                    <valuepair key="tuyau coudé" value="tuyau coudé"/>
+                    <valuepair key="ventilation primaire" value="ventilation primaire"/>
+                    <valuepair key="ventilation secondaire" value="ventilation secondaire"/>
+                </edittype>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
         </maplayer>
     </projectlayers>
     <properties>

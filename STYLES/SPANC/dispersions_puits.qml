@@ -1,69 +1,130 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
-  <renderer-v2 symbollevels="0" type="RuleRenderer" firstrule="0">
+  <renderer-v2 symbollevels="0" type="RuleRenderer">
     <rules>
-      <rule scalemaxdenom="0" description="" filter="typ_dispr = 'puits perdu'  AND accessible = 'non'" symbol="0" scalemindenom="0" label="puits perdu"/>
-      <rule scalemaxdenom="0" description="" filter="typ_dispr = 'puits perdu' AND accessible = 'oui'" symbol="1" scalemindenom="0" label="puits perdu visible"/>
-      <rule scalemaxdenom="0" description="" filter="typ_dispr = 'puits d''infiltration'  AND accessible = 'oui'  AND autorisat  = 'oui'" symbol="2" scalemindenom="0" label="puits infiltration autorisé"/>
-      <rule scalemaxdenom="0" description="" filter="typ_dispr = 'puits d''infiltration'  AND accessible = 'non'" symbol="3" scalemindenom="0" label="puits d'infiltration non visible"/>
-      <rule scalemaxdenom="0" description="" filter="typ_dispr = 'destination inconnue'" symbol="4" scalemindenom="0" label="destination inconnue"/>
+      <rule filter="typ_dispr = 'puits perdu'  AND accessible = 'non'" symbol="0" label="puits perdu"/>
+      <rule filter="typ_dispr = 'puits perdu' AND accessible = 'oui'" symbol="1" label="puits perdu visible"/>
+      <rule filter="typ_dispr = 'puits d''infiltration'  AND accessible = 'oui'  AND autorisat  = 'autorisé'" symbol="2" label="puits infiltration autorisé"/>
+      <rule filter="typ_dispr = 'puits d''infiltration'  AND accessible = 'non' AND autorisat = 'autorisé'" symbol="3" label="puits d'infiltration non visible"/>
+      <rule filter="typ_dispr = 'destination inconnue'" symbol="4" label="destination inconnue"/>
+      <rule filter="typ_dispr = 'puits d''infiltration'  AND accessible = 'oui'  AND autorisat  = 'non autorisé'" symbol="5" label="puits infiltration non autorisé"/>
+      <rule filter="typ_dispr = 'puits d''infiltration'  AND accessible = 'non'  AND autorisat  = 'non autorisé'" symbol="6" label="puits infiltration non autorisé"/>
     </rules>
     <symbols>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="0">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/dispersion/puits_perdu_non_acces.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="3"/>
         </layer>
       </symbol>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="1">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/dispersion/puits_perdu_1a.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="3"/>
         </layer>
       </symbol>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="2">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="name" v="/dispersion/puits_infiltration_1a.svg"/>
+          <prop k="fill" v="#000000"/>
+          <prop k="name" v="/dispersion/puits_infiltration.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="3"/>
+        </layer>
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="0,255,0,255"/>
+          <prop k="color_border" v="0,170,0,255"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="1,-1"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="3">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/dispersion/puits_infiltration_na.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="3"/>
+        </layer>
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="0,255,0,255"/>
+          <prop k="color_border" v="0,255,0,255"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="1,-1"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="4">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/dispersion/destinat_inconnue.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
+          <prop k="size" v="2"/>
+        </layer>
+      </symbol>
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="5">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
+          <prop k="name" v="/dispersion/puits_infiltration_1a.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
+          <prop k="size" v="4"/>
+        </layer>
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,0,0,255"/>
+          <prop k="color_border" v="255,0,0,255"/>
+          <prop k="name" v="cross2"/>
           <prop k="offset" v="0,0"/>
           <prop k="size" v="2"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="default">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="6">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
+          <prop k="name" v="/dispersion/puits_infiltration_na.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
+          <prop k="size" v="3"/>
+        </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="118,66,132,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
+          <prop k="color" v="255,0,0,255"/>
+          <prop k="color_border" v="255,0,0,255"/>
           <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="offset" v="1,-1"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
     </symbols>
   </renderer-v2>
   <customproperties/>
-  <displayfield>ident</displayfield>
+  <displayfield>typ_dispr</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Étiquette"/>
@@ -113,10 +174,9 @@
       <valuepair key="puits perdu" value="puits perdu"/>
     </edittype>
   </edittypes>
-  <editform>.</editform>
+  <editform></editform>
   <editforminit></editforminit>
   <annotationform>.</annotationform>
-  <aliases/>
   <attributeactions/>
   <overlay display="false" type="diagram">
     <renderer item_interpretation="linear">

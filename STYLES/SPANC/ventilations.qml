@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 attr="typ_ventil" symbollevels="0" type="categorizedSymbol">
     <categories>
@@ -42,8 +42,11 @@
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="10">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/ventilation/coudes.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="0.8"/>
         </layer>
       </symbol>
@@ -96,32 +99,44 @@
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="2">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/ventilation/chapeau.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="0.8"/>
         </layer>
       </symbol>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="3">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/ventilation/aerateur_membrane.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="0.8"/>
         </layer>
       </symbol>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="4">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/ventilation/extract_eolien.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="0.8"/>
         </layer>
       </symbol>
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="5">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/ventilation/extract_stat2.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="0.8"/>
         </layer>
       </symbol>
@@ -146,8 +161,11 @@
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="7">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/ventilation/mecanique.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="0.8"/>
         </layer>
       </symbol>
@@ -172,8 +190,11 @@
       <symbol outputUnit="MapUnit" alpha="1" type="marker" name="9">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
+          <prop k="fill" v="#000000"/>
           <prop k="name" v="/ventilation/pas_de_term.svg"/>
           <prop k="offset" v="0,0"/>
+          <prop k="outline" v="#000000"/>
+          <prop k="outline-width" v="1"/>
           <prop k="size" v="0.8"/>
         </layer>
       </symbol>
@@ -199,7 +220,7 @@
     <sizescale field=""/>
   </renderer-v2>
   <customproperties/>
-  <displayfield>ident</displayfield>
+  <displayfield>gid</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Étiquette"/>
@@ -223,15 +244,36 @@
   </labelattributes>
   <edittypes>
     <edittype type="0" name="REFDOSS"/>
+    <edittype unchecked="non" type="7" checked="oui" name="accessible"/>
     <edittype type="0" name="angle"/>
     <edittype type="5" min="1800" step="5" name="annee_pose" max="2200"/>
     <edittype type="12" name="comments"/>
     <edittype type="13" name="cree_le"/>
     <edittype type="5" min="0" step="10" name="diametre" max="200"/>
+    <edittype type="10" name="gid"/>
+    <edittype type="0" name="hauteur"/>
     <edittype type="0" name="ident"/>
+    <edittype type="0" name="identif"/>
+    <edittype type="3" name="integrite">
+      <valuepair key="absence de défauts" value="absence de défauts"/>
+      <valuepair key="corrosion importante" value="corrosion importante"/>
+      <valuepair key="corrosion légère" value="corrosion légère"/>
+      <valuepair key="corrosion moyenne" value="corrosion moyenne"/>
+      <valuepair key="fissuration avec déformation" value="fissuration avec déformation"/>
+      <valuepair key="fissuration sans déformation" value="fissuration sans déformation"/>
+      <valuepair key="présence de déformation" value="présence de déformation"/>
+      <valuepair key="rupture des matériaux" value="rupture des matériaux"/>
+      <valuepair key="étanchéité compromise" value="étanchéité compromise"/>
+    </edittype>
+    <edittype type="0" name="marq_constructeur"/>
     <edittype type="13" name="modifie_le"/>
     <edittype type="8" name="photo1"/>
+    <edittype type="8" name="photo2"/>
+    <edittype type="0" name="poseur"/>
+    <edittype type="0" name="refdoss"/>
     <edittype type="0" name="saisie_par"/>
+    <edittype type="0" name="taille"/>
+    <edittype unchecked="négatif" type="7" checked="positif" name="test_fumee"/>
     <edittype unchecked="négatif" type="7" checked="positif" name="test_fumé"/>
     <edittype type="3" name="typ_ventil">
       <valuepair key="VMC" value="VMC"/>
@@ -249,7 +291,7 @@
       <valuepair key="ventilation secondaire" value="ventilation secondaire"/>
     </edittype>
   </edittypes>
-  <editform>.</editform>
+  <editform></editform>
   <editforminit></editforminit>
   <annotationform>.</annotationform>
   <attributeactions/>
