@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="600" hasScaleBasedVisibilityFlag="1">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 attr="type_eau" symbollevels="0" type="categorizedSymbol">
     <categories>
@@ -14,6 +14,7 @@
       <category symbol="8" value="eaux brutes" label="eaux brutes"/>
       <category symbol="9" value="eaux prétraitées" label="eaux prétraitées"/>
       <category symbol="10" value="eaux traitées" label="eaux traitées"/>
+      <category symbol="11" value="" label="non renseigné"/>
     </categories>
     <symbols>
       <symbol outputUnit="MM" alpha="1" type="line" name="0">
@@ -65,6 +66,24 @@
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
+          <prop k="offset" v="0"/>
+          <prop k="placement" v="interval"/>
+          <prop k="rotate" v="1"/>
+        </layer>
+      </symbol>
+      <symbol outputUnit="MM" alpha="1" type="line" name="11">
+        <layer pass="3" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="color" v="85,0,127,255"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0"/>
+          <prop k="penstyle" v="solid"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width" v="0.5"/>
+        </layer>
+        <layer pass="0" class="MarkerLine" locked="0">
+          <prop k="interval" v="5"/>
           <prop k="offset" v="0"/>
           <prop k="placement" v="interval"/>
           <prop k="rotate" v="1"/>
@@ -242,6 +261,16 @@
           <prop k="size" v="3"/>
         </layer>
       </symbol>
+      <symbol outputUnit="MM" alpha="1" type="marker" name="@11@1">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="85,0,127,255"/>
+          <prop k="color_border" v="0,0,0,255"/>
+          <prop k="name" v="arrowhead"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="size" v="2"/>
+        </layer>
+      </symbol>
       <symbol outputUnit="MM" alpha="1" type="marker" name="@1@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
@@ -381,7 +410,23 @@
     <edittype type="12" name="comments"/>
     <edittype type="13" name="cree_le"/>
     <edittype type="5" min="0" step="5" name="diametre" max="500"/>
+    <edittype type="0" name="ecoulement"/>
+    <edittype type="0" name="gid"/>
+    <edittype unchecked="non" type="7" checked="oui" name="gravitaire"/>
     <edittype type="0" name="ident"/>
+    <edittype type="0" name="identif"/>
+    <edittype type="3" name="integrite">
+      <valuepair key="absence de défauts" value="absence de défauts"/>
+      <valuepair key="corrosion importante" value="corrosion importante"/>
+      <valuepair key="corrosion légère" value="corrosion légère"/>
+      <valuepair key="corrosion moyenne" value="corrosion moyenne"/>
+      <valuepair key="fissuration avec déformation" value="fissuration avec déformation"/>
+      <valuepair key="fissuration sans déformation" value="fissuration sans déformation"/>
+      <valuepair key="présence de déformation" value="présence de déformation"/>
+      <valuepair key="rupture des matériaux" value="rupture des matériaux"/>
+      <valuepair key="étanchéité compromise" value="étanchéité compromise"/>
+    </edittype>
+    <edittype type="0" name="longueur"/>
     <edittype type="3" name="materiau">
       <valuepair key="PE" value="PE"/>
       <valuepair key="PEBD" value="PEBD"/>
@@ -400,7 +445,12 @@
     </edittype>
     <edittype type="13" name="modifie_le"/>
     <edittype type="8" name="photo1"/>
+    <edittype type="8" name="photo2"/>
+    <edittype type="0" name="poseur"/>
+    <edittype type="0" name="proprete"/>
+    <edittype type="0" name="refdoss"/>
     <edittype type="0" name="saisie"/>
+    <edittype type="0" name="saisie_par"/>
     <edittype type="4" name="type_eau"/>
   </edittypes>
   <editform>.</editform>

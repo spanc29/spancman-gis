@@ -4,7 +4,7 @@
 -- Table: spanc.base_point
 
 BEGIN
-SET @laytype = 'POINT', @L = 'basessai'; -- type de couche : POINT MULTILINESTRING POLYGON
+SET @laytype = 'POINT', @L = 'basessai'; -- type de couche : POINT MULTILINESTRING MULTIPOLYGON
 -- SET @L = 'basessai'; -- indiquer le nom de la couche
 
 INSERT INTO geometry_columns(
@@ -24,6 +24,7 @@ CREATE TABLE spanc.@L
   marq_constructeur character varying(80),
   annee_pose integer,
   poseur character varying(80),
+  renseignements character varying(80),
   accessible character varying(25),
   integrite character varying(25),
   proprete character varying(25),
@@ -41,6 +42,9 @@ CREATE TABLE spanc.@L
   saisie_par character varying(25),
   the_geom geometry,
   CONSTRAINT pkey_@L PRIMARY KEY (gid ),
+  CONSTRAINT fk_dossier_@L FOREIGN KEY (refdoss)
+    REFERENCES spanc.dossiers (refdoss) MATCH SIMPLE
+    ON UPDATE NO ACTION ON DELETE NO ACTION,
   CONSTRAINT enforce_dims_the_geom CHECK (st_ndims(the_geom) = 2),
   CONSTRAINT enforce_geotype_the_geom CHECK (geometrytype(the_geom) = '@laytype'::text OR the_geom IS NULL),
   CONSTRAINT enforce_srid_the_geom CHECK (st_srid(the_geom) = 2154)
