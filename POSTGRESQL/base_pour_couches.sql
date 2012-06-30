@@ -4,8 +4,7 @@
 -- Table: spanc.base_point
 
 BEGIN
-SET @laytype = 'POINT', @L = 'basessai'; -- type de couche : POINT MULTILINESTRING MULTIPOLYGON
--- SET @L = 'basessai'; -- indiquer le nom de la couche
+SET @laytype = 'POINT', @L = 'base'; -- type de couche : POINT MULTILINESTRING MULTIPOLYGON
 
 INSERT INTO geometry_columns(
             f_table_catalog, f_table_schema, f_table_name, f_geometry_column, 
@@ -19,26 +18,10 @@ CREATE TABLE spanc.@L
   gid serial NOT NULL,
   refdoss character varying(25) NOT NULL,
   identif character varying(80),
-  type_entite character varying(80),
+  type_installations character varying(80),
   comments text,
-  marq_constructeur character varying(80),
-  annee_pose integer,
-  poseur character varying(80),
-  renseignements character varying(80),
-  accessible character varying(25),
-  integrite character varying(25),
-  proprete character varying(25),
-  securite character varying(25),
-  ecoulement character varying(25),
-  photo1 character varying(200),
-  photo2 character varying(200),
-  longueur real,
-  largeur real,
-  haut_prof real,
-  angle real,
-  taille real,
-  cree_le character varying(25),
-  modifie_le character varying(25),
+  cree_le timestamp without time zone,
+  modifie_le timestamp without time zone,
   saisie_par character varying(25),
   the_geom geometry,
   CONSTRAINT pkey_@L PRIMARY KEY (gid ),
@@ -55,9 +38,9 @@ WITH (
 ALTER TABLE spanc.@L
   OWNER TO postgres;
 
--- Index: spanc.fki_dossier_pretraitement
+-- Index: spanc.fki_dossier_
 
--- DROP INDEX spanc.fki_dossier_pretraitement;
+-- DROP INDEX spanc.fki_dossier_;
 
 CREATE INDEX fki_dossier_@L
   ON spanc.@L
@@ -86,11 +69,11 @@ CREATE INDEX idx_refdoss_@L
 
 -- DROP TRIGGER mis_a_jour_le ON spanc.@L;
 
-CREATE TRIGGER mis_a_jour_le
+CREATE TRIGGER date_modifie_le
   BEFORE INSERT OR UPDATE
   ON spanc.@L
   FOR EACH ROW
-  EXECUTE PROCEDURE spanc.set_modifie();
+  EXECUTE PROCEDURE spanc.set_modif();
 
 -- Trigger: date_cree_le on spanc.dossiers
 
@@ -100,5 +83,6 @@ CREATE TRIGGER date_cree_le
   BEFORE INSERT
   ON spanc.@L
   FOR EACH ROW
-  EXECUTE PROCEDURE spanc.set_cree_le();
-END
+  EXECUTE PROCEDURE spanc.set_cree();
+
+end
