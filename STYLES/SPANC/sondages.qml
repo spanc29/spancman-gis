@@ -1,12 +1,9 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
-  <renderer-v2 attr="type_sondage" symbollevels="0" type="categorizedSymbol">
-    <categories>
-      <category symbol="0" value="" label=""/>
-    </categories>
+  <renderer-v2 symbollevels="0" type="singleSymbol">
     <symbols>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+      <symbol outputUnit="MM" alpha="0,8941176470588236" type="marker" name="0">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="fill" v="#000000"/>
@@ -14,27 +11,10 @@
           <prop k="offset" v="0,0"/>
           <prop k="outline" v="#000000"/>
           <prop k="outline-width" v="1"/>
-          <prop k="size" v="4"/>
+          <prop k="size" v="5"/>
         </layer>
       </symbol>
     </symbols>
-    <source-symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="0">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="157,231,67,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
-        </layer>
-      </symbol>
-    </source-symbol>
-    <colorramp type="gradient" name="[source]">
-      <prop k="color1" v="247,251,255,255"/>
-      <prop k="color2" v="8,48,107,255"/>
-      <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
-    </colorramp>
     <rotation field=""/>
     <sizescale field=""/>
   </renderer-v2>
@@ -62,16 +42,18 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
-    <edittype type="0" name="angle"/>
+    <edittype type="5" min="0" step="15" name="angle" max="360"/>
     <edittype type="2" name="bureau"/>
     <edittype type="12" name="comments"/>
     <edittype type="10" name="cree_le"/>
     <edittype type="13" name="date_realisation"/>
-    <edittype type="10" name="gid"/>
+    <edittype type="8" name="docu2"/>
+    <edittype type="11" name="gid"/>
     <edittype type="0" name="hydromorphie"/>
     <edittype type="0" name="identif"/>
     <edittype type="10" name="modifie_le"/>
     <edittype type="0" name="nappe"/>
+    <edittype type="8" name="photo"/>
     <edittype type="8" name="photo1"/>
     <edittype type="8" name="photo2"/>
     <edittype type="0" name="profondeur"/>
@@ -93,9 +75,16 @@
       <valuepair key="tracto-pelle" value="tracto-pelle"/>
     </edittype>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
-  <annotationform></annotationform>
+  <annotationform>.</annotationform>
+  <aliases>
+    <alias field="comments" index="10" name="commentaires"/>
+    <alias field="hydromorphie" index="8" name="hauteur hydromorphie"/>
+    <alias field="identif" index="2" name="identifiant"/>
+    <alias field="nappe" index="9" name="hauteur nappe"/>
+    <alias field="profondeur" index="7" name="prof atteinte"/>
+  </aliases>
   <attributeactions/>
   <overlay display="false" type="diagram">
     <renderer item_interpretation="linear">

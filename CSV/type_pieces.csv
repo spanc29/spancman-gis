@@ -1,17 +1,20 @@
 ;
-Salle d'eau;Salle d'eau
-Salle de bains;Salle de bains
-Salon;Salon
-Séjour;Séjour
-Salon-séjour;Salon-séjour
-Chambre;Chambre
-Bureau;Bureau
+cuisine;cuisine
+salle d'eau;salle d'eau
+salle de bains;salle de bains
+salon;salon
+séjour;séjour
+salon-séjour;salon-séjour
+chambre;chambre
+bureau;bureau
 WC;WC
-Garage;Garage
-Grenier;Grenier
-Salle de jeux;Salle de jeux
-Annexe;Annexe
-Mezzanine;Mezzanine
-Divers;Divers
+garage;garage
+buanderie;buanderie
+cellier;cellier
+grenier;grenier
+salle de jeux;salle de jeux
+annexe;annexe
+mezzanine;mezzanine
+divers;divers
 pièce principale;pièce principale
 pièce de service;pièce de service

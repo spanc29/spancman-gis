@@ -266,8 +266,8 @@
       <prop k="color2" v="8,48,107,255"/>
       <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
     </colorramp>
-    <rotation field=""/>
-    <sizescale field=""/>
+    <rotation field="angle"/>
+    <sizescale field="taille"/>
   </renderer-v2>
   <customproperties/>
   <displayfield>volume</displayfield>
@@ -368,7 +368,28 @@
   <editform>.</editform>
   <editforminit></editforminit>
   <annotationform>.</annotationform>
-  <attributeactions/>
+  <aliases>
+    <alias field="accessible" index="14" name="accessibilité"/>
+    <alias field="annee_pose" index="11" name="année de pose"/>
+    <alias field="comments" index="9" name="commentaires"/>
+    <alias field="cree_le" index="21" name="créé le"/>
+    <alias field="ecoulement" index="18" name="écoulement"/>
+    <alias field="identif" index="3" name="identifiant"/>
+    <alias field="integrite" index="15" name="intégrité"/>
+    <alias field="modifie_le" index="22" name="modifié le"/>
+    <alias field="proprete" index="16" name="propreté"/>
+    <alias field="refdoss" index="1" name="référence dossier"/>
+    <alias field="saisie_par" index="23" name="saisie par"/>
+    <alias field="securite" index="17" name="sécurité"/>
+  </aliases>
+  <attributeactions>
+    <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+    <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+    <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+  </attributeactions>
   <overlay display="false" type="diagram">
     <renderer item_interpretation="linear">
       <diagramitem size="0" value="0"/>

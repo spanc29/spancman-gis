@@ -61,9 +61,9 @@
         </layer>
         <layer pass="0" class="FontMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="chr" v="À"/>
+          <prop k="chr" v="1"/>
           <prop k="color" v="0,0,0,255"/>
-          <prop k="font" v="Dingbats"/>
+          <prop k="font" v="Courier"/>
           <prop k="offset" v="0.5,0"/>
           <prop k="size" v="1"/>
         </layer>
@@ -79,9 +79,9 @@
         </layer>
         <layer pass="0" class="FontMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="chr" v="Á"/>
+          <prop k="chr" v="2"/>
           <prop k="color" v="0,0,0,255"/>
-          <prop k="font" v="Dingbats"/>
+          <prop k="font" v="Courier"/>
           <prop k="offset" v="0.5,0"/>
           <prop k="size" v="1"/>
         </layer>
@@ -217,10 +217,10 @@
       <prop k="stops" v="0.13;239,237,245,255:0.26;218,218,235,255:0.39;188,189,220,255:0.52;158,154,200,255:0.65;128,125,186,255:0.75;106,81,163,255:0.9;84,39,143,255"/>
     </colorramp>
     <rotation field=""/>
-    <sizescale field=""/>
+    <sizescale field="taille"/>
   </renderer-v2>
   <customproperties/>
-  <displayfield>gid</displayfield>
+  <displayfield>typ_ventil</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Étiquette"/>
@@ -244,16 +244,26 @@
   </labelattributes>
   <edittypes>
     <edittype type="0" name="REFDOSS"/>
-    <edittype unchecked="non" type="7" checked="oui" name="accessible"/>
+    <edittype type="3" name="accessible">
+      <valuepair key="accessible" value="accessible"/>
+      <valuepair key="accès difficile" value="accès difficile"/>
+      <valuepair key="accès impossible" value="accès impossible"/>
+      <valuepair key="accès trop profond" value="accès trop profond"/>
+      <valuepair key="découvert pour contrôle" value="découvert pour contrôle"/>
+      <valuepair key="engin nécessaire" value="engin nécessaire"/>
+      <valuepair key="non renseigné" value="non renseigné"/>
+    </edittype>
     <edittype type="0" name="angle"/>
     <edittype type="5" min="1800" step="5" name="annee_pose" max="2200"/>
     <edittype type="12" name="comments"/>
     <edittype type="13" name="cree_le"/>
     <edittype type="5" min="0" step="10" name="diametre" max="200"/>
-    <edittype type="10" name="gid"/>
+    <edittype type="8" name="docu2"/>
+    <edittype type="11" name="gid"/>
     <edittype type="0" name="hauteur"/>
     <edittype type="0" name="ident"/>
     <edittype type="0" name="identif"/>
+    <edittype allowNull="false" orderByValue="true" key="refdoss" layer="installations20120617233407927" type="15" value="gid" name="install_gid"/>
     <edittype type="3" name="integrite">
       <valuepair key="absence de défauts" value="absence de défauts"/>
       <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -261,19 +271,22 @@
       <valuepair key="corrosion moyenne" value="corrosion moyenne"/>
       <valuepair key="fissuration avec déformation" value="fissuration avec déformation"/>
       <valuepair key="fissuration sans déformation" value="fissuration sans déformation"/>
-      <valuepair key="présence de déformation" value="présence de déformation"/>
+      <valuepair key="non renseigné" value="non renseigné"/>
+      <valuepair key="ouvrage hors-service" value="ouvrage hors-service"/>
+      <valuepair key="présence de déformation(s)" value="présence de déformation(s)"/>
       <valuepair key="rupture des matériaux" value="rupture des matériaux"/>
       <valuepair key="étanchéité compromise" value="étanchéité compromise"/>
     </edittype>
     <edittype type="0" name="marq_constructeur"/>
     <edittype type="13" name="modifie_le"/>
+    <edittype type="0" name="origine"/>
+    <edittype type="8" name="photo"/>
     <edittype type="8" name="photo1"/>
-    <edittype type="8" name="photo2"/>
     <edittype type="0" name="poseur"/>
     <edittype type="0" name="refdoss"/>
     <edittype type="0" name="saisie_par"/>
-    <edittype type="0" name="taille"/>
-    <edittype unchecked="négatif" type="7" checked="positif" name="test_fumee"/>
+    <edittype type="5" min="1" step="1" name="taille" max="100"/>
+    <edittype type="0" name="test_fumee"/>
     <edittype unchecked="négatif" type="7" checked="positif" name="test_fumé"/>
     <edittype type="3" name="typ_ventil">
       <valuepair key="VMC" value="VMC"/>
@@ -291,10 +304,31 @@
       <valuepair key="ventilation secondaire" value="ventilation secondaire"/>
     </edittype>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
   <annotationform>.</annotationform>
-  <attributeactions/>
+  <aliases>
+    <alias field="accessible" index="14" name="accessibilité"/>
+    <alias field="annee_pose" index="11" name="année de pose"/>
+    <alias field="comments" index="9" name="commentaires"/>
+    <alias field="cree_le" index="21" name="créé le"/>
+    <alias field="ecoulement" index="18" name="écoulement"/>
+    <alias field="identif" index="3" name="identifiant"/>
+    <alias field="integrite" index="15" name="intégrité"/>
+    <alias field="modifie_le" index="22" name="modifié le"/>
+    <alias field="proprete" index="16" name="propreté"/>
+    <alias field="refdoss" index="1" name="référence dossier"/>
+    <alias field="saisie_par" index="23" name="saisie par"/>
+    <alias field="securite" index="17" name="sécurité"/>
+  </aliases>
+  <attributeactions>
+    <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+    <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+    <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+  </attributeactions>
   <overlay display="false" type="diagram">
     <renderer item_interpretation="linear">
       <diagramitem size="0" value="0"/>

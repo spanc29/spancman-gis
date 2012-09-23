@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
   <renderer-v2 attr="typ_traitt" symbollevels="0" type="categorizedSymbol">
     <categories>
@@ -29,6 +29,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/fsvd_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -44,6 +47,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/fsvnd_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -59,6 +65,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/tertre_pente_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -74,6 +83,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/fsvd_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -89,6 +101,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/fhoriz_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -115,16 +130,19 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/lit_epandage_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
       <symbol outputUnit="MM" alpha="1" type="fill" name="5">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="color" v="255,170,0,255"/>
-          <prop k="color_border" v="170,0,0,255"/>
+          <prop k="color" v="150,150,150,255"/>
+          <prop k="color_border" v="255,255,255,255"/>
           <prop k="offset" v="0,0"/>
           <prop k="style" v="dense7"/>
-          <prop k="style_border" v="dash"/>
+          <prop k="style_border" v="no"/>
           <prop k="width_border" v="0.26"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
@@ -146,6 +164,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/tertre_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -161,6 +182,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/tranchee_text1.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -176,6 +200,9 @@
         <layer pass="0" class="SVGFill" locked="0">
           <prop k="angle" v="45"/>
           <prop k="svgFile" v="/traitements/tranchee_pente_text2.svg"/>
+          <prop k="svgFillColor" v="#000000"/>
+          <prop k="svgOutlineColor" v="#000000"/>
+          <prop k="svgOutlineWidth" v="1"/>
           <prop k="width" v="20"/>
         </layer>
       </symbol>
@@ -275,8 +302,8 @@
       <symbol outputUnit="MM" alpha="1" type="marker" name="@5@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="255,0,0,255"/>
-          <prop k="color_border" v="255,85,0,255"/>
+          <prop k="color" v="150,150,150,255"/>
+          <prop k="color_border" v="150,150,150,255"/>
           <prop k="name" v="cross2"/>
           <prop k="offset" v="0,0"/>
           <prop k="size" v="2"/>
@@ -347,10 +374,10 @@
       <prop k="stops" v="0.25;251,180,185,255:0.5;247,104,161,255:0.75;197,27,138,255"/>
     </colorramp>
     <rotation field="angle"/>
-    <sizescale field=""/>
+    <sizescale field="taille"/>
   </renderer-v2>
   <customproperties/>
-  <displayfield>détails</displayfield>
+  <displayfield>gid</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Étiquette"/>
@@ -374,28 +401,84 @@
   </labelattributes>
   <edittypes>
     <edittype type="0" name="REFDOSS"/>
-    <edittype type="0" name="angle"/>
+    <edittype type="3" name="accessible">
+      <valuepair key="accessible" value="accessible"/>
+      <valuepair key="accès difficile" value="accès difficile"/>
+      <valuepair key="accès impossible" value="accès impossible"/>
+      <valuepair key="accès trop profond" value="accès trop profond"/>
+      <valuepair key="découvert pour contrôle" value="découvert pour contrôle"/>
+      <valuepair key="engin nécessaire" value="engin nécessaire"/>
+      <valuepair key="non renseigné" value="non renseigné"/>
+    </edittype>
+    <edittype type="5" min="0" step="15" name="angle" max="360"/>
     <edittype type="0" name="annee_pose"/>
     <edittype type="12" name="comments"/>
     <edittype type="13" name="cree_le"/>
+    <edittype type="0" name="details"/>
+    <edittype type="8" name="docu2"/>
     <edittype type="12" name="détails"/>
-    <edittype type="3" name="fonctionmt">
-      <valuepair key="bon" value="bon"/>
-      <valuepair key="mauvais" value="mauvais"/>
-      <valuepair key="moyen" value="moyen"/>
-      <valuepair key="ne sais pas" value="ne sais pas"/>
-      <valuepair key="non satisfaisant" value="non satisfaisant"/>
-      <valuepair key="non vérifié" value="non vérifié"/>
-      <valuepair key="sans objet" value="sans objet"/>
-      <valuepair key="satisfaisant" value="satisfaisant"/>
+    <edittype type="3" name="ecoulement">
+      <valuepair key="non renseigné" value="non renseigné"/>
+      <valuepair key="pas d'écoulement (stagnation)" value="pas d'écoulement (stagnation)"/>
+      <valuepair key="sens non visible" value="sens non visible"/>
+      <valuepair key="écoulement correct" value="écoulement correct"/>
+      <valuepair key="écoulement ralenti" value="écoulement ralenti"/>
+      <valuepair key="écoulement trop rapide" value="écoulement trop rapide"/>
+      <valuepair key="écoulement à contre-sens" value="écoulement à contre-sens"/>
     </edittype>
-    <edittype type="0" name="ident"/>
-    <edittype type="0" name="largeur"/>
-    <edittype type="0" name="longueur"/>
+    <edittype type="11" name="gid"/>
+    <edittype type="0" name="identif"/>
+    <edittype type="0" name="install_gid"/>
+    <edittype type="3" name="integrite">
+      <valuepair key="absence de défauts" value="absence de défauts"/>
+      <valuepair key="corrosion importante" value="corrosion importante"/>
+      <valuepair key="corrosion légère" value="corrosion légère"/>
+      <valuepair key="corrosion moyenne" value="corrosion moyenne"/>
+      <valuepair key="fissuration avec déformation" value="fissuration avec déformation"/>
+      <valuepair key="fissuration sans déformation" value="fissuration sans déformation"/>
+      <valuepair key="non renseigné" value="non renseigné"/>
+      <valuepair key="ouvrage hors-service" value="ouvrage hors-service"/>
+      <valuepair key="présence de déformation(s)" value="présence de déformation(s)"/>
+      <valuepair key="rupture des matériaux" value="rupture des matériaux"/>
+      <valuepair key="étanchéité compromise" value="étanchéité compromise"/>
+    </edittype>
+    <edittype type="5" min="1" step="5" name="largeur" max="100"/>
+    <edittype type="5" min="1" step="5" name="longueur" max="100"/>
     <edittype type="13" name="modifie_le"/>
+    <edittype type="8" name="photo"/>
     <edittype type="8" name="photo1"/>
-    <edittype type="0" name="profondeur"/>
+    <edittype type="0" name="poseur"/>
+    <edittype type="5" min="0" step="0.1" name="profondeur" max="5"/>
+    <edittype type="3" name="proprete">
+      <valuepair key="aspect correct" value="aspect correct"/>
+      <valuepair key="entretien ponctuel" value="entretien ponctuel"/>
+      <valuepair key="entretien rare" value="entretien rare"/>
+      <valuepair key="entretien régulier" value="entretien régulier"/>
+      <valuepair key="jamais entretenu" value="jamais entretenu"/>
+      <valuepair key="non renseigné" value="non renseigné"/>
+      <valuepair key="présence de dépôts anormaux" value="présence de dépôts anormaux"/>
+      <valuepair key="présence de flottants anormaux" value="présence de flottants anormaux"/>
+      <valuepair key="sans objet" value="sans objet"/>
+    </edittype>
+    <edittype type="0" name="refdoss"/>
+    <edittype type="3" name="renseignements">
+      <valuepair key="inconnu" value="inconnu"/>
+      <valuepair key="sur document(s)" value="sur document(s)"/>
+      <valuepair key="sur déclaration" value="sur déclaration"/>
+      <valuepair key="sur facture" value="sur facture"/>
+      <valuepair key="sur observations/mesures" value="sur observations/mesures"/>
+      <valuepair key="sur photo" value="sur photo"/>
+      <valuepair key="sur plan" value="sur plan"/>
+    </edittype>
     <edittype type="0" name="saisie"/>
+    <edittype type="0" name="saisie_par"/>
+    <edittype type="3" name="securite">
+      <valuepair key="danger imminent" value="danger imminent"/>
+      <valuepair key="non évaluée" value="non évaluée"/>
+      <valuepair key="risques faibles" value="risques faibles"/>
+      <valuepair key="sécurisé" value="sécurisé"/>
+    </edittype>
+    <edittype type="5" min="0" step="5" name="surface" max="500"/>
     <edittype type="3" name="typ_traitt">
       <valuepair key="filtre horizontal" value="filtre horizontal"/>
       <valuepair key="filtre à sable drainé étanche" value="filtre à sable drainé étanche"/>
@@ -414,7 +497,28 @@
   <editform>.</editform>
   <editforminit></editforminit>
   <annotationform>.</annotationform>
-  <attributeactions/>
+  <aliases>
+    <alias field="accessible" index="14" name="accessibilité"/>
+    <alias field="annee_pose" index="11" name="année de pose"/>
+    <alias field="comments" index="9" name="commentaires"/>
+    <alias field="cree_le" index="21" name="créé le"/>
+    <alias field="ecoulement" index="18" name="écoulement"/>
+    <alias field="identif" index="3" name="identifiant"/>
+    <alias field="integrite" index="15" name="intégrité"/>
+    <alias field="modifie_le" index="22" name="modifié le"/>
+    <alias field="proprete" index="16" name="propreté"/>
+    <alias field="refdoss" index="1" name="référence dossier"/>
+    <alias field="saisie_par" index="23" name="saisie par"/>
+    <alias field="securite" index="17" name="sécurité"/>
+  </aliases>
+  <attributeactions>
+    <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+    <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+    <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+  </attributeactions>
   <overlay display="false" type="diagram">
     <renderer item_interpretation="linear">
       <diagramitem size="0" value="0"/>

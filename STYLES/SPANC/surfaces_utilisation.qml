@@ -1,7 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="1.7.4-Wroclaw" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+<qgis version="1.8.0-Lisboa" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <transparencyLevelInt>255</transparencyLevelInt>
-  <renderer-v2 attr="TYP_SURFAC" symbollevels="0" type="categorizedSymbol">
+  <renderer-v2 attr="type_surface" symbollevels="0" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="aire piéton" label="aire piéton"/>
       <category symbol="1" value="à préserver" label="à préserver"/>
@@ -22,7 +22,7 @@
       <category symbol="16" value="mare/plan d'eau" label="mare/plan d'eau"/>
     </categories>
     <symbols>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="0">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="0">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="228,26,28,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -32,9 +32,9 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="1">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="1">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="color" v="228,26,28,126"/>
+          <prop k="color" v="170,170,255,126"/>
           <prop k="color_border" v="0,0,0,126"/>
           <prop k="offset" v="0,0"/>
           <prop k="style" v="f_diagonal"/>
@@ -42,7 +42,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="10">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="10">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="255,85,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -52,7 +52,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="11">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="11">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="0,85,255,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -62,7 +62,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="12">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="12">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="255,255,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -72,7 +72,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="13">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="13">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="255,85,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -82,7 +82,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4980392156862745" type="fill" name="14">
+      <symbol outputUnit="MapUnit" alpha="0,4980392156862745" type="fill" name="14">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="255,85,0,127"/>
           <prop k="color_border" v="0,0,0,127"/>
@@ -92,7 +92,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4901960784313725" type="fill" name="15">
+      <symbol outputUnit="MapUnit" alpha="0,4901960784313725" type="fill" name="15">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="0,0,255,125"/>
           <prop k="color_border" v="0,170,255,125"/>
@@ -102,7 +102,7 @@
           <prop k="width_border" v="0.2"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="16">
+      <symbol outputUnit="MM" alpha="0,4980392156862745" type="fill" name="16">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="0,0,255,127"/>
           <prop k="color_border" v="85,255,127,127"/>
@@ -112,7 +112,7 @@
           <prop k="width_border" v="0.2"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="2">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="2">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="55,126,184,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -122,7 +122,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="3">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="3">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="0,85,255,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -132,7 +132,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="4">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="4">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="85,0,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -142,9 +142,9 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="5">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="5">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="color" v="255,0,0,126"/>
+          <prop k="color" v="170,0,255,126"/>
           <prop k="color_border" v="0,0,0,126"/>
           <prop k="offset" v="0,0"/>
           <prop k="style" v="f_diagonal"/>
@@ -152,7 +152,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="6">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="6">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="0,170,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -162,7 +162,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="7">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="7">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="170,85,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -172,7 +172,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="8">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="8">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="170,85,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -182,7 +182,7 @@
           <prop k="width_border" v="0.26"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="9">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="9">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="170,85,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -194,7 +194,7 @@
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="0">
+      <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="0">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="color" v="0,0,0,126"/>
           <prop k="color_border" v="0,0,0,126"/>
@@ -212,12 +212,62 @@
     <rotation field=""/>
     <sizescale field=""/>
   </renderer-v2>
-  <customproperties/>
-  <displayfield>REFDOSS</displayfield>
-  <label>1</label>
-  <labelfield>TYP_SURFAC</labelfield>
+  <customproperties>
+    <property key="labeling" value="pal"/>
+    <property key="labeling/addDirectionSymbol" value="false"/>
+    <property key="labeling/bufferColorB" value="255"/>
+    <property key="labeling/bufferColorG" value="255"/>
+    <property key="labeling/bufferColorR" value="255"/>
+    <property key="labeling/bufferSize" value="0"/>
+    <property key="labeling/dataDefinedProperty0" value=""/>
+    <property key="labeling/dataDefinedProperty1" value=""/>
+    <property key="labeling/dataDefinedProperty10" value=""/>
+    <property key="labeling/dataDefinedProperty11" value=""/>
+    <property key="labeling/dataDefinedProperty12" value=""/>
+    <property key="labeling/dataDefinedProperty13" value=""/>
+    <property key="labeling/dataDefinedProperty14" value=""/>
+    <property key="labeling/dataDefinedProperty2" value=""/>
+    <property key="labeling/dataDefinedProperty3" value=""/>
+    <property key="labeling/dataDefinedProperty4" value=""/>
+    <property key="labeling/dataDefinedProperty5" value=""/>
+    <property key="labeling/dataDefinedProperty6" value=""/>
+    <property key="labeling/dataDefinedProperty7" value=""/>
+    <property key="labeling/dataDefinedProperty8" value=""/>
+    <property key="labeling/dataDefinedProperty9" value=""/>
+    <property key="labeling/decimals" value="0"/>
+    <property key="labeling/dist" value="0"/>
+    <property key="labeling/distInMapUnits" value="false"/>
+    <property key="labeling/enabled" value="true"/>
+    <property key="labeling/fieldName" value="type_surface"/>
+    <property key="labeling/fontFamily" value="Arial"/>
+    <property key="labeling/fontItalic" value="true"/>
+    <property key="labeling/fontSize" value="9"/>
+    <property key="labeling/fontSizeInMapUnits" value="false"/>
+    <property key="labeling/fontStrikeout" value="false"/>
+    <property key="labeling/fontUnderline" value="false"/>
+    <property key="labeling/fontWeight" value="50"/>
+    <property key="labeling/formatNumbers" value="false"/>
+    <property key="labeling/isExpression" value="false"/>
+    <property key="labeling/labelPerPart" value="false"/>
+    <property key="labeling/mergeLines" value="false"/>
+    <property key="labeling/minFeatureSize" value="0"/>
+    <property key="labeling/obstacle" value="true"/>
+    <property key="labeling/placement" value="0"/>
+    <property key="labeling/placementFlags" value="0"/>
+    <property key="labeling/plussign" value="true"/>
+    <property key="labeling/priority" value="5"/>
+    <property key="labeling/scaleMax" value="500"/>
+    <property key="labeling/scaleMin" value="1"/>
+    <property key="labeling/textColorB" value="140"/>
+    <property key="labeling/textColorG" value="140"/>
+    <property key="labeling/textColorR" value="140"/>
+    <property key="labeling/wrapChar" value=""/>
+  </customproperties>
+  <displayfield>surface</displayfield>
+  <label>0</label>
+  <labelfield>type_surface</labelfield>
   <labelattributes>
-    <label fieldname="TYP_SURFAC" text=""/>
+    <label fieldname="type_surface" text=""/>
     <family fieldname="" name="Century Schoolbook L"/>
     <size fieldname="" units="mu" value="1"/>
     <bold fieldname="" on="0"/>
@@ -231,7 +281,7 @@
     <angle fieldname="" value="0" auto="0"/>
     <alignment fieldname="" value="center"/>
     <buffercolor fieldname="" red="255" blue="255" green="255"/>
-    <buffersize fieldname="" units="pt" value="0.5"/>
+    <buffersize fieldname="" units="pt" value="0,5"/>
     <bufferenabled fieldname="" on=""/>
     <multilineenabled fieldname="" on="1"/>
     <selectedonly on=""/>
@@ -271,11 +321,45 @@
       <valuepair key="à préserver" value="à préserver"/>
     </edittype>
     <edittype type="0" name="TYP_SURFACE"/>
+    <edittype type="12" name="comments"/>
+    <edittype type="10" name="cree_le"/>
+    <edittype type="8" name="docu2"/>
+    <edittype type="11" name="gid"/>
+    <edittype type="0" name="identif"/>
+    <edittype unchecked="non" type="7" checked="oui" name="impermeable"/>
+    <edittype type="10" name="modifie_le"/>
+    <edittype type="8" name="photo"/>
+    <edittype type="0" name="refdoss"/>
+    <edittype type="3" name="renseignements">
+      <valuepair key="sur document(s)" value="sur document(s)"/>
+      <valuepair key="sur déclaration" value="sur déclaration"/>
+      <valuepair key="sur facture" value="sur facture"/>
+      <valuepair key="sur observations/mesures" value="sur observations/mesures"/>
+      <valuepair key="sur photo" value="sur photo"/>
+      <valuepair key="sur plan" value="sur plan"/>
+    </edittype>
+    <edittype type="0" name="saisie_par"/>
+    <edittype type="0" name="surface"/>
+    <edittype type="4" name="type_surface"/>
   </edittypes>
-  <editform>.</editform>
+  <editform></editform>
   <editforminit></editforminit>
   <annotationform>.</annotationform>
-  <attributeactions/>
+  <aliases>
+    <alias field="comments" index="6" name="commentaires"/>
+    <alias field="cree_le" index="10" name="créé le"/>
+    <alias field="identif" index="2" name="identifiant"/>
+    <alias field="modifie_le" index="11" name="modifié le"/>
+    <alias field="refdoss" index="1" name="référence dossier"/>
+    <alias field="saisie_par" index="12" name="saisie par"/>
+  </aliases>
+  <attributeactions>
+    <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+    <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
+    <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+  </attributeactions>
   <overlay display="false" type="diagram">
     <renderer item_interpretation="linear">
       <diagramitem size="0" value="0"/>
