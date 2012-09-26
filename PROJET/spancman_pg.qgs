@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>470119.877919</xmin>
-            <ymin>6745247.335044</ymin>
-            <xmax>470209.608616</xmax>
-            <ymax>6745288.440318</ymax>
+            <xmin>470439.429447</xmin>
+            <ymin>6745289.444221</ymin>
+            <xmax>470798.352235</xmax>
+            <ymax>6745529.796910</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -25,13 +25,13 @@
     </mapcanvas>
     <legend updateDrawingOrder="true">
         <legendgroup open="false" checked="Qt::PartiallyChecked" name="dossiers">
-            <legendlayer drawingOrder="3" open="false" checked="Qt::Checked" name="dossiers" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="dossiers" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="dossiers20120603150709927" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="0" open="false" checked="Qt::Unchecked" name="installations" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="installations" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="installations20120617233407927" visible="0"/>
                 </filegroup>
             </legendlayer>
@@ -66,24 +66,24 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="traitements">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="traitements_classiks" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="traitements classiques" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="traitements_classiks20120912222104668" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="10" open="false" checked="Qt::Checked" name="filieres_agreees" showFeatureCount="0">
+            <legendlayer drawingOrder="10" open="false" checked="Qt::Checked" name="filières agréées" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="filieres_agreees20120526210159020" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="dispersions">
-            <legendlayer drawingOrder="11" open="false" checked="Qt::Checked" name="puits_dispersion" showFeatureCount="0">
+            <legendlayer drawingOrder="11" open="false" checked="Qt::Checked" name="puits de dispersion" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="puits_dispersion20120603150612901" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="12" open="false" checked="Qt::Checked" name="infiltrations" showFeatureCount="0">
+            <legendlayer drawingOrder="12" open="false" checked="Qt::Checked" name="zones infiltrations" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="infiltrations20120526210159109" visible="1"/>
                 </filegroup>
@@ -100,14 +100,14 @@
                     <legendlayerfile isInOverview="0" layerid="puits_d_eau20120617204833306" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendgroup open="true" checked="Qt::Checked" name="plantations">
-                <legendlayer drawingOrder="14" open="false" checked="Qt::Checked" name="haies" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+            <legendgroup open="false" checked="Qt::Checked" name="plantations">
+                <legendlayer drawingOrder="14" open="true" checked="Qt::Checked" name="haies" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="haies20120526210159035" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="15" open="false" checked="Qt::Checked" name="arbres" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="15" open="true" checked="Qt::Checked" name="arbres" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="arbres20120526210158892" visible="1"/>
                     </filegroup>
                 </legendlayer>
@@ -117,7 +117,7 @@
                     <legendlayerfile isInOverview="0" layerid="pentes20120526210159181" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="surfaces_terrain" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="occupation terrain" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="surfaces_terrain20120918224116962" visible="1"/>
                 </filegroup>
@@ -130,13 +130,13 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="Immeubles">
+        <legendgroup open="true" checked="Qt::Checked" name="Immeubles">
             <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="alimentation AEP" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="alim_aep20120526210158865" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="20" open="false" checked="Qt::Checked" name="origines" showFeatureCount="0">
+            <legendlayer drawingOrder="20" open="false" checked="Qt::Checked" name="origines des eaux" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="origines20120526210159129" visible="1"/>
                 </filegroup>
@@ -152,27 +152,33 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="cadastre">
-            <legendlayer drawingOrder="22" open="false" checked="Qt::Unchecked" name="Bâtiments" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="cadastre"/>
+        <legendgroup open="true" checked="Qt::Checked" name="BD parcellaire">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BATIMENT" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="immeubles20120325221141705" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="BATIMENT20120926152118083" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="parcelles_lignes" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="COMMUNE" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="parcelles_lignes20120911213547927" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="COMMUNE20120926152118092" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="PARCELLE" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="PARCELLE20120926152118099" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
     </legend>
     <Composer title="carte simple" visible="0">
         <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-            <Extent ymin="6745389,310111368" xmin="469969,7772944271" ymax="6745422,918061349" xmax="470018,4159356055"/>
+            <Extent ymin="6745389.310111368" xmin="469969.7772944271" ymax="6745422.918061349" xmax="470018.4159356055"/>
             <LayerSet/>
             <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Droid Sans,11,-1,5,50,0,0,0,0,0"/>
             </Grid>
-            <ComposerItem width="288" x="4" y="7" rotation="0" height="199" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2,772511848341232" id="" positionLock="false">
+            <ComposerItem width="288" x="4" y="7" rotation="0" height="199" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.772511848341232" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
@@ -649,7 +655,7 @@
                 <LayerItem layerId="haies20120526210159035" text="haies">
                     <VectorClassificationItemNg text="">
                         <symbols>
-                            <symbol outputUnit="MapUnit" alpha="0,592156862745098" type="line" name="classificationSymbol">
+                            <symbol outputUnit="MapUnit" alpha="0.592156862745098" type="line" name="classificationSymbol">
                                 <layer pass="0" class="MarkerLine" locked="0">
                                     <prop k="interval" v="1"/>
                                     <prop k="offset" v="0"/>
@@ -657,7 +663,7 @@
                                     <prop k="rotate" v="0"/>
                                 </layer>
                             </symbol>
-                            <symbol outputUnit="MapUnit" alpha="0,592156862745098" type="marker" name="@classificationSymbol@0">
+                            <symbol outputUnit="MapUnit" alpha="0.592156862745098" type="marker" name="@classificationSymbol@0">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="85,170,0,255"/>
@@ -705,7 +711,7 @@
                 <LayerItem layerId="pentes20120526210159181" text="pentes">
                     <VectorClassificationItemNg text="0 à 2%">
                         <symbols>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="line" name="classificationSymbol">
+                            <symbol outputUnit="MM" alpha="0.6980392156862745" type="line" name="classificationSymbol">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="flat"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -723,7 +729,7 @@
                                     <prop k="rotate" v="1"/>
                                 </layer>
                             </symbol>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="marker" name="@classificationSymbol@1">
+                            <symbol outputUnit="MM" alpha="0.6980392156862745" type="marker" name="@classificationSymbol@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -737,7 +743,7 @@
                     </VectorClassificationItemNg>
                     <VectorClassificationItemNg text="10 à 15%">
                         <symbols>
-                            <symbol outputUnit="MM" alpha="0,6901960784313725" type="line" name="classificationSymbol">
+                            <symbol outputUnit="MM" alpha="0.6901960784313725" type="line" name="classificationSymbol">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="flat"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -755,7 +761,7 @@
                                     <prop k="rotate" v="1"/>
                                 </layer>
                             </symbol>
-                            <symbol outputUnit="MM" alpha="0,6901960784313725" type="marker" name="@classificationSymbol@1">
+                            <symbol outputUnit="MM" alpha="0.6901960784313725" type="marker" name="@classificationSymbol@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -769,7 +775,7 @@
                     </VectorClassificationItemNg>
                     <VectorClassificationItemNg text="15 à 20%">
                         <symbols>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="line" name="classificationSymbol">
+                            <symbol outputUnit="MM" alpha="0.6941176470588235" type="line" name="classificationSymbol">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="flat"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -787,7 +793,7 @@
                                     <prop k="rotate" v="1"/>
                                 </layer>
                             </symbol>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="marker" name="@classificationSymbol@1">
+                            <symbol outputUnit="MM" alpha="0.6941176470588235" type="marker" name="@classificationSymbol@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -801,7 +807,7 @@
                     </VectorClassificationItemNg>
                     <VectorClassificationItemNg text="2 à 5%">
                         <symbols>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="line" name="classificationSymbol">
+                            <symbol outputUnit="MM" alpha="0.6941176470588235" type="line" name="classificationSymbol">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="flat"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -819,7 +825,7 @@
                                     <prop k="rotate" v="1"/>
                                 </layer>
                             </symbol>
-                            <symbol outputUnit="MM" alpha="0,6941176470588235" type="marker" name="@classificationSymbol@1">
+                            <symbol outputUnit="MM" alpha="0.6941176470588235" type="marker" name="@classificationSymbol@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="46,47,51,255"/>
@@ -833,7 +839,7 @@
                     </VectorClassificationItemNg>
                     <VectorClassificationItemNg text="> 20%">
                         <symbols>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="line" name="classificationSymbol">
+                            <symbol outputUnit="MM" alpha="0.6980392156862745" type="line" name="classificationSymbol">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="flat"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -851,7 +857,7 @@
                                     <prop k="rotate" v="1"/>
                                 </layer>
                             </symbol>
-                            <symbol outputUnit="MM" alpha="0,6980392156862745" type="marker" name="@classificationSymbol@1">
+                            <symbol outputUnit="MM" alpha="0.6980392156862745" type="marker" name="@classificationSymbol@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="32,137,48,255"/>
@@ -865,7 +871,7 @@
                     </VectorClassificationItemNg>
                     <VectorClassificationItemNg text="5 à 10%">
                         <symbols>
-                            <symbol outputUnit="MM" alpha="0,796078431372549" type="line" name="classificationSymbol">
+                            <symbol outputUnit="MM" alpha="0.796078431372549" type="line" name="classificationSymbol">
                                 <layer pass="0" class="SimpleLine" locked="0">
                                     <prop k="capstyle" v="flat"/>
                                     <prop k="color" v="121,121,150,255"/>
@@ -883,7 +889,7 @@
                                     <prop k="rotate" v="1"/>
                                 </layer>
                             </symbol>
-                            <symbol outputUnit="MM" alpha="0,796078431372549" type="marker" name="@classificationSymbol@1">
+                            <symbol outputUnit="MM" alpha="0.796078431372549" type="marker" name="@classificationSymbol@1">
                                 <layer pass="0" class="SimpleMarker" locked="0">
                                     <prop k="angle" v="0"/>
                                     <prop k="color" v="0,0,0,255"/>
@@ -1205,24 +1211,6 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
-                <LayerItem layerId="parcelles_lignes20120911213547927" text="parcelles_lignes">
-                    <VectorClassificationItemNg text="">
-                        <symbols>
-                            <symbol outputUnit="MM" alpha="1" type="line" name="classificationSymbol">
-                                <layer pass="0" class="SimpleLine" locked="0">
-                                    <prop k="capstyle" v="square"/>
-                                    <prop k="color" v="120,133,166,255"/>
-                                    <prop k="customdash" v="5;2"/>
-                                    <prop k="joinstyle" v="bevel"/>
-                                    <prop k="offset" v="0"/>
-                                    <prop k="penstyle" v="solid"/>
-                                    <prop k="use_custom_dash" v="0"/>
-                                    <prop k="width" v="0.26"/>
-                                </layer>
-                            </symbol>
-                        </symbols>
-                    </VectorClassificationItemNg>
-                </LayerItem>
                 <LayerItem layerId="surfaces_terrain20120918224116962" text="surfaces_terrain">
                     <VectorClassificationItemNg text="">
                         <symbols>
@@ -1239,15 +1227,458 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="BATIMENT20120926152118083" text="BATIMENT">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="174,114,242,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="COMMUNE20120926152118092" text="COMMUNE">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="98,27,136,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="PARCELLE20120926152118099" text="PARCELLE">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
+                                <layer pass="0" class="SimpleFill" locked="0">
+                                    <prop k="color" v="129,134,71,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="style" v="solid"/>
+                                    <prop k="style_border" v="solid"/>
+                                    <prop k="width_border" v="0.26"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
             </Model>
-            <ComposerItem width="82,76365414550555" x="115,4188034188034" y="9,738461538461536" rotation="0" height="869,5308424136682" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2,772511848341232" id="" positionLock="false">
+            <ComposerItem width="3" x="115.4188034188034" y="9.738461538461536" rotation="0" height="360" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.772511848341232" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="25">
+    <projectlayers layercount="26">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>BATIMENT20120926152118083</id>
+            <datasource>../COUCHES_SPANC/exemple/BATIMENT.SHP</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>BATIMENT</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs)</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 attr="TYPE" symbollevels="0" type="categorizedSymbol">
+                <categories>
+                    <category symbol="0" value="Bâtiment en dur" label="Bâtiment en dur"/>
+                    <category symbol="1" value="Construction légère" label="Construction légère"/>
+                    <category symbol="2" value="" label=""/>
+                </categories>
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="cross"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.8"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="dense7"/>
+                            <prop k="style_border" v="dot"/>
+                            <prop k="width_border" v="0.5"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="190,190,142,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <source-symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="173,245,167,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="gradient" name="[source]">
+                    <prop k="color1" v="247,251,255,255"/>
+                    <prop k="color2" v="8,48,107,255"/>
+                    <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+                </colorramp>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="gid"/>
+                <property key="labeling/fontFamily" value="Droid Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontSize" value="0.4"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placementFlags" value="6"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+            </customproperties>
+            <displayfield>TYPE</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Droid Sans"/>
+                <size fieldname="" units="mu" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="TYPE"/>
+                <edittype type="5" min="1800" step="5" name="an_construction" max="2100"/>
+                <edittype type="5" min="1800" step="5" name="an_rehabilitation" max="2100"/>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
+                <edittype type="12" name="comments"/>
+                <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="date_acte_authentique"/>
+                <edittype type="13" name="desaffecte_le"/>
+                <edittype type="8" name="docu2"/>
+                <edittype type="10" name="gid"/>
+                <edittype type="0" name="identif"/>
+                <edittype type="10" name="modifie_le"/>
+                <edittype type="5" min="1" step="1" name="nb_pp" max="100"/>
+                <edittype type="8" name="photo"/>
+                <edittype type="0" name="refdoss"/>
+                <edittype type="3" name="renseignements">
+                    <valuepair key="sur document(s)" value="sur document(s)"/>
+                    <valuepair key="sur déclaration" value="sur déclaration"/>
+                    <valuepair key="sur facture" value="sur facture"/>
+                    <valuepair key="sur observations/mesures" value="sur observations/mesures"/>
+                    <valuepair key="sur photo" value="sur photo"/>
+                    <valuepair key="sur plan" value="sur plan"/>
+                </edittype>
+                <edittype type="0" name="saisie_par"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
+                <edittype type="3" name="tx_occupation">
+                    <valuepair key="1 mois/an" value="1 mois/an"/>
+                    <valuepair key="10 mois/an" value="10 mois/an"/>
+                    <valuepair key="11 mois/an" value="11 mois/an"/>
+                    <valuepair key="2 mois/an" value="2 mois/an"/>
+                    <valuepair key="3 mois/an" value="3 mois/an"/>
+                    <valuepair key="4 mois/an" value="4 mois/an"/>
+                    <valuepair key="5 mois/an" value="5 mois/an"/>
+                    <valuepair key="6 mois/an" value="6 mois/an"/>
+                    <valuepair key="7 mois/an" value="7 mois/an"/>
+                    <valuepair key="8 mois/an" value="8 mois/an"/>
+                    <valuepair key="9 mois/an" value="9 mois/an"/>
+                    <valuepair key="permanent" value="permanent"/>
+                    <valuepair key="qq jours/an" value="qq jours/an"/>
+                </edittype>
+                <edittype type="0" name="type_bati"/>
+                <edittype type="3" name="type_habitat">
+                    <valuepair key="Annexe bâti" value="Annexe bâti"/>
+                    <valuepair key="Autre (cf. obs.)" value="Autre (cf. obs.)"/>
+                    <valuepair key="Local commercial" value="Local commercial"/>
+                    <valuepair key="Location permanente" value="Location permanente"/>
+                    <valuepair key="Location saisonnière" value="Location saisonnière"/>
+                    <valuepair key="Résidence principale" value="Résidence principale"/>
+                    <valuepair key="Résidence secondaire" value="Résidence secondaire"/>
+                </edittype>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <aliases/>
+            <attributeactions>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
+                <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+                <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+            </attributeactions>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>COMMUNE20120926152118092</id>
+            <datasource>../COUCHES_SPANC/exemple/COMMUNE.SHP</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>COMMUNE</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs)</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="98,27,136,255"/>
+                            <prop k="color_border" v="190,190,142,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>NOM_COM</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Droid Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="CODE_DEP"/>
+                <edittype type="0" name="CODE_INSEE"/>
+                <edittype type="0" name="NOM_COM"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>PARCELLE20120926152118099</id>
+            <datasource>../COUCHES_SPANC/exemple/PARCELLE.SHP</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>PARCELLE</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs)</description>
+                    <projectionacronym>lcc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="ISO-8859-1">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="129,134,71,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.25"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>NUMERO</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Droid Sans"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="CODE_ARR"/>
+                <edittype type="0" name="CODE_COM"/>
+                <edittype type="0" name="CODE_DEP"/>
+                <edittype type="0" name="COM_ABS"/>
+                <edittype type="0" name="FEUILLE"/>
+                <edittype type="0" name="NOM_COM"/>
+                <edittype type="0" name="NUMERO"/>
+                <edittype type="0" name="SECTION"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>alim_aep20120525223905898</id>
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' key='gid' table="spanc"."alim_aep" (the_geom) sql=</datasource>
@@ -1385,11 +1816,11 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="0" name="conso_moyenne"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -1467,17 +1898,17 @@
                     <valuepair key="source libre" value="source libre"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
                 <alias field="annee_pose" index="9" name="année de pose"/>
                 <alias field="comments" index="7" name="commentaires"/>
-                <alias field="cree_le" index="15" name="créé le"/>
+                <alias field="cree_le" index="16" name="créé le"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="modifie_le" index="16" name="modifié le"/>
+                <alias field="modifie_le" index="17" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="17" name="saisie par"/>
+                <alias field="saisie_par" index="18" name="saisie par"/>
                 <alias field="typ_alim" index="4" name="type alimentation"/>
             </aliases>
             <attributeactions>
@@ -1486,6 +1917,7 @@
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -1609,12 +2041,12 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="REFDOSS"/>
                 <edittype unchecked="0" type="7" checked="1" name="a_couper"/>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
                 <edittype type="5" min="1800" step="10" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="0" name="essence"/>
                 <edittype type="11" name="gid"/>
@@ -1634,11 +2066,11 @@
             <aliases>
                 <alias field="annee_pose" index="6" name="année de pose"/>
                 <alias field="comments" index="5" name="commentaires"/>
-                <alias field="cree_le" index="11" name="créé le"/>
+                <alias field="cree_le" index="14" name="créé le"/>
                 <alias field="identif" index="2" name="identifiant"/>
-                <alias field="modifie_le" index="12" name="modifié le"/>
+                <alias field="modifie_le" index="15" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="13" name="saisie par"/>
+                <alias field="saisie_par" index="16" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -1646,6 +2078,7 @@
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -2093,11 +2526,11 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
-                <edittype type="5" min="0" step="5" name="diametre" max="500"/>
+                <edittype type="13" name="desaffecte_le"/>
+                <edittype type="5" min="1" step="5" name="diametre" max="500"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -2147,8 +2580,6 @@
                 </edittype>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="8" name="photo"/>
-                <edittype type="8" name="photo1"/>
-                <edittype type="8" name="photo2"/>
                 <edittype type="0" name="poseur"/>
                 <edittype type="3" name="proprete">
                     <valuepair key="aspect correct" value="aspect correct"/>
@@ -2185,16 +2616,17 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
+                <alias field="accessibilite" index="13" name="accessibilité"/>
                 <alias field="annee_pose" index="9" name="année de pose"/>
                 <alias field="comments" index="8" name="commentaires"/>
-                <alias field="cree_le" index="17" name="créé le"/>
-                <alias field="ecoulement" index="13" name="écoulement"/>
+                <alias field="cree_le" index="22" name="créé le"/>
+                <alias field="ecoulement" index="16" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="11" name="intégrité"/>
-                <alias field="modifie_le" index="18" name="modifié le"/>
-                <alias field="proprete" index="12" name="propreté"/>
+                <alias field="integrite" index="14" name="intégrité"/>
+                <alias field="modifie_le" index="23" name="modifié le"/>
+                <alias field="proprete" index="15" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="19" name="saisie par"/>
+                <alias field="saisie_par" index="24" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -2202,7 +2634,7 @@
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
-                <actionsetting action="http://www.google.it/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -2219,7 +2651,7 @@
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>dossiers20120603150709927</id>
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."dossiers" (the_geom) sql=</datasource>
-            <title></title>
+            <title>dossiers SPANC</title>
             <abstract></abstract>
             <layername>dossiers</layername>
             <srs>
@@ -2266,7 +2698,7 @@
                             <prop k="size" v="8"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,3450980392156863" type="marker" name="2">
+                    <symbol outputUnit="MM" alpha="0.3450980392156863" type="marker" name="2">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -2373,6 +2805,7 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
+                <edittype type="0" name="angle"/>
                 <edittype type="0" name="archivage"/>
                 <edittype type="0" name="aut_zone"/>
                 <edittype type="12" name="comments"/>
@@ -2387,11 +2820,10 @@
                 <edittype type="11" name="gid"/>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="8" name="photo"/>
-                <edittype type="0" name="photo1"/>
-                <edittype type="0" name="photo2"/>
                 <edittype type="0" name="refdoss"/>
                 <edittype type="0" name="saisie_par"/>
                 <edittype type="0" name="secteur"/>
+                <edittype type="0" name="taille"/>
                 <edittype type="0" name="zaee"/>
                 <edittype type="0" name="zrs"/>
             </edittypes>
@@ -2400,10 +2832,11 @@
             <annotationform>.</annotationform>
             <aliases>
                 <alias field="comments" index="4" name="commentaires"/>
-                <alias field="cree_le" index="12" name="créé le"/>
-                <alias field="modifie_le" index="13" name="modifié le"/>
+                <alias field="commune_id" index="9" name="n° insee commune"/>
+                <alias field="cree_le" index="14" name="créé le"/>
+                <alias field="modifie_le" index="15" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="14" name="saisie par"/>
+                <alias field="saisie_par" index="16" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -2430,7 +2863,7 @@
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."filieres_agreees" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>filieres_agreees</layername>
+            <layername>filières agréées</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -2582,63 +3015,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype unchecked="non" type="7" checked="oui" name="accessibilite"/>
-                <edittype type="5" min="0" step="0.5" name="ANGLE" max="360"/>
-                <edittype type="5" min="1980" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
-                <edittype type="12" name="COMMENTS"/>
-                <edittype type="13" name="CREE_LE"/>
-                <edittype type="3" name="ECOULEMENT">
-                    <valuepair key="bon" value="bon"/>
-                    <valuepair key="mauvais" value="mauvais"/>
-                    <valuepair key="moyen" value="moyen"/>
-                    <valuepair key="ne sais pas" value="ne sais pas"/>
-                    <valuepair key="non satisfaisant" value="non satisfaisant"/>
-                    <valuepair key="non vérifié" value="non vérifié"/>
-                    <valuepair key="sans objet" value="sans objet"/>
-                    <valuepair key="satisfaisant" value="satisfaisant"/>
-                </edittype>
-                <edittype type="0" name="IDENT"/>
-                <edittype type="3" name="INTEGRITE">
-                    <valuepair key="bon" value="bon"/>
-                    <valuepair key="mauvais" value="mauvais"/>
-                    <valuepair key="moyen" value="moyen"/>
-                    <valuepair key="ne sais pas" value="ne sais pas"/>
-                    <valuepair key="non satisfaisant" value="non satisfaisant"/>
-                    <valuepair key="non vérifié" value="non vérifié"/>
-                    <valuepair key="sans objet" value="sans objet"/>
-                    <valuepair key="satisfaisant" value="satisfaisant"/>
-                </edittype>
-                <edittype type="0" name="MARQ_CONST"/>
-                <edittype type="13" name="MODIFIE_LE"/>
-                <edittype type="8" name="PHOTO1"/>
-                <edittype type="3" name="PROPRETE">
-                    <valuepair key="bon" value="bon"/>
-                    <valuepair key="mauvais" value="mauvais"/>
-                    <valuepair key="moyen" value="moyen"/>
-                    <valuepair key="ne sais pas" value="ne sais pas"/>
-                    <valuepair key="non satisfaisant" value="non satisfaisant"/>
-                    <valuepair key="non vérifié" value="non vérifié"/>
-                    <valuepair key="sans objet" value="sans objet"/>
-                    <valuepair key="satisfaisant" value="satisfaisant"/>
-                </edittype>
-                <edittype type="0" name="REFDOSS"/>
-                <edittype type="0" name="SAISIE_PAR"/>
-                <edittype type="3" name="SECURITE">
-                    <valuepair key="bon" value="bon"/>
-                    <valuepair key="mauvais" value="mauvais"/>
-                    <valuepair key="moyen" value="moyen"/>
-                    <valuepair key="ne sais pas" value="ne sais pas"/>
-                    <valuepair key="non satisfaisant" value="non satisfaisant"/>
-                    <valuepair key="non vérifié" value="non vérifié"/>
-                    <valuepair key="sans objet" value="sans objet"/>
-                    <valuepair key="satisfaisant" value="satisfaisant"/>
-                </edittype>
-                <edittype type="3" name="TYP_CUVE">
-                    <valuepair key="oblongue" value="oblongue"/>
-                    <valuepair key="rectangulaire" value="rectangulaire"/>
-                    <valuepair key="ronde" value="ronde"/>
-                </edittype>
                 <edittype type="3" name="accessibilite">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -2649,10 +3025,10 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="2000" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="doc_constr"/>
                 <edittype type="8" name="doc_constructeur"/>
                 <edittype type="8" name="docu2"/>
@@ -2667,6 +3043,7 @@
                 </edittype>
                 <edittype type="11" name="gid"/>
                 <edittype type="5" min="0.5" step="0.1" name="haut_prof" max="10"/>
+                <edittype type="0" name="ident"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gid"/>
                 <edittype type="3" name="integrite">
@@ -2684,6 +3061,7 @@
                 </edittype>
                 <edittype type="5" min="1" step="1" name="largeur" max="50"/>
                 <edittype type="5" min="1" step="1" name="longueur" max="50"/>
+                <edittype type="0" name="marq_const"/>
                 <edittype type="0" name="marq_constructeur"/>
                 <edittype type="0" name="modele"/>
                 <edittype type="13" name="modifie_le"/>
@@ -2719,7 +3097,7 @@
                     <valuepair key="risques faibles" value="risques faibles"/>
                     <valuepair key="sécurisé" value="sécurisé"/>
                 </edittype>
-                <edittype type="0" name="taille"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
                 <edittype type="3" name="typ_cuve">
                     <valuepair key="inconnue" value="inconnue"/>
                     <valuepair key="oblongue" value="oblongue"/>
@@ -2739,21 +3117,24 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
+                <alias field="accessibilite" index="16" name="accessibilité"/>
                 <alias field="annee_pose" index="12" name="année de pose"/>
                 <alias field="comments" index="11" name="commentaires"/>
-                <alias field="cree_le" index="27" name="créé le"/>
-                <alias field="ecoulement" index="19" name="écoulement"/>
+                <alias field="cree_le" index="28" name="créé le"/>
+                <alias field="ecoulement" index="20" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="16" name="intégrité"/>
-                <alias field="modifie_le" index="28" name="modifié le"/>
-                <alias field="proprete" index="17" name="propreté"/>
+                <alias field="integrite" index="17" name="intégrité"/>
+                <alias field="modifie_le" index="29" name="modifié le"/>
+                <alias field="proprete" index="18" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="29" name="saisie par"/>
+                <alias field="saisie_par" index="30" name="saisie par"/>
+                <alias field="securite" index="19" name="sécurité"/>
                 <alias field="typ_cuve" index="10" name="forme de cuve"/>
                 <alias field="typ_filiere" index="4" name="type de filière"/>
             </aliases>
             <attributeactions>
-                <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+                <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir doc constructeur"/>
+                <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir photo"/>
                 <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
@@ -2795,7 +3176,7 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MapUnit" alpha="0,592156862745098" type="line" name="0">
+                    <symbol outputUnit="MapUnit" alpha="0.592156862745098" type="line" name="0">
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="1"/>
                             <prop k="offset" v="0"/>
@@ -2803,7 +3184,7 @@
                             <prop k="rotate" v="0"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,592156862745098" type="marker" name="@0@0">
+                    <symbol outputUnit="MapUnit" alpha="0.592156862745098" type="marker" name="@0@0">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="85,170,0,255"/>
@@ -2842,10 +3223,10 @@
             </labelattributes>
             <edittypes>
                 <edittype type="0" name=""/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="11" name="gid"/>
                 <edittype type="5" min="0" step="1" name="hauteur" max="10"/>
@@ -2871,17 +3252,17 @@
                     <valuepair key="simple" value="simple"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
                 <alias field="annee_pose" index="8" name="année de pose"/>
                 <alias field="comments" index="7" name="commentaires"/>
-                <alias field="cree_le" index="13" name="créé le"/>
+                <alias field="cree_le" index="16" name="créé le"/>
                 <alias field="identif" index="2" name="identifiant"/>
-                <alias field="modifie_le" index="14" name="modifié le"/>
+                <alias field="modifie_le" index="17" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="15" name="saisie par"/>
+                <alias field="saisie_par" index="18" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -2889,6 +3270,7 @@
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -2901,71 +3283,6 @@
                 </factory>
                 <scalingAttribute>0</scalingAttribute>
             </overlay>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>immeubles20120325221141705</id>
-            <datasource>../COUCHES_SPANC/exemple/immeubles.shp</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>Bâtiments</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>145</srsid>
-                    <srid>2154</srid>
-                    <authid>EPSG:2154</authid>
-                    <description>RGF93 / Lambert-93</description>
-                    <projectionacronym>lcc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
-                        <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="191,215,96,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
-                            <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
-                            <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>identific</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Étiquette"/>
-                <family fieldname="" name="Century Schoolbook L"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="1"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>immeubles20120621001247872</id>
@@ -2997,8 +3314,8 @@
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="170,170,255,255"/>
-                            <prop k="color_border" v="85,170,255,255"/>
+                            <prop k="color" v="180,180,180,255"/>
+                            <prop k="color_border" v="140,140,140,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
@@ -3007,7 +3324,7 @@
                     </symbol>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="170,170,255,255"/>
+                            <prop k="color" v="140,140,140,255"/>
                             <prop k="color_border" v="170,170,255,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="diagonal_x"/>
@@ -3017,7 +3334,7 @@
                     </symbol>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="170,170,255,255"/>
+                            <prop k="color" v="190,190,142,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -3121,12 +3438,12 @@
             </labelattributes>
             <edittypes>
                 <edittype type="5" min="1800" step="5" name="an_construction" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
                 <edittype type="5" min="1800" step="5" name="an_rehabilitation" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
                 <edittype type="13" name="date_acte_authentique"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="10" name="gid"/>
                 <edittype type="0" name="identif"/>
@@ -3143,6 +3460,7 @@
                     <valuepair key="sur plan" value="sur plan"/>
                 </edittype>
                 <edittype type="0" name="saisie_par"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
                 <edittype type="3" name="tx_occupation">
                     <valuepair key="1 mois/an" value="1 mois/an"/>
                     <valuepair key="10 mois/an" value="10 mois/an"/>
@@ -3169,16 +3487,16 @@
                     <valuepair key="Résidence secondaire" value="Résidence secondaire"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
                 <alias field="comments" index="11" name="commentaires"/>
-                <alias field="cree_le" index="15" name="créé le"/>
+                <alias field="cree_le" index="17" name="créé le"/>
                 <alias field="identif" index="4" name="identifiant"/>
-                <alias field="modifie_le" index="16" name="modifié le"/>
+                <alias field="modifie_le" index="18" name="modifié le"/>
                 <alias field="refdoss" index="3" name="référence dossier"/>
-                <alias field="saisie_par" index="17" name="saisie par"/>
+                <alias field="saisie_par" index="19" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
@@ -3186,6 +3504,7 @@
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
                 <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -3204,7 +3523,7 @@
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=MULTIPOLYGON table="spanc"."infiltrations" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>infiltrations</layername>
+            <layername>zones infiltrations</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -3337,8 +3656,8 @@
                     <prop k="color2" v="1,108,89,255"/>
                     <prop k="stops" v="0.25;189,201,225,255:0.5;103,169,207,255:0.75;28,144,153,255"/>
                 </colorramp>
-                <rotation field=""/>
-                <sizescale field=""/>
+                <rotation field="angle"/>
+                <sizescale field="taille"/>
             </renderer-v2>
             <customproperties/>
             <displayfield>surface</displayfield>
@@ -3374,10 +3693,10 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -3455,18 +3774,19 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="14" name="accessibilité"/>
+                <alias field="accessibilite" index="15" name="accessibilité"/>
                 <alias field="annee_pose" index="11" name="année de pose"/>
                 <alias field="comments" index="9" name="commentaires"/>
-                <alias field="cree_le" index="21" name="créé le"/>
-                <alias field="ecoulement" index="18" name="écoulement"/>
+                <alias field="cree_le" index="24" name="créé le"/>
+                <alias field="desaffecte_le" index="12" name="désaffecté le"/>
+                <alias field="ecoulement" index="19" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="15" name="intégrité"/>
-                <alias field="modifie_le" index="22" name="modifié le"/>
-                <alias field="proprete" index="16" name="propreté"/>
+                <alias field="integrite" index="16" name="intégrité"/>
+                <alias field="modifie_le" index="25" name="modifié le"/>
+                <alias field="proprete" index="17" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="23" name="saisie par"/>
-                <alias field="securite" index="17" name="sécurité"/>
+                <alias field="saisie_par" index="26" name="saisie par"/>
+                <alias field="securite" index="18" name="sécurité"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -3474,7 +3794,7 @@
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
-                <actionsetting action="http://www.google.it/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -3537,7 +3857,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,4980392156862745" type="marker" name="2">
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="marker" name="2">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="140,140,140,255"/>
@@ -3603,32 +3923,31 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
-                <edittype type="11" name="gid"/>
+                <edittype type="13" name="date_chgt"/>
+                <edittype type="10" name="gid"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="10" name="modifie_le"/>
-                <edittype allowNull="false" orderByValue="true" key="refdoss" layer="dossiers20120603150709927" type="15" value="refdoss" name="refdoss"/>
+                <edittype type="0" name="refdoss"/>
                 <edittype type="0" name="saisie_par"/>
-                <edittype type="3" name="type_installations">
-                    <valuepair key="archivée" value="archivée"/>
-                    <valuepair key="existante" value="existante"/>
-                    <valuepair key="ghost" value="ghost"/>
-                    <valuepair key="projet" value="projet"/>
-                </edittype>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
+                <edittype type="4" name="type_installations"/>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="cree_le" index="5" name="créée le"/>
+                <alias field="cree_le" index="8" name="créée le"/>
+                <alias field="date_chgt" index="4" name="date changement d'état"/>
                 <alias field="identif" index="2" name="identifiant"/>
-                <alias field="modifie_le" index="6" name="modifiée le"/>
+                <alias field="modifie_le" index="9" name="modifiée le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="7" name="saisie par"/>
+                <alias field="saisie_par" index="10" name="saisie par"/>
             </aliases>
             <attributeactions>
-                <actionsetting action="QtGui.QMessageBox.information(None, &quot;clé GID&quot;, &quot;la clé gid est [% $id %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;clé GID&quot;, &quot;la clé gid est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -3647,7 +3966,7 @@
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."origines" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>origines</layername>
+            <layername>origines des eaux</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -3808,7 +4127,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="REFDOSS"/>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
@@ -3826,7 +4144,6 @@
                 <edittype type="0" name="identif"/>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="8" name="photo"/>
-                <edittype type="0" name="photo1"/>
                 <edittype type="0" name="refdoss"/>
                 <edittype type="3" name="renseignements">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -3848,7 +4165,7 @@
                 <edittype type="4" name="typ_origin"/>
                 <edittype type="4" name="typ_origine"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
@@ -3881,73 +4198,6 @@
                 <scalingAttribute>0</scalingAttribute>
             </overlay>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>parcelles_lignes20120911213547927</id>
-            <datasource>../COUCHES_SPANC/exemple/parcelles_lignes.shp</datasource>
-            <title></title>
-            <abstract></abstract>
-            <layername>parcelles_lignes</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>145</srsid>
-                    <srid>2154</srid>
-                    <authid>EPSG:2154</authid>
-                    <description>RGF93 / Lambert-93</description>
-                    <projectionacronym>lcc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="System">ogr</provider>
-            <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
-                <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
-                        <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="square"/>
-                            <prop k="color" v="120,133,166,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="joinstyle" v="bevel"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="penstyle" v="solid"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.26"/>
-                        </layer>
-                    </symbol>
-                </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
-            </renderer-v2>
-            <customproperties/>
-            <displayfield>REFDOSS</displayfield>
-            <label>0</label>
-            <labelattributes>
-                <label fieldname="" text="Étiquette"/>
-                <family fieldname="" name="Droid Sans"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
-                <bufferenabled fieldname="" on=""/>
-                <multilineenabled fieldname="" on=""/>
-                <selectedonly on=""/>
-            </labelattributes>
-            <editform>.</editform>
-            <editforminit></editforminit>
-            <annotationform>.</annotationform>
-            <attributeactions/>
-        </maplayer>
         <maplayer minimumScale="0" maximumScale="500" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>pentes20120526210159181</id>
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 table="spanc"."pentes" (the_geom) sql=</datasource>
@@ -3979,7 +4229,7 @@
                     <range symbol="5" lower="20" upper="100" label="5 à 10%"/>
                 </ranges>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="0,6980392156862745" type="line" name="0">
+                    <symbol outputUnit="MM" alpha="0.6980392156862745" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -3997,7 +4247,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6901960784313725" type="line" name="1">
+                    <symbol outputUnit="MM" alpha="0.6901960784313725" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4015,7 +4265,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6941176470588235" type="line" name="2">
+                    <symbol outputUnit="MM" alpha="0.6941176470588235" type="line" name="2">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4033,7 +4283,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6941176470588235" type="line" name="3">
+                    <symbol outputUnit="MM" alpha="0.6941176470588235" type="line" name="3">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4051,7 +4301,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6980392156862745" type="line" name="4">
+                    <symbol outputUnit="MM" alpha="0.6980392156862745" type="line" name="4">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4069,7 +4319,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,796078431372549" type="line" name="5">
+                    <symbol outputUnit="MM" alpha="0.796078431372549" type="line" name="5">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="flat"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4087,7 +4337,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6980392156862745" type="marker" name="@0@1">
+                    <symbol outputUnit="MM" alpha="0.6980392156862745" type="marker" name="@0@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4097,7 +4347,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6901960784313725" type="marker" name="@1@1">
+                    <symbol outputUnit="MM" alpha="0.6901960784313725" type="marker" name="@1@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4107,7 +4357,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6941176470588235" type="marker" name="@2@1">
+                    <symbol outputUnit="MM" alpha="0.6941176470588235" type="marker" name="@2@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="121,121,150,255"/>
@@ -4117,7 +4367,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6941176470588235" type="marker" name="@3@1">
+                    <symbol outputUnit="MM" alpha="0.6941176470588235" type="marker" name="@3@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="46,47,51,255"/>
@@ -4127,7 +4377,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,6980392156862745" type="marker" name="@4@1">
+                    <symbol outputUnit="MM" alpha="0.6980392156862745" type="marker" name="@4@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="32,137,48,255"/>
@@ -4137,7 +4387,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,796078431372549" type="marker" name="@5@1">
+                    <symbol outputUnit="MM" alpha="0.796078431372549" type="marker" name="@5@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -4216,8 +4466,7 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="REFDOSS"/>
-                <edittype type="0" name="angle"/>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
                 <edittype type="11" name="gid"/>
@@ -4236,16 +4485,17 @@
                 </edittype>
                 <edittype type="0" name="saisie"/>
                 <edittype type="0" name="saisie_par"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
                 <alias field="comments" index="4" name="commentaire"/>
-                <alias field="cree_le" index="6" name="créé le"/>
-                <alias field="modifie_le" index="7" name="modifié le"/>
+                <alias field="cree_le" index="8" name="créé le"/>
+                <alias field="modifie_le" index="9" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="8" name="saisie par"/>
+                <alias field="saisie_par" index="10" name="saisie par"/>
             </aliases>
             <attributeactions/>
             <overlay display="false" type="diagram">
@@ -4421,22 +4671,18 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="REFDOSS"/>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
                 <edittype type="0" name="bati_id"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
-                <edittype unchecked="0" type="7" checked="1" name="est_PP"/>
                 <edittype unchecked="0" type="7" checked="1" name="est_pp"/>
-                <edittype type="5" min="0" step="1" name="etage" max="20"/>
-                <edittype unchecked="0" type="7" checked="1" name="genere_EU"/>
+                <edittype type="0" name="etage"/>
                 <edittype unchecked="0" type="7" checked="1" name="genere_eu"/>
                 <edittype type="11" name="gid"/>
                 <edittype type="0" name="identif"/>
-                <edittype allowNull="false" orderByValue="true" key="gid" layer="immeubles20120621001247872" type="15" value="gid" name="immeuble_gid"/>
+                <edittype type="0" name="immeuble_gid"/>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="0" name="nom"/>
-                <edittype type="8" name="photo1"/>
                 <edittype type="3" name="piece">
                     <valuepair key="WC" value="WC"/>
                     <valuepair key="annexe" value="annexe"/>
@@ -4458,24 +4704,7 @@
                     <valuepair key="salon-séjour" value="salon-séjour"/>
                     <valuepair key="séjour" value="séjour"/>
                 </edittype>
-                <edittype type="3" name="pieces">
-                    <valuepair key="Annexe" value="Annexe"/>
-                    <valuepair key="Bureau" value="Bureau"/>
-                    <valuepair key="Chambre" value="Chambre"/>
-                    <valuepair key="Divers" value="Divers"/>
-                    <valuepair key="Garage" value="Garage"/>
-                    <valuepair key="Grenier" value="Grenier"/>
-                    <valuepair key="Mezzanine" value="Mezzanine"/>
-                    <valuepair key="Salle d'eau" value="Salle d'eau"/>
-                    <valuepair key="Salle de bains" value="Salle de bains"/>
-                    <valuepair key="Salle de jeux" value="Salle de jeux"/>
-                    <valuepair key="Salon" value="Salon"/>
-                    <valuepair key="Salon-séjour" value="Salon-séjour"/>
-                    <valuepair key="Séjour" value="Séjour"/>
-                    <valuepair key="WC" value="WC"/>
-                    <valuepair key="autre" value="autre"/>
-                </edittype>
-                <edittype allowNull="false" orderByValue="true" key="refdoss" layer="dossiers20120603150709927" type="15" value="refdoss" name="refdoss"/>
+                <edittype type="0" name="refdoss"/>
                 <edittype type="3" name="renseignements">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
                     <valuepair key="sur déclaration" value="sur déclaration"/>
@@ -4488,7 +4717,7 @@
                 <edittype type="0" name="surface"/>
                 <edittype type="5" min="1" step="1" name="taille" max="100"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
@@ -4535,6 +4764,7 @@
                     <category symbol="1" value="eaux traitées" label="eaux traitées"/>
                     <category symbol="2" value="eaux prétaitées" label="eaux prétaitées"/>
                     <category symbol="3" value="" label=""/>
+                    <category symbol="4" value="eaux pluviales" label="eaux pluviales"/>
                 </categories>
                 <symbols>
                     <symbol outputUnit="MapUnit" alpha="1" type="marker" name="0">
@@ -4605,6 +4835,17 @@
                             <prop k="size" v="1"/>
                         </layer>
                     </symbol>
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="4">
+                        <layer pass="0" class="SvgMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="fill" v="#000000"/>
+                            <prop k="name" v="/pompes/pompe1.svg"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="outline" v="#000000"/>
+                            <prop k="outline-width" v="1"/>
+                            <prop k="size" v="1"/>
+                        </layer>
+                    </symbol>
                 </symbols>
                 <source-symbol>
                     <symbol outputUnit="MM" alpha="1" type="marker" name="0">
@@ -4661,11 +4902,11 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="caract_pompe"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -4697,8 +4938,6 @@
                 <edittype type="0" name="largeur"/>
                 <edittype type="0" name="longueur"/>
                 <edittype type="0" name="marq_bache"/>
-                <edittype type="0" name="marq_constructeur"/>
-                <edittype type="0" name="marques"/>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="5" min="1" step="1" name="nb_pompe" max="4"/>
                 <edittype type="8" name="photo"/>
@@ -4745,18 +4984,21 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="15" name="accessibilité"/>
+                <alias field="accessibilite" index="16" name="accessibilité"/>
                 <alias field="annee_pose" index="12" name="année de pose"/>
                 <alias field="comments" index="11" name="commentaires"/>
-                <alias field="cree_le" index="24" name="créé le"/>
-                <alias field="ecoulement" index="19" name="écoulement"/>
+                <alias field="cree_le" index="25" name="créé le"/>
+                <alias field="desaffecte_le" index="13" name="désaffecté le"/>
+                <alias field="ecoulement" index="20" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="16" name="intégrité"/>
-                <alias field="modifie_le" index="25" name="modifié le"/>
-                <alias field="proprete" index="17" name="propreté"/>
+                <alias field="integrite" index="17" name="intégrité"/>
+                <alias field="marq_bache" index="5" name="marque"/>
+                <alias field="modifie_le" index="26" name="modifié le"/>
+                <alias field="proprete" index="18" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="26" name="saisie par"/>
-                <alias field="securite" index="18" name="sécurité"/>
+                <alias field="saisie_par" index="27" name="saisie par"/>
+                <alias field="securite" index="19" name="sécurité"/>
+                <alias field="volume_bache" index="6" name="volume"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -5182,10 +5424,10 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -5254,7 +5496,7 @@
                     <valuepair key="présence de flottants anormaux" value="présence de flottants anormaux"/>
                     <valuepair key="sans objet" value="sans objet"/>
                 </edittype>
-                <edittype allowNull="false" orderByValue="true" key="refdoss" layer="dossiers20120603150709927" type="15" value="refdoss" name="refdoss"/>
+                <edittype type="0" name="refdoss"/>
                 <edittype type="3" name="renseignements">
                     <valuepair key="inconnu" value="inconnu"/>
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -5311,18 +5553,18 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="14" name="accessibilité"/>
+                <alias field="accessibilite" index="15" name="accessibilité"/>
                 <alias field="annee_pose" index="11" name="année de pose"/>
                 <alias field="comments" index="9" name="commentaires"/>
-                <alias field="cree_le" index="26" name="créé le"/>
-                <alias field="ecoulement" index="18" name="écoulement"/>
+                <alias field="cree_le" index="27" name="créé le"/>
+                <alias field="ecoulement" index="19" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="15" name="intégrité"/>
-                <alias field="modifie_le" index="27" name="modifié le"/>
-                <alias field="proprete" index="16" name="propreté"/>
+                <alias field="integrite" index="16" name="intégrité"/>
+                <alias field="modifie_le" index="28" name="modifié le"/>
+                <alias field="proprete" index="17" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="28" name="saisie par"/>
-                <alias field="securite" index="17" name="sécurité"/>
+                <alias field="saisie_par" index="29" name="saisie par"/>
+                <alias field="securite" index="18" name="sécurité"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -5422,7 +5664,7 @@
                             <prop k="size" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,1921568627450981" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" alpha="0.1921568627450981" type="marker" name="1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,255,127,255"/>
@@ -5432,7 +5674,7 @@
                             <prop k="size" v="35"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,196078431372549" type="marker" name="10">
+                    <symbol outputUnit="MapUnit" alpha="0.196078431372549" type="marker" name="10">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -5527,7 +5769,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,196078431372549" type="marker" name="19">
+                    <symbol outputUnit="MapUnit" alpha="0.196078431372549" type="marker" name="19">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,255,127,255"/>
@@ -5632,7 +5874,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,1921568627450981" type="marker" name="28">
+                    <symbol outputUnit="MapUnit" alpha="0.1921568627450981" type="marker" name="28">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,255,255,255"/>
@@ -5828,8 +6070,7 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
                 <edittype type="0" name="date_haut_nappe"/>
@@ -5839,6 +6080,7 @@
                     <valuepair key="oui" value="oui"/>
                 </edittype>
                 <edittype unchecked="0" type="7" checked="1" name="declare"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -5927,11 +6169,11 @@
             <aliases>
                 <alias field="annee_pose" index="13" name="année de pose"/>
                 <alias field="comments" index="12" name="commentaires"/>
-                <alias field="cree_le" index="19" name="créé le"/>
+                <alias field="cree_le" index="20" name="créé le"/>
                 <alias field="identif" index="2" name="identifiant"/>
-                <alias field="modifie_le" index="20" name="modifié le"/>
+                <alias field="modifie_le" index="21" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="21" name="saisie par"/>
+                <alias field="saisie_par" index="22" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -5958,7 +6200,7 @@
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."puits_dispersion" (the_geom) sql=</datasource>
             <title>puits de dispersion</title>
             <abstract>données SPANCMAN</abstract>
-            <layername>puits_dispersion</layername>
+            <layername>puits de dispersion</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -6394,11 +6636,11 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype unchecked="non" type="7" checked="oui" name="autorisation"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -6430,8 +6672,6 @@
                 <edittype type="0" name="longueur"/>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="8" name="photo"/>
-                <edittype type="8" name="photo1"/>
-                <edittype type="0" name="photo2"/>
                 <edittype type="0" name="poseur"/>
                 <edittype type="0" name="profondeur"/>
                 <edittype type="3" name="proprete">
@@ -6464,7 +6704,7 @@
                     <valuepair key="risques faibles" value="risques faibles"/>
                     <valuepair key="sécurisé" value="sécurisé"/>
                 </edittype>
-                <edittype type="0" name="taille"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
                 <edittype type="3" name="typ_dispr">
                     <valuepair key="destination inconnue" value="destination inconnue"/>
                     <valuepair key="inconnu" value="inconnu"/>
@@ -6477,18 +6717,18 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="11" name="accessibilité"/>
+                <alias field="accessibilite" index="12" name="accessibilité"/>
                 <alias field="annee_pose" index="8" name="année de pose"/>
                 <alias field="comments" index="7" name="commentaires"/>
-                <alias field="cree_le" index="23" name="créé le"/>
-                <alias field="ecoulement" index="15" name="écoulement"/>
+                <alias field="cree_le" index="24" name="créé le"/>
+                <alias field="ecoulement" index="16" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="12" name="intégrité"/>
-                <alias field="modifie_le" index="24" name="modifié le"/>
-                <alias field="proprete" index="13" name="propreté"/>
+                <alias field="integrite" index="13" name="intégrité"/>
+                <alias field="modifie_le" index="25" name="modifié le"/>
+                <alias field="proprete" index="14" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="25" name="saisie par"/>
-                <alias field="securite" index="14" name="sécurité"/>
+                <alias field="saisie_par" index="26" name="saisie par"/>
+                <alias field="securite" index="15" name="sécurité"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -6816,10 +7056,10 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -6857,7 +7097,22 @@
                 <edittype type="0" name="longueur"/>
                 <edittype type="0" name="marq_constructeur"/>
                 <edittype type="0" name="marques"/>
-                <edittype type="0" name="materiau"/>
+                <edittype type="3" name="materiau">
+                    <valuepair key="PE" value="PE"/>
+                    <valuepair key="PEBD" value="PEBD"/>
+                    <valuepair key="PEHD" value="PEHD"/>
+                    <valuepair key="PRV" value="PRV"/>
+                    <valuepair key="PVC" value="PVC"/>
+                    <valuepair key="acier" value="acier"/>
+                    <valuepair key="amiante-ciment" value="amiante-ciment"/>
+                    <valuepair key="autre" value="autre"/>
+                    <valuepair key="béton" value="béton"/>
+                    <valuepair key="composite (assemblage)" value="composite"/>
+                    <valuepair key="fonte" value="fonte"/>
+                    <valuepair key="grès" value="grès"/>
+                    <valuepair key="inconnu" value="inconnu"/>
+                    <valuepair key="plastique inconnu" value="plastique"/>
+                </edittype>
                 <edittype type="3" name="materiaux">
                     <valuepair key="PE" value="PE"/>
                     <valuepair key="PEBD" value="PEBD"/>
@@ -6928,18 +7183,19 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="17" name="accessibilité"/>
+                <alias field="accessibilite" index="18" name="accessibilité"/>
                 <alias field="annee_pose" index="14" name="année de pose"/>
                 <alias field="comments" index="12" name="commentaires"/>
-                <alias field="cree_le" index="26" name="créé le"/>
-                <alias field="ecoulement" index="21" name="écoulement"/>
+                <alias field="cree_le" index="27" name="créé le"/>
+                <alias field="ecoulement" index="22" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="18" name="intégrité"/>
-                <alias field="modifie_le" index="27" name="modifié le"/>
-                <alias field="proprete" index="19" name="propreté"/>
+                <alias field="integrite" index="19" name="intégrité"/>
+                <alias field="modifie_le" index="28" name="modifié le"/>
+                <alias field="proprete" index="20" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="28" name="saisie par"/>
-                <alias field="securite" index="20" name="sécurité"/>
+                <alias field="saisie_par" index="29" name="saisie par"/>
+                <alias field="securite" index="21" name="sécurité"/>
+                <alias field="typ_regard" index="4" name="type de regard"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -7071,8 +7327,7 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="3" name="autorisation">
                     <valuepair key="inconnue" value="inconnue"/>
                     <valuepair key="non" value="non"/>
@@ -7080,6 +7335,7 @@
                 </edittype>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -7164,18 +7420,19 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="12" name="accessibilité"/>
+                <alias field="accessibilite" index="13" name="accessibilité"/>
                 <alias field="annee_pose" index="9" name="année de pose"/>
                 <alias field="comments" index="7" name="commentaires"/>
-                <alias field="cree_le" index="22" name="créé le"/>
-                <alias field="ecoulement" index="16" name="écoulement"/>
+                <alias field="cree_le" index="23" name="créé le"/>
+                <alias field="desaffecte_le" index="10" name="désaffecté le"/>
+                <alias field="ecoulement" index="17" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="13" name="intégrité"/>
-                <alias field="modifie_le" index="23" name="modifié le"/>
-                <alias field="proprete" index="14" name="propreté"/>
+                <alias field="integrite" index="14" name="intégrité"/>
+                <alias field="modifie_le" index="24" name="modifié le"/>
+                <alias field="proprete" index="15" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="24" name="saisie par"/>
-                <alias field="securite" index="15" name="sécurité"/>
+                <alias field="saisie_par" index="25" name="saisie par"/>
+                <alias field="securite" index="16" name="sécurité"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -7220,7 +7477,7 @@
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
-                    <symbol outputUnit="MM" alpha="0,8941176470588236" type="marker" name="0">
+                    <symbol outputUnit="MM" alpha="0.8941176470588236" type="marker" name="0">
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
@@ -7232,8 +7489,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
+                <rotation field="angle"/>
+                <sizescale field="taille"/>
             </renderer-v2>
             <customproperties/>
             <displayfield>gid</displayfield>
@@ -7272,8 +7529,6 @@
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="0" name="nappe"/>
                 <edittype type="8" name="photo"/>
-                <edittype type="8" name="photo1"/>
-                <edittype type="8" name="photo2"/>
                 <edittype type="0" name="profondeur"/>
                 <edittype type="0" name="refdoss"/>
                 <edittype type="3" name="renseignements">
@@ -7286,7 +7541,7 @@
                 </edittype>
                 <edittype type="0" name="saisie_par"/>
                 <edittype type="8" name="scan_doc"/>
-                <edittype type="0" name="taille"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
                 <edittype type="3" name="type_sondage">
                     <valuepair key="cavité naturelle" value="cavité naturelle"/>
                     <valuepair key="tariere" value="tariere"/>
@@ -7301,7 +7556,7 @@
                 <alias field="hydromorphie" index="8" name="hauteur hydromorphie"/>
                 <alias field="identif" index="2" name="identifiant"/>
                 <alias field="nappe" index="9" name="hauteur nappe"/>
-                <alias field="profondeur" index="7" name="prof atteinte"/>
+                <alias field="profondeur" index="7" name="prof. atteinte"/>
             </aliases>
             <attributeactions/>
             <overlay display="false" type="diagram">
@@ -7321,7 +7576,7 @@
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=MULTIPOLYGON table="spanc"."surfaces_terrain" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>surfaces_terrain</layername>
+            <layername>occupation terrain</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -7358,7 +7613,7 @@
                     <category symbol="16" value="mare/plan d'eau" label="mare/plan d'eau"/>
                 </categories>
                 <symbols>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="0">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="228,26,28,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7368,7 +7623,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="1">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="1">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="170,170,255,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7378,7 +7633,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="10">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="10">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,85,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7388,7 +7643,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="11">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="11">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="0,85,255,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7398,7 +7653,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="12">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="12">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,255,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7408,7 +7663,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="13">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="13">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,85,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7418,7 +7673,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4980392156862745" type="fill" name="14">
+                    <symbol outputUnit="MapUnit" alpha="0.4980392156862745" type="fill" name="14">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="255,85,0,127"/>
                             <prop k="color_border" v="0,0,0,127"/>
@@ -7428,7 +7683,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4901960784313725" type="fill" name="15">
+                    <symbol outputUnit="MapUnit" alpha="0.4901960784313725" type="fill" name="15">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="0,0,255,125"/>
                             <prop k="color_border" v="0,170,255,125"/>
@@ -7438,7 +7693,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="0,4980392156862745" type="fill" name="16">
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="16">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="0,0,255,127"/>
                             <prop k="color_border" v="85,255,127,127"/>
@@ -7448,7 +7703,7 @@
                             <prop k="width_border" v="0.2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="2">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="2">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="55,126,184,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7458,7 +7713,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="3">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="3">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="0,85,255,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7468,7 +7723,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="4">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="4">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="85,0,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7478,7 +7733,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="5">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="5">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="170,0,255,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7488,7 +7743,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="6">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="6">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="0,170,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7498,7 +7753,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="7">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="7">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="170,85,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7508,7 +7763,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="8">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="8">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="170,85,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7518,7 +7773,7 @@
                             <prop k="width_border" v="0.26"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="9">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="9">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="170,85,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7530,7 +7785,7 @@
                     </symbol>
                 </symbols>
                 <source-symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="fill" name="0">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="0,0,0,126"/>
                             <prop k="color_border" v="0,0,0,126"/>
@@ -7617,28 +7872,42 @@
                 <angle fieldname="" value="0" auto="0"/>
                 <alignment fieldname="" value="center"/>
                 <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="0,5"/>
+                <buffersize fieldname="" units="pt" value="0.5"/>
                 <bufferenabled fieldname="" on=""/>
                 <multilineenabled fieldname="" on="1"/>
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="ACCESSIBLE"/>
-                <edittype type="0" name="ANGLE"/>
-                                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="12" name="COMMENTS"/>
-                <edittype type="13" name="CREE_LE"/>
-                <edittype type="0" name="ECOULEMENT"/>
-                <edittype type="0" name="IDENT"/>
-                <edittype type="0" name="INTEGRITE"/>
-                <edittype type="0" name="MARQ_CONST"/>
-                <edittype type="13" name="MODIFIE_LE"/>
-                <edittype type="8" name="PHOTO1"/>
-                <edittype type="0" name="PROPRETE"/>
-                <edittype type="0" name="REFDOSS"/>
-                <edittype type="0" name="SAISIE_PAR"/>
-                <edittype type="0" name="SECURITE"/>
-                <edittype type="3" name="TYP_SURFACE">
+                <edittype type="0" name="accessibilite"/>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
+                <edittype type="13" name="annee_pose"/>
+                <edittype type="12" name="comments"/>
+                <edittype type="10" name="cree_le"/>
+                <edittype type="8" name="docu2"/>
+                <edittype type="0" name="ecoulement"/>
+                <edittype type="11" name="gid"/>
+                <edittype type="0" name="ident"/>
+                <edittype type="0" name="identif"/>
+                <edittype unchecked="non" type="7" checked="oui" name="impermeable"/>
+                <edittype type="0" name="integrite"/>
+                <edittype type="0" name="marq_const"/>
+                <edittype type="10" name="modifie_le"/>
+                <edittype type="8" name="photo"/>
+                <edittype type="0" name="proprete"/>
+                <edittype type="0" name="refdoss"/>
+                <edittype type="3" name="renseignements">
+                    <valuepair key="sur document(s)" value="sur document(s)"/>
+                    <valuepair key="sur déclaration" value="sur déclaration"/>
+                    <valuepair key="sur facture" value="sur facture"/>
+                    <valuepair key="sur observations/mesures" value="sur observations/mesures"/>
+                    <valuepair key="sur photo" value="sur photo"/>
+                    <valuepair key="sur plan" value="sur plan"/>
+                </edittype>
+                <edittype type="0" name="saisie_par"/>
+                <edittype type="0" name="securite"/>
+                <edittype type="0" name="surface"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
+                <edittype type="3" name="typ_surface">
                     <valuepair key="Jardin/plantations" value="Jardin/plantations"/>
                     <valuepair key="aire piéton" value="aire piéton"/>
                     <valuepair key="autre" value="autre"/>
@@ -7656,37 +7925,18 @@
                     <valuepair key="terrasse" value="terrasse"/>
                     <valuepair key="à préserver" value="à préserver"/>
                 </edittype>
-                <edittype type="12" name="comments"/>
-                <edittype type="10" name="cree_le"/>
-                <edittype type="8" name="docu2"/>
-                <edittype type="11" name="gid"/>
-                <edittype type="0" name="identif"/>
-                <edittype unchecked="non" type="7" checked="oui" name="impermeable"/>
-                <edittype type="10" name="modifie_le"/>
-                <edittype type="8" name="photo"/>
-                <edittype type="0" name="refdoss"/>
-                <edittype type="3" name="renseignements">
-                    <valuepair key="sur document(s)" value="sur document(s)"/>
-                    <valuepair key="sur déclaration" value="sur déclaration"/>
-                    <valuepair key="sur facture" value="sur facture"/>
-                    <valuepair key="sur observations/mesures" value="sur observations/mesures"/>
-                    <valuepair key="sur photo" value="sur photo"/>
-                    <valuepair key="sur plan" value="sur plan"/>
-                </edittype>
-                <edittype type="0" name="saisie_par"/>
-                <edittype type="0" name="surface"/>
                 <edittype type="4" name="type_surface"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
                 <alias field="comments" index="6" name="commentaires"/>
-                <alias field="cree_le" index="10" name="créé le"/>
+                <alias field="cree_le" index="11" name="créé le"/>
                 <alias field="identif" index="2" name="identifiant"/>
-                <alias field="modifie_le" index="11" name="modifié le"/>
+                <alias field="modifie_le" index="12" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="12" name="saisie par"/>
+                <alias field="saisie_par" index="13" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -7694,6 +7944,7 @@
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
             </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -7712,7 +7963,7 @@
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."traitements_classiks" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>traitements_classiks</layername>
+            <layername>traitements classiques</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -7744,7 +7995,7 @@
                     <category symbol="11" value="" label=""/>
                 </categories>
                 <symbols>
-                    <symbol outputUnit="MapUnit" alpha="0,4980392156862745" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" alpha="0.4980392156862745" type="marker" name="0">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -7771,7 +8022,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="1">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="1">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -7798,7 +8049,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="10">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="10">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="210,210,210,255"/>
@@ -7825,7 +8076,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="11">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="11">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -7843,7 +8094,7 @@
                             <prop k="width_field" v="largeur"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="2">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="2">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -7870,7 +8121,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="3">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="3">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -7897,7 +8148,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="4">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="4">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="150,150,150,255"/>
@@ -7923,7 +8174,7 @@
                             <prop k="size" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="5">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="5">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="190,190,190,255"/>
@@ -7950,7 +8201,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="6">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="6">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="140,140,140,255"/>
@@ -7968,7 +8219,7 @@
                             <prop k="width_field" v="largeur"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="7">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="7">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -7995,7 +8246,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="8">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="8">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -8022,7 +8273,7 @@
                             <prop k="size" v="2"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="9">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="9">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="212,212,212,255"/>
@@ -8051,7 +8302,7 @@
                     </symbol>
                 </symbols>
                 <source-symbol>
-                    <symbol outputUnit="MapUnit" alpha="0,4941176470588236" type="marker" name="0">
+                    <symbol outputUnit="MapUnit" alpha="0.4941176470588236" type="marker" name="0">
                         <layer pass="0" class="EllipseMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill_color" v="255,170,127,255"/>
@@ -8081,8 +8332,9 @@
             <customproperties/>
             <displayfield>surface</displayfield>
             <label>0</label>
+            <labelfield>typ_traitt</labelfield>
             <labelattributes>
-                <label fieldname="" text="Étiquette"/>
+                <label fieldname="typ_traitt" text="non renseigné"/>
                 <family fieldname="" name="Century Schoolbook L"/>
                 <size fieldname="" units="pt" value="12"/>
                 <bold fieldname="" on="0"/>
@@ -8102,7 +8354,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="refdoss"/>
                 <edittype type="3" name="accessibilite">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -8113,9 +8364,10 @@
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="desaffecte_le"/>
                 <edittype type="0" name="details"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="12" name="détails"/>
@@ -8148,7 +8400,6 @@
                 <edittype type="5" min="1" step="5" name="longueur" max="100"/>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="8" name="photo"/>
-                <edittype type="8" name="photo1"/>
                 <edittype type="0" name="poseur"/>
                 <edittype type="5" min="0" step="0.1" name="profondeur" max="5"/>
                 <edittype type="3" name="proprete">
@@ -8180,6 +8431,7 @@
                     <valuepair key="sécurisé" value="sécurisé"/>
                 </edittype>
                 <edittype type="5" min="0" step="5" name="surface" max="500"/>
+                <edittype type="0" name="taille"/>
                 <edittype type="3" name="typ_traitt">
                     <valuepair key="filtre horizontal" value="filtre horizontal"/>
                     <valuepair key="filtre à sable drainé étanche" value="filtre à sable drainé étanche"/>
@@ -8199,18 +8451,18 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="15" name="accessibilité"/>
+                <alias field="accessibilite" index="16" name="accessibilité"/>
                 <alias field="annee_pose" index="12" name="année de pose"/>
                 <alias field="comments" index="11" name="commentaires"/>
-                <alias field="cree_le" index="22" name="créé le"/>
-                <alias field="ecoulement" index="19" name="écoulement"/>
+                <alias field="cree_le" index="24" name="créé le"/>
+                <alias field="ecoulement" index="20" name="écoulement"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="16" name="intégrité"/>
-                <alias field="modifie_le" index="23" name="modifié le"/>
-                <alias field="proprete" index="17" name="propreté"/>
+                <alias field="integrite" index="17" name="intégrité"/>
+                <alias field="modifie_le" index="25" name="modifié le"/>
+                <alias field="proprete" index="18" name="propreté"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="24" name="saisie par"/>
-                <alias field="securite" index="18" name="sécurité"/>
+                <alias field="saisie_par" index="26" name="saisie par"/>
+                <alias field="securite" index="19" name="sécurité"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
@@ -8468,7 +8720,7 @@
                     <prop k="color2" v="63,0,125,255"/>
                     <prop k="stops" v="0.13;239,237,245,255:0.26;218,218,235,255:0.39;188,189,220,255:0.52;158,154,200,255:0.65;128,125,186,255:0.75;106,81,163,255:0.9;84,39,143,255"/>
                 </colorramp>
-                <rotation field=""/>
+                <rotation field="angle"/>
                 <sizescale field="taille"/>
             </renderer-v2>
             <customproperties/>
@@ -8495,7 +8747,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="refdoss"/>
                 <edittype type="3" name="accessibilite">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -8505,17 +8756,17 @@
                     <valuepair key="engin nécessaire" value="engin nécessaire"/>
                     <valuepair key="non renseigné" value="non renseigné"/>
                 </edittype>
-                <edittype type="0" name="angle"/>
-                <edittype type="5" min="1800" step="5" name="annee_pose" max="2100"/>
-                <edittype type="5" min="1800" step="5" name="desaffecte_le" max="2100"/>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
+                <edittype type="13" name="annee_pose"/>
+                <edittype type="0" name="comments"/>
                 <edittype type="13" name="cree_le"/>
-                <edittype type="5" min="0" step="10" name="diametre" max="200"/>
+                <edittype type="13" name="desaffecte_le"/>
+                <edittype type="5" min="1" step="10" name="diametre" max="200"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="11" name="gid"/>
                 <edittype type="0" name="hauteur"/>
-                <edittype type="0" name="ident"/>
                 <edittype type="0" name="identif"/>
-                <edittype allowNull="false" orderByValue="true" key="refdoss" layer="installations20120617233407927" type="15" value="gid" name="install_gid"/>
+                <edittype type="0" name="install_gid"/>
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -8533,12 +8784,16 @@
                 <edittype type="13" name="modifie_le"/>
                 <edittype type="0" name="origine"/>
                 <edittype type="8" name="photo"/>
-                <edittype type="8" name="photo1"/>
                 <edittype type="0" name="poseur"/>
                 <edittype type="0" name="refdoss"/>
                 <edittype type="0" name="saisie_par"/>
                 <edittype type="5" min="1" step="1" name="taille" max="100"/>
-                <edittype type="0" name="test_fumee"/>
+                <edittype type="3" name="test_fumee">
+                    <valuepair key="non réalisable" value="non réalisable"/>
+                    <valuepair key="non réalisé" value="non réalisé"/>
+                    <valuepair key="négatif" value="négatif"/>
+                    <valuepair key="positif" value="positif"/>
+                </edittype>
                 <edittype unchecked="négatif" type="7" checked="positif" name="test_fumé"/>
                 <edittype type="3" name="typ_ventil">
                     <valuepair key="VMC" value="VMC"/>
@@ -8560,15 +8815,15 @@
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
-                <alias field="accessibilite" index="12" name="accessibilité"/>
-                <alias field="annee_pose" index="10" name="année de pose"/>
-                <alias field="comments" index="8" name="commentaires"/>
-                <alias field="cree_le" index="18" name="créé le"/>
+                <alias field="accessibilite" index="14" name="accessibilité"/>
+                <alias field="annee_pose" index="11" name="année de pose"/>
+                <alias field="comments" index="9" name="commentaires"/>
+                <alias field="cree_le" index="20" name="créé le"/>
                 <alias field="identif" index="3" name="identifiant"/>
-                <alias field="integrite" index="13" name="intégrité"/>
-                <alias field="modifie_le" index="19" name="modifié le"/>
+                <alias field="integrite" index="15" name="intégrité"/>
+                <alias field="modifie_le" index="21" name="modifié le"/>
                 <alias field="refdoss" index="1" name="référence dossier"/>
-                <alias field="saisie_par" index="20" name="saisie par"/>
+                <alias field="saisie_par" index="22" name="saisie par"/>
             </aliases>
             <attributeactions>
                 <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>

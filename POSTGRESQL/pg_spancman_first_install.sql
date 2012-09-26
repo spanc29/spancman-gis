@@ -4,7 +4,7 @@
 
 -- Dumped from database version 9.1.5
 -- Dumped by pg_dump version 9.1.5
--- Started on 2012-09-17 00:09:01 CEST
+-- Started on 2012-09-17 00:00:00 CEST
 
 SET statement_timeout = 0;
 SET client_encoding = 'UTF8';
@@ -340,6 +340,8 @@ CREATE TABLE "canalisations" (
     "annee_pose" date,
     "desaffecte_le" date DEFAULT '2100-12-31',
     "poseur" character varying(80),
+    "renseignements" character varying(80),
+    "accessibilite" character varying(80),
     "integrite" character varying(80),
     "proprete" character varying(80),
     "ecoulement" character varying(80),
@@ -440,8 +442,8 @@ CREATE TABLE "cont_conceptions" (
     "etude_pedol" boolean,
     "obs_etude_pedol" character varying(255),
     "conclusion" character varying(12) DEFAULT 'conforme'::character varying NOT NULL,
-    "document1" character varying(200),
-    "document2" character varying(200),
+    "document1" character varying(250),
+    "document2" character varying(250),
     "comments" text,
     "comments_interne" text,
     "cree_le" timestamp without time zone,
@@ -504,8 +506,8 @@ CREATE TABLE "cont_periodiques" (
     "liste_travaux" text,
     "date_echeance" "date",
     "date_prochain_controle" "date",
-    "document1" character varying(200),
-    "document2" character varying(200),
+    "document1" character varying(250),
+    "document2" character varying(250),
     "comments" text,
     "comments_interne" text,
     "cree_le" timestamp without time zone,
@@ -559,8 +561,8 @@ CREATE TABLE "cont_realisations" (
     "conf_projet" boolean,
     "conclusion" character varying(12) DEFAULT 'conforme'::character varying NOT NULL,
     "obs_travaux" text,
-    "document1" character varying(200),
-    "document2" character varying(200),
+    "document1" character varying(250),
+    "document2" character varying(250),
     "comments" text,
     "cree_le" timestamp without time zone,
     "modifie_le" timestamp without time zone,
@@ -699,7 +701,7 @@ CREATE TABLE "filieres_agreees" (
     "marq_constructeur" character varying(80),
     "modele" character varying(80),
     "nb_eq_hab" integer DEFAULT 3,
-    "doc_constructeur" character varying(200),
+    "doc_constructeur" character varying(250),
     "typ_cuve" character varying(80),
     "comments" text,
     "annee_pose" date,
@@ -894,6 +896,7 @@ CREATE TABLE "installations" (
     "refdoss" character varying(25) NOT NULL,
     "identif" character varying(80),
     "type_installations" character varying(80),
+    "date_chgt" date,
     "comments" text,
     "angle" real,
     "taille" real DEFAULT 1,
@@ -1522,7 +1525,7 @@ CREATE TABLE "sondages" (
     "type_sondage" character varying(80),
     "date_realisation" "date",
     "bureau" character varying(80),
-    "scan_doc" character varying(200),
+    "scan_doc" character varying(250),
     "profondeur" real,
     "hydromorphie" real,
     "nappe" real,
@@ -1776,7 +1779,7 @@ CREATE TABLE "usagers" (
     "nom" character varying(200) NOT NULL,
     "adresse" text,
     "code_postal" character varying(12),
-    "ville_usagers" character varying(200),
+    "ville_usagers" character varying(250),
     "telephon1" character varying(25),
     "telephon2" character varying(25),
     "mail1" character varying(80),
@@ -1831,6 +1834,7 @@ CREATE TABLE "ventilations" (
     "origine" character varying(80),
     "test_fumee" character varying(25),
     "diametre" real DEFAULT 100,
+    "hauteur" real,
     "comments" text,
     "marq_constructeur" character varying(80),
     "annee_pose" date,
@@ -1840,7 +1844,7 @@ CREATE TABLE "ventilations" (
     "integrite" character varying(80),
     "photo" character varying(250),
     "docu2" character varying(250),
-    "hauteur" real,
+    "angle" real,
     "taille" real DEFAULT 1,
     "cree_le" timestamp without time zone,
     "modifie_le" timestamp without time zone,
@@ -3848,6 +3852,10 @@ ALTER TABLE ONLY "usagers"
 
 ALTER TABLE ONLY "ventilations"
     ADD CONSTRAINT "ventilations_install_gid_fkey" FOREIGN KEY ("install_gid") REFERENCES "installations"("gid") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+SELECT pg_catalog.setval('dossiers_gid_seq', 1, true);
+INSERT INTO dossiers (gid, refdoss, archivage, etat, comments, zrs, zaee, aut_zone, secteur, commune_id, photo, docu2, angle, taille, cree_le, modifie_le, saisie_par, the_geom) VALUES (1, '9999', '9999', 'en cours', 'dossiers par défaut', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, '2012-09-23 21:30:07', '2012-09-23 21:30:07', 'spanc29', NULL);
 
 
 -- Completed on 2012-09-17 00:09:01 CEST
