@@ -17,7 +17,7 @@
       <category symbol="11" value="" label="non renseigné"/>
     </categories>
     <symbols>
-      <symbol outputUnit="MM" alpha="1" type="line" name="0">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="0">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="0,0,0,255"/>
@@ -26,7 +26,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -35,7 +35,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="1">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="1">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="0,170,0,255"/>
@@ -44,7 +44,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -53,7 +53,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="10">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="10">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="85,0,0,255"/>
@@ -62,7 +62,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -71,7 +71,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="11">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="11">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="85,0,127,255"/>
@@ -80,16 +80,16 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
-          <prop k="interval" v="5"/>
+          <prop k="interval" v="26"/>
           <prop k="offset" v="0"/>
-          <prop k="placement" v="interval"/>
+          <prop k="placement" v="centralpoint"/>
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="2">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="2">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="85,0,0,255"/>
@@ -98,7 +98,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -107,7 +107,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="3">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="3">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="255,85,0,255"/>
@@ -116,7 +116,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -125,7 +125,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="4">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="4">
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="0,0,255,255"/>
@@ -144,7 +144,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.2"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -153,7 +153,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="5">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="5">
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="255,255,0,255"/>
@@ -162,20 +162,20 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.9"/>
+          <prop k="width" v="0.2"/>
         </layer>
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
-          <prop k="color" v="255,85,0,255"/>
+          <prop k="color" v="255,0,0,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="dot"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.15"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="6">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="6">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="85,0,0,255"/>
@@ -184,7 +184,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="dot"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="30"/>
@@ -193,7 +193,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="7">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="7">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="121,121,121,255"/>
@@ -202,10 +202,10 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="8">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="8">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="85,0,0,255"/>
@@ -214,7 +214,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -223,7 +223,7 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="line" name="9">
+      <symbol outputUnit="MapUnit" alpha="1" type="line" name="9">
         <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
           <prop k="color" v="85,0,0,255"/>
@@ -232,7 +232,7 @@
           <prop k="offset" v="0"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="0.5"/>
+          <prop k="width" v="0.1"/>
         </layer>
         <layer pass="0" class="MarkerLine" locked="0">
           <prop k="interval" v="10"/>
@@ -241,104 +241,104 @@
           <prop k="rotate" v="1"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@0@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@0@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="0,0,0,255"/>
           <prop k="color_border" v="0,0,0,255"/>
           <prop k="name" v="arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@10@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@10@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="0,255,127,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
+          <prop k="color_border" v="0,255,127,255"/>
           <prop k="name" v="filled_arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@11@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@11@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="85,0,127,255"/>
+          <prop k="color" v="0,0,0,255"/>
           <prop k="color_border" v="0,0,0,255"/>
           <prop k="name" v="arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@1@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@1@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="0,170,0,255"/>
           <prop k="color_border" v="0,170,0,255"/>
           <prop k="name" v="arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@2@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@2@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="85,0,0,255"/>
           <prop k="color_border" v="85,0,0,255"/>
           <prop k="name" v="arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@3@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@3@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="255,85,0,255"/>
           <prop k="color_border" v="255,85,0,255"/>
           <prop k="name" v="arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@4@2">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@4@2">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="255,0,0,255"/>
           <prop k="color_border" v="0,0,127,255"/>
           <prop k="name" v="arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@6@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@6@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="90"/>
           <prop k="color" v="255,0,255,255"/>
           <prop k="color_border" v="0,0,0,255"/>
           <prop k="name" v="arrow"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="3"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@8@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@8@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="170,0,255,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
+          <prop k="color_border" v="170,0,255,255"/>
           <prop k="name" v="filled_arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="2"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
-      <symbol outputUnit="MM" alpha="1" type="marker" name="@9@1">
+      <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@9@1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="85,170,255,255"/>
-          <prop k="color_border" v="0,0,0,255"/>
+          <prop k="color_border" v="0,170,255,255"/>
           <prop k="name" v="filled_arrowhead"/>
           <prop k="offset" v="0,0"/>
-          <prop k="size" v="3"/>
+          <prop k="size" v="0.5"/>
         </layer>
       </symbol>
     </symbols>

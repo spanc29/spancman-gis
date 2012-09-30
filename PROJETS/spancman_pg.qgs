@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>470439.429447</xmin>
-            <ymin>6745289.444221</ymin>
-            <xmax>470798.352235</xmax>
-            <ymax>6745529.796910</ymax>
+            <xmin>471450.596658</xmin>
+            <ymin>6745253.313550</ymin>
+            <xmax>471542.261441</xmax>
+            <ymax>6745314.696884</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -24,19 +24,14 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="dossiers">
-            <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="dossiers" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+        <legendgroup open="true" checked="Qt::Checked" name="dossiers">
+            <legendlayer drawingOrder="3" open="false" checked="Qt::Checked" name="dossiers" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="dossiers20120603150709927" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="installations" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="installations20120617233407927" visible="0"/>
-                </filegroup>
-            </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="cana et regards">
+        <legendgroup open="true" checked="Qt::Checked" name="cana et regards">
             <legendlayer drawingOrder="4" open="false" checked="Qt::Checked" name="pompages" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="pompages20120609214242086" visible="1"/>
@@ -53,7 +48,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="prétraitements">
+        <legendgroup open="true" checked="Qt::Checked" name="prétraitements">
             <legendlayer drawingOrder="7" open="false" checked="Qt::Checked" name="pretraitements" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="pretraitements20120526210159231" visible="1"/>
@@ -66,18 +61,18 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="traitements">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="traitements classiques" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="traitements classiques" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="traitements_classiks20120912222104668" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="10" open="false" checked="Qt::Checked" name="filières agréées" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="10" open="true" checked="Qt::Checked" name="filières agréées" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="filieres_agreees20120526210159020" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="dispersions">
+        <legendgroup open="true" checked="Qt::Checked" name="dispersions">
             <legendlayer drawingOrder="11" open="false" checked="Qt::Checked" name="puits de dispersion" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="puits_dispersion20120603150612901" visible="1"/>
@@ -95,8 +90,8 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="terrain">
-            <legendlayer drawingOrder="2" open="false" checked="Qt::Checked" name="puits d'eau" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="2" open="true" checked="Qt::Checked" name="puits d'eau" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="puits_d_eau20120617204833306" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -112,25 +107,25 @@
                     </filegroup>
                 </legendlayer>
             </legendgroup>
-            <legendlayer drawingOrder="16" open="false" checked="Qt::Checked" name="pentes" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="16" open="true" checked="Qt::Checked" name="pentes" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="pentes20120526210159181" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="occupation terrain" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="occupation terrain" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="surfaces_terrain20120918224116962" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="divers">
-            <legendlayer drawingOrder="18" open="false" checked="Qt::Checked" name="sondages" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="18" open="true" checked="Qt::Checked" name="sondages" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="sondages20120603152728159" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="Immeubles">
+        <legendgroup open="false" checked="Qt::Checked" name="Immeubles">
             <legendlayer drawingOrder="19" open="false" checked="Qt::Checked" name="alimentation AEP" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="alim_aep20120526210158865" visible="1"/>
@@ -152,21 +147,43 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="cadastre"/>
-        <legendgroup open="true" checked="Qt::Checked" name="BD parcellaire">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BATIMENT" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+        <legendgroup open="true" checked="Qt::Unchecked" name="cadastre"/>
+        <legendgroup open="false" checked="Qt::Checked" name="BD parcellaire">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="BATIMENT" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="BATIMENT20120926152118083" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="COMMUNE" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="COMMUNE" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="COMMUNE20120926152118092" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="PARCELLE" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="PARCELLE" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="PARCELLE20120926152118099" visible="1"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="données hors geo">
+            <legendlayer drawingOrder="0" open="false" checked="Qt::Unchecked" name="installations" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="installations20120617233407927" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="cont_periodiques" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="cont_periodiques20120930101327663" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="cont_conceptions" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="cont_conceptions20120930101327609" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="cont_realisations" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="cont_realisations20120930101327697" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -233,7 +250,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'accessible'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'accessible'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -247,7 +264,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'aucun accès'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'aucun accès'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -275,7 +292,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'accessible'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'accessible'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -289,7 +306,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'aucun accès'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'aucun accès'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -332,7 +349,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'accès impossible'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'accès impossible'">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -346,7 +363,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'accessible'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'accessible'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -360,7 +377,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'aucun accès'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'aucun accès'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -388,7 +405,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'accès impossible'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'accès impossible'">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -402,7 +419,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'accessible'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'accessible'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -416,7 +433,7 @@
                             </symbol>
                         </symbols>
                     </VectorClassificationItemNg>
-                    <VectorClassificationItemNg text="&quot;accessible&quot; = 'aucun accès'">
+                    <VectorClassificationItemNg text="&quot;accessibilite&quot; = 'aucun accès'">
                         <symbols>
                             <symbol outputUnit="MapUnit" alpha="1" type="marker" name="classificationSymbol">
                                 <layer pass="0" class="SimpleMarker" locked="0">
@@ -1275,15 +1292,18 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
+                <LayerItem layerId="cont_conceptions20120930101327609" text="cont_conceptions"/>
+                <LayerItem layerId="cont_periodiques20120930101327663" text="cont_periodiques"/>
+                <LayerItem layerId="cont_realisations20120930101327697" text="cont_realisations"/>
             </Model>
-            <ComposerItem width="3" x="115.4188034188034" y="9.738461538461536" rotation="0" height="360" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.772511848341232" id="" positionLock="false">
+            <ComposerItem width="3" x="115.4188034188034" y="9.738461538461536" rotation="0" height="363" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.772511848341232" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLegend>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="26">
+    <projectlayers layercount="29">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>BATIMENT20120926152118083</id>
             <datasource>../COUCHES_SPANC/exemple/BATIMENT.SHP</datasource>
@@ -1488,10 +1508,9 @@
                     <valuepair key="Résidence secondaire" value="Résidence secondaire"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
-            <aliases/>
             <attributeactions>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
                 <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
@@ -1577,9 +1596,9 @@
                 <edittype type="0" name="CODE_INSEE"/>
                 <edittype type="0" name="NOM_COM"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -1663,9 +1682,9 @@
                 <edittype type="0" name="NUMERO"/>
                 <edittype type="0" name="SECTION"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
@@ -2129,7 +2148,7 @@
                     <category symbol="11" value="" label="non renseigné"/>
                 </categories>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="0">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -2138,7 +2157,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2147,7 +2166,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="1">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,170,0,255"/>
@@ -2156,7 +2175,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2165,7 +2184,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="10">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="10">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -2174,7 +2193,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2183,7 +2202,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="11">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="11">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,127,255"/>
@@ -2192,16 +2211,16 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
-                            <prop k="interval" v="5"/>
+                            <prop k="interval" v="26"/>
                             <prop k="offset" v="0"/>
-                            <prop k="placement" v="interval"/>
+                            <prop k="placement" v="centralpoint"/>
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="2">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -2210,7 +2229,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2219,7 +2238,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="3">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="3">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,85,0,255"/>
@@ -2228,7 +2247,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2237,7 +2256,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="4">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="4">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,255,255"/>
@@ -2256,7 +2275,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.2"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2265,7 +2284,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="5">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="5">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,0,255"/>
@@ -2274,20 +2293,20 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.9"/>
+                            <prop k="width" v="0.2"/>
                         </layer>
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="255,85,0,255"/>
+                            <prop k="color" v="255,0,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="dot"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.15"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="6">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="6">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -2296,7 +2315,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="dot"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="30"/>
@@ -2305,7 +2324,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="7">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="7">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
                             <prop k="color" v="121,121,121,255"/>
@@ -2314,10 +2333,10 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="8">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="8">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -2326,7 +2345,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2335,7 +2354,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="9">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="9">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -2344,7 +2363,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -2353,104 +2372,104 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@0@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@0@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@10@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@10@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,255,127,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color_border" v="0,255,127,255"/>
                             <prop k="name" v="filled_arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@11@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@11@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
-                            <prop k="color" v="85,0,127,255"/>
+                            <prop k="color" v="0,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@1@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@1@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,170,0,255"/>
                             <prop k="color_border" v="0,170,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@2@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@2@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="85,0,0,255"/>
                             <prop k="color_border" v="85,0,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@3@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@3@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,85,0,255"/>
                             <prop k="color_border" v="255,85,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@4@2">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@4@2">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,0,0,255"/>
                             <prop k="color_border" v="0,0,127,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@6@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@6@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="90"/>
                             <prop k="color" v="255,0,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="arrow"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@8@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@8@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="170,0,255,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color_border" v="170,0,255,255"/>
                             <prop k="name" v="filled_arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@9@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@9@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="85,170,255,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color_border" v="0,170,255,255"/>
                             <prop k="name" v="filled_arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -2648,6 +2667,135 @@
                 <scalingAttribute>0</scalingAttribute>
             </overlay>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>cont_conceptions20120930101327609</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' table="spanc"."cont_conceptions" sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>cont_conceptions</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>cont_periodiques20120930101327663</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' table="spanc"."cont_periodiques" sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>cont_periodiques</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <edittypes>
+                <edittype type="0" name="cas_c"/>
+                <edittype type="0" name="comments"/>
+                <edittype type="0" name="comments_interne"/>
+                <edittype type="0" name="conformite"/>
+                <edittype type="0" name="cree_le"/>
+                <edittype type="0" name="danger_sante"/>
+                <edittype type="0" name="date_acte_authentique"/>
+                <edittype type="0" name="date_controle"/>
+                <edittype type="0" name="date_echeance"/>
+                <edittype type="0" name="date_prochain_controle"/>
+                <edittype type="0" name="document1"/>
+                <edittype type="0" name="document2"/>
+                <edittype type="0" name="gid"/>
+                <edittype type="0" name="install_gid"/>
+                <edittype type="0" name="liste_travaux"/>
+                <edittype type="3" name="meteo">
+                    <valuepair key="Absence de précipitations au cours de la semaine passée" value="Absence de précipitations au cours de la semaine passée"/>
+                    <valuepair key="Absence de précipitations au cours des trois derniers jours" value="Absence de précipitations au cours des trois derniers jours"/>
+                    <valuepair key="Absence de précipitations au cours du mois passé" value="Absence de précipitations au cours du mois passé"/>
+                    <valuepair key="Non renseigné" value="Non renseigné"/>
+                    <valuepair key="Pluie modérée depuis plusieurs jours ou forte pluie la veille de l'observation" value="Pluie modérée depuis plusieurs jours ou forte pluie la veille de l'observation"/>
+                    <valuepair key="Pluvieux, mais sans fortes précipitations au cours des 3 derniers jours" value="Pluvieux, mais sans fortes précipitations au cours des 3 derniers jours"/>
+                    <valuepair key="Très forte précipitations ou chute de neige ou inondation juste avant l'observation" value="Très forte précipitations ou chute de neige ou inondation juste avant l'observation"/>
+                </edittype>
+                <edittype type="0" name="modifie_le"/>
+                <edittype type="0" name="observation_cas_c"/>
+                <edittype type="0" name="observation_danger"/>
+                <edittype type="0" name="observation_pollution"/>
+                <edittype type="0" name="personne_presente"/>
+                <edittype type="0" name="recommandations"/>
+                <edittype type="0" name="refdoss"/>
+                <edittype type="0" name="risque_pollution"/>
+                <edittype type="0" name="saisie_par"/>
+                <edittype type="0" name="technicien_controle"/>
+                <edittype type="0" name="vente"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>cont_realisations20120930101327697</id>
+            <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' table="spanc"."cont_realisations" sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>cont_realisations</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>dossiers20120603150709927</id>
             <datasource>dbname='spancman' host=localhost port=5432 user='postgres' sslmode=disable key='gid' srid=2154 type=POINT table="spanc"."dossiers" (the_geom) sql=</datasource>
@@ -2668,7 +2816,11 @@
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="UTF-8">postgres</provider>
-            <vectorjoins/>
+            <vectorjoins>
+                <join targetField="1" joinField="1" memoryCache="0" joinLayerId="cont_periodiques20120930101327663"/>
+                <join targetField="1" joinField="1" memoryCache="0" joinLayerId="cont_conceptions20120930101327609"/>
+                <join targetField="1" joinField="1" memoryCache="0" joinLayerId="cont_realisations20120930101327697"/>
+            </vectorjoins>
             <renderer-v2 attr="etat" symbollevels="0" type="categorizedSymbol">
                 <categories>
                     <category symbol="0" value="en cours" label="en cours"/>
@@ -2677,14 +2829,22 @@
                 </categories>
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="marker" name="0">
-                        <layer pass="0" class="SvgMarker" locked="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="255,255,255,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="5"/>
+                        </layer>
+                        <layer pass="1" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
                             <prop k="name" v="/dossiers/dossier_bleu.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="8"/>
+                            <prop k="size" v="4.28571"/>
                         </layer>
                     </symbol>
                     <symbol outputUnit="MM" alpha="1" type="marker" name="1">
@@ -2695,7 +2855,7 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="8"/>
+                            <prop k="size" v="5"/>
                         </layer>
                     </symbol>
                     <symbol outputUnit="MM" alpha="0.3450980392156863" type="marker" name="2">
@@ -2706,7 +2866,7 @@
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
-                            <prop k="size" v="8"/>
+                            <prop k="size" v="5"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -2727,8 +2887,8 @@
                     <prop k="color2" v="8,48,107,255"/>
                     <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
                 </colorramp>
-                <rotation field=""/>
-                <sizescale field=""/>
+                <rotation field="angle"/>
+                <sizescale field="taille"/>
             </renderer-v2>
             <customproperties>
                 <property key="labeling" value="pal"/>
@@ -2774,7 +2934,7 @@
                 <property key="labeling/placementFlags" value="0"/>
                 <property key="labeling/plussign" value="true"/>
                 <property key="labeling/priority" value="7"/>
-                <property key="labeling/scaleMax" value="10000"/>
+                <property key="labeling/scaleMax" value="20000"/>
                 <property key="labeling/scaleMin" value="1"/>
                 <property key="labeling/textColorB" value="255"/>
                 <property key="labeling/textColorG" value="0"/>
@@ -2805,25 +2965,91 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
+                <edittype type="0" name="XCOORD"/>
+                <edittype type="0" name="YCOORD"/>
+                <edittype type="0" name="accessibilite"/>
                 <edittype type="0" name="angle"/>
+                <edittype type="0" name="annee_pose"/>
                 <edittype type="0" name="archivage"/>
                 <edittype type="0" name="aut_zone"/>
+                <edittype type="0" name="bureau_etude"/>
+                <edittype type="0" name="cas_c"/>
                 <edittype type="12" name="comments"/>
+                <edittype type="0" name="comments_interne"/>
                 <edittype type="2" name="commune_id"/>
+                <edittype type="0" name="concept_gid"/>
+                <edittype type="0" name="conclusion"/>
+                <edittype type="0" name="conf_norme"/>
+                <edittype type="0" name="conf_projet"/>
+                <edittype type="0" name="conformite"/>
                 <edittype type="10" name="cree_le"/>
+                <edittype type="0" name="danger_sante"/>
+                <edittype type="0" name="date_acte_authentique"/>
+                <edittype type="0" name="date_chgt"/>
+                <edittype type="0" name="date_controle"/>
+                <edittype type="0" name="date_echeance"/>
+                <edittype type="0" name="date_prochain_controle"/>
+                <edittype type="0" name="desaffecte_le"/>
+                <edittype type="0" name="details"/>
                 <edittype type="8" name="docu2"/>
+                <edittype type="0" name="document1"/>
+                <edittype type="0" name="document2"/>
+                <edittype type="0" name="dossier_declaration"/>
+                <edittype type="0" name="ecoulement"/>
                 <edittype type="3" name="etat">
                     <valuepair key="archivé" value="archivé"/>
                     <valuepair key="en cours" value="en cours"/>
                     <valuepair key="ghost" value="ghost"/>
                 </edittype>
+                <edittype type="0" name="etude_pedol"/>
                 <edittype type="11" name="gid"/>
+                <edittype type="0" name="haut_prof"/>
+                <edittype type="0" name="identif"/>
+                <edittype type="0" name="install_gid"/>
+                <edittype type="0" name="integrite"/>
+                <edittype type="0" name="largeur"/>
+                <edittype type="0" name="liste_travaux"/>
+                <edittype type="0" name="longueur"/>
+                <edittype type="0" name="marq_constructeur"/>
+                <edittype type="0" name="meteo"/>
                 <edittype type="10" name="modifie_le"/>
+                <edittype type="0" name="nb_acces"/>
+                <edittype type="0" name="num_urbanisme"/>
+                <edittype type="0" name="obs_dossier_declaration"/>
+                <edittype type="0" name="obs_etude_pedol"/>
+                <edittype type="0" name="obs_plan_interieur"/>
+                <edittype type="0" name="obs_plan_projet"/>
+                <edittype type="0" name="obs_plan_situation"/>
+                <edittype type="0" name="obs_travaux"/>
+                <edittype type="0" name="observation_cas_c"/>
+                <edittype type="0" name="observation_danger"/>
+                <edittype type="0" name="observation_pollution"/>
+                <edittype type="0" name="origine"/>
+                <edittype type="0" name="permis"/>
+                <edittype type="0" name="personne_presente"/>
                 <edittype type="8" name="photo"/>
+                <edittype type="0" name="plan_interieur"/>
+                <edittype type="0" name="plan_projet"/>
+                <edittype type="0" name="plan_situation"/>
+                <edittype type="0" name="poseur"/>
+                <edittype type="0" name="profondeur"/>
+                <edittype type="0" name="proprete"/>
+                <edittype type="0" name="recommandations"/>
                 <edittype type="0" name="refdoss"/>
+                <edittype type="0" name="renseignements"/>
+                <edittype type="0" name="risque_pollution"/>
                 <edittype type="0" name="saisie_par"/>
                 <edittype type="0" name="secteur"/>
+                <edittype type="0" name="securite"/>
+                <edittype type="0" name="sortie"/>
+                <edittype type="0" name="surface"/>
                 <edittype type="0" name="taille"/>
+                <edittype type="0" name="technicien_controle"/>
+                <edittype type="0" name="typ_traitt"/>
+                <edittype type="0" name="type_installations"/>
+                <edittype type="0" name="type_pretr"/>
+                <edittype type="0" name="vente"/>
+                <edittype type="0" name="volume"/>
                 <edittype type="0" name="zaee"/>
                 <edittype type="0" name="zrs"/>
             </edittypes>
@@ -3304,7 +3530,9 @@
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="System">postgres</provider>
-            <vectorjoins/>
+            <vectorjoins>
+                <join targetField="0" joinField="2" memoryCache="0" joinLayerId="pieces20120526210159217"/>
+            </vectorjoins>
             <renderer-v2 attr="type_bati" symbollevels="0" type="categorizedSymbol">
                 <categories>
                     <category symbol="0" value="Bâtiment en dur" label="Bâtiment en dur"/>
@@ -3445,11 +3673,15 @@
                 <edittype type="13" name="date_acte_authentique"/>
                 <edittype type="13" name="desaffecte_le"/>
                 <edittype type="8" name="docu2"/>
+                <edittype type="0" name="est_pp"/>
+                <edittype type="0" name="etage"/>
+                <edittype type="0" name="genere_eu"/>
                 <edittype type="10" name="gid"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="10" name="modifie_le"/>
                 <edittype type="5" min="1" step="1" name="nb_pp" max="100"/>
                 <edittype type="8" name="photo"/>
+                <edittype type="0" name="piece"/>
                 <edittype type="0" name="refdoss"/>
                 <edittype type="3" name="renseignements">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -3460,6 +3692,7 @@
                     <valuepair key="sur plan" value="sur plan"/>
                 </edittype>
                 <edittype type="0" name="saisie_par"/>
+                <edittype type="0" name="surface"/>
                 <edittype type="5" min="1" step="1" name="taille" max="100"/>
                 <edittype type="3" name="tx_occupation">
                     <valuepair key="1 mois/an" value="1 mois/an"/>
@@ -3828,7 +4061,10 @@
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="UTF-8">postgres</provider>
-            <vectorjoins/>
+            <vectorjoins>
+                <join targetField="0" joinField="2" memoryCache="0" joinLayerId="pretraitements20120526210159231"/>
+                <join targetField="0" joinField="2" memoryCache="0" joinLayerId="traitements_classiks20120912222104668"/>
+            </vectorjoins>
             <renderer-v2 attr="type_installations" symbollevels="0" type="categorizedSymbol">
                 <categories>
                     <category symbol="0" value="existante" label="existante"/>
@@ -3923,17 +4159,41 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
+                <edittype type="0" name="accessibilite"/>
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
+                <edittype type="0" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="10" name="cree_le"/>
                 <edittype type="13" name="date_chgt"/>
+                <edittype type="0" name="desaffecte_le"/>
+                <edittype type="0" name="details"/>
+                <edittype type="0" name="docu2"/>
+                <edittype type="0" name="ecoulement"/>
                 <edittype type="10" name="gid"/>
+                <edittype type="0" name="haut_prof"/>
                 <edittype type="0" name="identif"/>
+                <edittype type="0" name="integrite"/>
+                <edittype type="0" name="largeur"/>
+                <edittype type="0" name="longueur"/>
+                <edittype type="0" name="marq_constructeur"/>
                 <edittype type="10" name="modifie_le"/>
+                <edittype type="0" name="nb_acces"/>
+                <edittype type="0" name="origine"/>
+                <edittype type="0" name="photo"/>
+                <edittype type="0" name="poseur"/>
+                <edittype type="0" name="profondeur"/>
+                <edittype type="0" name="proprete"/>
                 <edittype type="0" name="refdoss"/>
+                <edittype type="0" name="renseignements"/>
                 <edittype type="0" name="saisie_par"/>
+                <edittype type="0" name="securite"/>
+                <edittype type="0" name="sortie"/>
+                <edittype type="0" name="surface"/>
                 <edittype type="5" min="1" step="1" name="taille" max="100"/>
+                <edittype type="0" name="typ_traitt"/>
                 <edittype type="4" name="type_installations"/>
+                <edittype type="0" name="type_pretr"/>
+                <edittype type="0" name="volume"/>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
@@ -6220,46 +6480,46 @@
                 <rules>
                     <rule filter=" &quot;typ_dispr&quot;  = 'puits perdu' OR  &quot;typ_dispr&quot; = 'puisard'" symbol="0" label="puits perdu">
                         <rule filter="&quot;autorisation&quot; = 'oui'" label="&quot;autorisation&quot; = 'oui'">
-                            <rule filter="&quot;accessible&quot; = 'accessible'" symbol="1" label="accessible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès difficile'" symbol="2" label="accès difficile"/>
-                            <rule filter="&quot;accessible&quot; = 'accès impossible'" symbol="3" label="accès impossible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès trop profond'" symbol="4" label="accès trop profond"/>
-                            <rule filter="&quot;accessible&quot; = 'découvert pour contrôle'" symbol="5" label="découvert pour contrôle"/>
-                            <rule filter="&quot;accessible&quot; = 'engin nécessaire'" symbol="6" label="engin nécessaire"/>
-                            <rule filter="&quot;accessible&quot; = 'non renseigné'" label="non renseigné"/>
-                            <rule filter="&quot;accessible&quot; = 'aucun accès'" symbol="7" label="aucun accès"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accessible'" symbol="1" label="accessible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès difficile'" symbol="2" label="accès difficile"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès impossible'" symbol="3" label="accès impossible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès trop profond'" symbol="4" label="accès trop profond"/>
+                            <rule filter="&quot;accessibilite&quot; = 'découvert pour contrôle'" symbol="5" label="découvert pour contrôle"/>
+                            <rule filter="&quot;accessibilite&quot; = 'engin nécessaire'" symbol="6" label="engin nécessaire"/>
+                            <rule filter="&quot;accessibilite&quot; = 'non renseigné'" label="non renseigné"/>
+                            <rule filter="&quot;accessibilite&quot; = 'aucun accès'" symbol="7" label="aucun accès"/>
                         </rule>
                         <rule filter="&quot;autorisation&quot; = 'non'" symbol="8" label="&quot;autorisation&quot; = 'non'">
-                            <rule filter="&quot;accessible&quot; = 'accessible'" symbol="9" label="accessible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès difficile'" symbol="10" label="accès difficile"/>
-                            <rule filter="&quot;accessible&quot; = 'accès impossible'" symbol="11" label="accès impossible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès trop profond'" symbol="12" label="accès trop profond"/>
-                            <rule filter="&quot;accessible&quot; = 'découvert pour contrôle'" symbol="13" label="découvert pour contrôle"/>
-                            <rule filter="&quot;accessible&quot; = 'engin nécessaire'" symbol="14" label="engin nécessaire"/>
-                            <rule filter="&quot;accessible&quot; = 'non renseigné'" label="non renseigné"/>
-                            <rule filter="&quot;accessible&quot; = 'aucun accès'" symbol="15" label="aucun accès"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accessible'" symbol="9" label="accessible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès difficile'" symbol="10" label="accès difficile"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès impossible'" symbol="11" label="accès impossible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès trop profond'" symbol="12" label="accès trop profond"/>
+                            <rule filter="&quot;accessibilite&quot; = 'découvert pour contrôle'" symbol="13" label="découvert pour contrôle"/>
+                            <rule filter="&quot;accessibilite&quot; = 'engin nécessaire'" symbol="14" label="engin nécessaire"/>
+                            <rule filter="&quot;accessibilite&quot; = 'non renseigné'" label="non renseigné"/>
+                            <rule filter="&quot;accessibilite&quot; = 'aucun accès'" symbol="15" label="aucun accès"/>
                         </rule>
                     </rule>
                     <rule filter=" &quot;typ_dispr&quot;  = 'puits d''infiltration'" symbol="16" label="puits d'infiltration">
                         <rule filter="&quot;autorisation&quot; = 'oui'" label="&quot;autorisation&quot; = 'oui'">
-                            <rule filter="&quot;accessible&quot; = 'accessible'" symbol="17" label="accessible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès difficile'" symbol="18" label="accès difficile"/>
-                            <rule filter="&quot;accessible&quot; = 'accès impossible'" symbol="19" label="accès impossible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès trop profond'" symbol="20" label="accès trop profond"/>
-                            <rule filter="&quot;accessible&quot; = 'découvert pour contrôle'" symbol="21" label="découvert pour contrôle"/>
-                            <rule filter="&quot;accessible&quot; = 'engin nécessaire'" symbol="22" label="engin nécessaire"/>
-                            <rule filter="&quot;accessible&quot; = 'non renseigné'" label="non renseigné"/>
-                            <rule filter="&quot;accessible&quot; = 'aucun accès'" symbol="23" label="aucun accès"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accessible'" symbol="17" label="accessible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès difficile'" symbol="18" label="accès difficile"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès impossible'" symbol="19" label="accès impossible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès trop profond'" symbol="20" label="accès trop profond"/>
+                            <rule filter="&quot;accessibilite&quot; = 'découvert pour contrôle'" symbol="21" label="découvert pour contrôle"/>
+                            <rule filter="&quot;accessibilite&quot; = 'engin nécessaire'" symbol="22" label="engin nécessaire"/>
+                            <rule filter="&quot;accessibilite&quot; = 'non renseigné'" label="non renseigné"/>
+                            <rule filter="&quot;accessibilite&quot; = 'aucun accès'" symbol="23" label="aucun accès"/>
                         </rule>
                         <rule filter="&quot;autorisation&quot; = 'non'" symbol="24" label="&quot;autorisation&quot; = 'non'">
-                            <rule filter="&quot;accessible&quot; = 'accessible'" symbol="25" label="accessible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès difficile'" symbol="26" label="accès difficile"/>
-                            <rule filter="&quot;accessible&quot; = 'accès impossible'" symbol="27" label="accès impossible"/>
-                            <rule filter="&quot;accessible&quot; = 'accès trop profond'" symbol="28" label="accès trop profond"/>
-                            <rule filter="&quot;accessible&quot; = 'découvert pour contrôle'" symbol="29" label="découvert pour contrôle"/>
-                            <rule filter="&quot;accessible&quot; = 'engin nécessaire'" symbol="30" label="engin nécessaire"/>
-                            <rule filter="&quot;accessible&quot; = 'non renseigné'" label="non renseigné"/>
-                            <rule filter="&quot;accessible&quot; = 'aucun accès'" symbol="31" label="aucun accès"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accessible'" symbol="25" label="accessible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès difficile'" symbol="26" label="accès difficile"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès impossible'" symbol="27" label="accès impossible"/>
+                            <rule filter="&quot;accessibilite&quot; = 'accès trop profond'" symbol="28" label="accès trop profond"/>
+                            <rule filter="&quot;accessibilite&quot; = 'découvert pour contrôle'" symbol="29" label="découvert pour contrôle"/>
+                            <rule filter="&quot;accessibilite&quot; = 'engin nécessaire'" symbol="30" label="engin nécessaire"/>
+                            <rule filter="&quot;accessibilite&quot; = 'non renseigné'" label="non renseigné"/>
+                            <rule filter="&quot;accessibilite&quot; = 'aucun accès'" symbol="31" label="aucun accès"/>
                         </rule>
                     </rule>
                     <rule filter=" &quot;typ_dispr&quot;  = 'destination inconnue' OR  &quot;typ_dispr&quot; = 'inconnu' OR  &quot;typ_dispr&quot; ='non renseigné'" symbol="32" label="destination inconnu"/>
