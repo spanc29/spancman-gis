@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>467896.433412</xmin>
-            <ymin>6737642.274767</ymin>
-            <xmax>469391.218246</xmax>
-            <ymax>6738994.699141</ymax>
+            <xmin>470471.416619</xmin>
+            <ymin>6737947.887447</ymin>
+            <xmax>470992.749101</xmax>
+            <ymax>6738285.993541</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -24,7 +24,7 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="false" checked="Qt::Checked" name="dossiers">
+        <legendgroup open="true" checked="Qt::Checked" name="dossiers">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="dossiers" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="dossiers20120919001400855" visible="1"/>
@@ -36,7 +36,7 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="cana et regards">
+        <legendgroup open="true" checked="Qt::Checked" name="cana et regards">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="pompages" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="pompages20120928132224531" visible="1"/>
@@ -54,55 +54,55 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="prétraitements">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Pretraitements" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Pretraitements" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="pretraitements20120419143800678" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Ventilations" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Ventilations" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Ventilations20120429154703820" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="traitements">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Traitements classiques" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Traitements classiques" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="traitements20120422153720697" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="filieres_agreees" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="filieres_agreees" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="filieres_agreees20120928133038718" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
         <legendgroup open="false" checked="Qt::Checked" name="dispersions">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="dispersion_puits" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="dispersion_puits" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="dispersion_puits20120430225516857" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Infiltrations" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Infiltrations" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Infiltrations20120501221051536" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Rejets" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Rejets" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="rejets20120422223106148" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Checked" name="terrain">
+        <legendgroup open="true" checked="Qt::Checked" name="terrain">
             <legendgroup open="false" checked="Qt::Checked" name="plantations">
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Haies" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Haies" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="haie20120408223634850" visible="1"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Arbres" showFeatureCount="0">
-                    <filegroup open="false" hidden="false">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Arbres" showFeatureCount="0">
+                    <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="arbres20120325222820388" visible="1"/>
                     </filegroup>
                 </legendlayer>
@@ -140,10 +140,10 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="cadastre">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="cadastre">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="BATIMENT" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="BATIMENT20120928155910640" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="BATIMENT20121002210525500" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="PARCELLE" showFeatureCount="0">
@@ -159,8 +159,15 @@
         </legendgroup>
     </legend>
     <Composer title="Composeur 1" visible="0">
+        <ComposerScaleBar segmentMillimeters="16.76470588235294" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="2" alignment="0" labelBarSpace="2" outlineWidth="0.6" numSegmentsLeft="0" style="Line Ticks Up" unitLabel="m" font="Century Schoolbook L,12,-1,5,50,1,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="5">
+            <BrushColor red="0" blue="0" green="0"/>
+            <ComposerItem width="44.72941176470589" x="5" y="195" rotation="0" height="10.2" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="1.93624" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerScaleBar>
         <ComposerMap keepLayerSet="false" id="0" previewMode="Render" drawCanvasItems="false">
-            <Extent ymin="6.74531e+06" xmin="469828" ymax="6.74537e+06" xmax="469913"/>
+            <Extent ymin="6745310" xmin="469828" ymax="6745369.649122807" xmax="469913"/>
             <LayerSet/>
             <Grid gridStyle="0" crossLength="3" penColorRed="190" penColorBlue="190" intervalX="5" offsetX="0" intervalY="5" offsetY="0" show="0" penWidth="0" penColorGreen="190">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Century Schoolbook L,12,-1,5,50,1,0,0,0,0"/>
@@ -178,13 +185,6 @@
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
-        <ComposerScaleBar segmentMillimeters="16.6667" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="2" alignment="0" labelBarSpace="2" outlineWidth="0.6" numSegmentsLeft="0" style="Line Ticks Up" unitLabel="m" font="Century Schoolbook L,12,-1,5,50,1,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="5">
-            <BrushColor red="0" blue="0" green="0"/>
-            <ComposerItem width="44.5333" x="5" y="195" rotation="0" height="10.2" frame="true" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="1.93624" id="" positionLock="false">
-                <FrameColor alpha="255" red="0" blue="0" green="0"/>
-                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            </ComposerItem>
-        </ComposerScaleBar>
         <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="5" snapGridOffsetY="0" snapping="1" paperHeight="210" printAsRaster="0"/>
     </Composer>
     <Composer title="Composeur 2" visible="0">
@@ -3021,12 +3021,12 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
-                <LayerItem layerId="BATIMENT20120928155910640" text="BATIMENT">
+                <LayerItem layerId="COMMUNE20120928155910781" text="COMMUNE">
                     <VectorClassificationItemNg text="">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
                                 <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="132,15,40,255"/>
+                                    <prop k="color" v="231,243,49,255"/>
                                     <prop k="color_border" v="0,0,0,255"/>
                                     <prop k="offset" v="0,0"/>
                                     <prop k="style" v="solid"/>
@@ -3037,12 +3037,12 @@
                         </symbols>
                     </VectorClassificationItemNg>
                 </LayerItem>
-                <LayerItem layerId="COMMUNE20120928155910781" text="COMMUNE">
+                <LayerItem layerId="BATIMENT20121002210525500" text="BATIMENT">
                     <VectorClassificationItemNg text="">
                         <symbols>
                             <symbol outputUnit="MM" alpha="1" type="fill" name="classificationSymbol">
                                 <layer pass="0" class="SimpleFill" locked="0">
-                                    <prop k="color" v="231,243,49,255"/>
+                                    <prop k="color" v="159,84,18,255"/>
                                     <prop k="color_border" v="0,0,0,255"/>
                                     <prop k="offset" v="0,0"/>
                                     <prop k="style" v="solid"/>
@@ -3063,31 +3063,56 @@
     </Composer>
     <projectlayers layercount="23">
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
-            <id>BATIMENT20120928155910640</id>
+            <id>BATIMENT20121002210525500</id>
             <datasource>../COUCHES_SPANC/exemple/BATIMENT.SHP</datasource>
             <title></title>
             <abstract></abstract>
             <layername>BATIMENT</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>100001</srsid>
+                    <proj4>+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
                     <srid>0</srid>
-                    <authid>USER:100001</authid>
-                    <description> * SCR généré (+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs)</description>
                     <projectionacronym>lcc</projectionacronym>
                     <ellipsoidacronym>GRS80</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
             <transparencyLevelInt>255</transparencyLevelInt>
-            <provider encoding="UTF-8">ogr</provider>
+            <provider encoding="ISO-8859-1">ogr</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 attr="TYPE" symbollevels="0" type="categorizedSymbol">
+                <categories>
+                    <category symbol="0" value="Bâtiment en dur" label="Bâtiment en dur"/>
+                    <category symbol="1" value="Construction légère" label="Construction légère"/>
+                    <category symbol="2" value="" label=""/>
+                </categories>
                 <symbols>
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="132,15,40,255"/>
+                            <prop k="color" v="140,140,140,255"/>
+                            <prop k="color_border" v="116,116,116,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="140,140,140,255"/>
+                            <prop k="color_border" v="140,140,140,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="diagonal_x"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="8,48,107,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
@@ -3096,16 +3121,83 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <source-symbol>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="173,245,167,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="gradient" name="[source]">
+                    <prop k="color1" v="247,251,255,255"/>
+                    <prop k="color2" v="8,48,107,255"/>
+                    <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+                </colorramp>
                 <rotation field=""/>
                 <sizescale field=""/>
             </renderer-v2>
-            <customproperties/>
-            <displayfield></displayfield>
+            <customproperties>
+                <property key="labeling" value="pal"/>
+                <property key="labeling/addDirectionSymbol" value="false"/>
+                <property key="labeling/bufferColorB" value="255"/>
+                <property key="labeling/bufferColorG" value="255"/>
+                <property key="labeling/bufferColorR" value="255"/>
+                <property key="labeling/bufferSize" value="0"/>
+                <property key="labeling/dataDefinedProperty0" value=""/>
+                <property key="labeling/dataDefinedProperty1" value=""/>
+                <property key="labeling/dataDefinedProperty10" value=""/>
+                <property key="labeling/dataDefinedProperty11" value=""/>
+                <property key="labeling/dataDefinedProperty12" value=""/>
+                <property key="labeling/dataDefinedProperty13" value=""/>
+                <property key="labeling/dataDefinedProperty14" value=""/>
+                <property key="labeling/dataDefinedProperty2" value=""/>
+                <property key="labeling/dataDefinedProperty3" value=""/>
+                <property key="labeling/dataDefinedProperty4" value=""/>
+                <property key="labeling/dataDefinedProperty5" value=""/>
+                <property key="labeling/dataDefinedProperty6" value=""/>
+                <property key="labeling/dataDefinedProperty7" value=""/>
+                <property key="labeling/dataDefinedProperty8" value=""/>
+                <property key="labeling/dataDefinedProperty9" value=""/>
+                <property key="labeling/decimals" value="0"/>
+                <property key="labeling/dist" value="0"/>
+                <property key="labeling/distInMapUnits" value="false"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="gid"/>
+                <property key="labeling/fontFamily" value="Droid Sans"/>
+                <property key="labeling/fontItalic" value="false"/>
+                <property key="labeling/fontSize" value="0.4"/>
+                <property key="labeling/fontSizeInMapUnits" value="true"/>
+                <property key="labeling/fontStrikeout" value="false"/>
+                <property key="labeling/fontUnderline" value="false"/>
+                <property key="labeling/fontWeight" value="50"/>
+                <property key="labeling/formatNumbers" value="false"/>
+                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/labelPerPart" value="false"/>
+                <property key="labeling/mergeLines" value="false"/>
+                <property key="labeling/minFeatureSize" value="0"/>
+                <property key="labeling/obstacle" value="true"/>
+                <property key="labeling/placement" value="2"/>
+                <property key="labeling/placementFlags" value="6"/>
+                <property key="labeling/plussign" value="true"/>
+                <property key="labeling/priority" value="5"/>
+                <property key="labeling/scaleMax" value="0"/>
+                <property key="labeling/scaleMin" value="0"/>
+                <property key="labeling/textColorB" value="0"/>
+                <property key="labeling/textColorG" value="0"/>
+                <property key="labeling/textColorR" value="0"/>
+                <property key="labeling/wrapChar" value=""/>
+            </customproperties>
+            <displayfield>TYPE</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Étiquette"/>
-                <family fieldname="" name="MS Shell Dlg 2"/>
-                <size fieldname="" units="pt" value="12"/>
+                <family fieldname="" name="Droid Sans"/>
+                <size fieldname="" units="mu" value="12"/>
                 <bold fieldname="" on="0"/>
                 <italic fieldname="" on="0"/>
                 <underline fieldname="" on="0"/>
@@ -3122,10 +3214,80 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <edittypes>
+                <edittype type="0" name="TYPE"/>
+                <edittype type="5" min="1800" step="5" name="an_construction" max="2100"/>
+                <edittype type="5" min="1800" step="5" name="an_rehabilitation" max="2100"/>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
+                <edittype type="12" name="comments"/>
+                <edittype type="10" name="cree_le"/>
+                <edittype type="13" name="date_acte_authentique"/>
+                <edittype type="13" name="desaffecte_le"/>
+                <edittype type="8" name="docu2"/>
+                <edittype type="10" name="gid"/>
+                <edittype type="0" name="identif"/>
+                <edittype type="10" name="modifie_le"/>
+                <edittype type="5" min="1" step="1" name="nb_pp" max="100"/>
+                <edittype type="8" name="photo"/>
+                <edittype type="0" name="refdoss"/>
+                <edittype type="3" name="renseignements">
+                    <valuepair key="sur document(s)" value="sur document(s)"/>
+                    <valuepair key="sur déclaration" value="sur déclaration"/>
+                    <valuepair key="sur facture" value="sur facture"/>
+                    <valuepair key="sur observations/mesures" value="sur observations/mesures"/>
+                    <valuepair key="sur photo" value="sur photo"/>
+                    <valuepair key="sur plan" value="sur plan"/>
+                </edittype>
+                <edittype type="0" name="saisie_par"/>
+                <edittype type="5" min="1" step="1" name="taille" max="100"/>
+                <edittype type="3" name="tx_occupation">
+                    <valuepair key="1 mois/an" value="1 mois/an"/>
+                    <valuepair key="10 mois/an" value="10 mois/an"/>
+                    <valuepair key="11 mois/an" value="11 mois/an"/>
+                    <valuepair key="2 mois/an" value="2 mois/an"/>
+                    <valuepair key="3 mois/an" value="3 mois/an"/>
+                    <valuepair key="4 mois/an" value="4 mois/an"/>
+                    <valuepair key="5 mois/an" value="5 mois/an"/>
+                    <valuepair key="6 mois/an" value="6 mois/an"/>
+                    <valuepair key="7 mois/an" value="7 mois/an"/>
+                    <valuepair key="8 mois/an" value="8 mois/an"/>
+                    <valuepair key="9 mois/an" value="9 mois/an"/>
+                    <valuepair key="permanent" value="permanent"/>
+                    <valuepair key="qq jours/an" value="qq jours/an"/>
+                </edittype>
+                <edittype type="0" name="type_bati"/>
+                <edittype type="3" name="type_habitat">
+                    <valuepair key="Annexe bâti" value="Annexe bâti"/>
+                    <valuepair key="Autre (cf. obs.)" value="Autre (cf. obs.)"/>
+                    <valuepair key="Local commercial" value="Local commercial"/>
+                    <valuepair key="Location permanente" value="Location permanente"/>
+                    <valuepair key="Location saisonnière" value="Location saisonnière"/>
+                    <valuepair key="Résidence principale" value="Résidence principale"/>
+                    <valuepair key="Résidence secondaire" value="Résidence secondaire"/>
+                </edittype>
+            </edittypes>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
-            <attributeactions/>
+            <annotationform>.</annotationform>
+            <attributeactions>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
+                <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+                <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+            </attributeactions>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>COMMUNE20120928155910781</id>
@@ -3135,11 +3297,11 @@
             <layername>COMMUNE</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>100001</srsid>
-                    <srid>0</srid>
-                    <authid>USER:100001</authid>
-                    <description> * SCR généré (+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
                     <projectionacronym>lcc</projectionacronym>
                     <ellipsoidacronym>GRS80</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
@@ -3148,12 +3310,70 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="UTF-8">ogr</provider>
             <vectorjoins/>
-            <renderer-v2 symbollevels="0" type="singleSymbol">
+            <renderer-v2 attr="NOM_COM" symbollevels="0" type="categorizedSymbol">
+                <categories>
+                    <category symbol="0" value="Bousse" label="Bousse"/>
+                    <category symbol="1" value="Clermont-Cr�ans" label="Clermont-Cr�ans"/>
+                    <category symbol="2" value="La Fl�che" label="La Fl�che"/>
+                    <category symbol="3" value="Ligron" label="Ligron"/>
+                    <category symbol="4" value="Villaines-sous-Malicorne" label="Villaines-sous-Malicorne"/>
+                    <category symbol="5" value="" label=""/>
+                </categories>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
-                            <prop k="color" v="231,243,49,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color" v="255,245,235,127"/>
+                            <prop k="color_border" v="0,0,0,127"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="1">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="253,218,182,127"/>
+                            <prop k="color_border" v="0,0,0,127"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="2">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="253,171,103,127"/>
+                            <prop k="color_border" v="0,0,0,127"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="3">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="245,118,34,127"/>
+                            <prop k="color_border" v="0,0,0,127"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="4">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="208,68,1,127"/>
+                            <prop k="color_border" v="0,0,0,127"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="5">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="127,39,4,127"/>
+                            <prop k="color_border" v="0,0,0,127"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="style" v="solid"/>
                             <prop k="style_border" v="solid"/>
@@ -3161,11 +3381,28 @@
                         </layer>
                     </symbol>
                 </symbols>
+                <source-symbol>
+                    <symbol outputUnit="MM" alpha="0.4980392156862745" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="85,156,157,127"/>
+                            <prop k="color_border" v="0,0,0,127"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </source-symbol>
+                <colorramp type="gradient" name="[source]">
+                    <prop k="color1" v="255,245,235,255"/>
+                    <prop k="color2" v="127,39,4,255"/>
+                    <prop k="stops" v="0.13;254,230,206,255:0.26;253,208,162,255:0.39;253,174,107,255:0.52;253,141,60,255:0.65;241,105,19,255:0.78;217,72,1,255:0.9;166,54,3,255"/>
+                </colorramp>
                 <rotation field=""/>
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>NOM_COM</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Étiquette"/>
@@ -3187,10 +3424,26 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <edittypes>
+                <edittype type="0" name="CODE_DEP"/>
+                <edittype type="0" name="CODE_INSEE"/>
+                <edittype type="0" name="NOM_COM"/>
+            </edittypes>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Infiltrations20120501221051536</id>
@@ -3357,7 +3610,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -3386,7 +3638,6 @@
                 <edittype type="0" name="haut_prof"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gi"/>
-
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -3421,7 +3672,6 @@
                     <valuepair key="sans objet" value="sans objet"/>
                 </edittype>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="inconnu" value="inconnu"/>
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -3493,11 +3743,11 @@
             <layername>PARCELLE</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>100001</srsid>
-                    <srid>0</srid>
-                    <authid>USER:100001</authid>
-                    <description> * SCR généré (+proj=lcc +lat_1=44 +lat_2=49 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>145</srsid>
+                    <srid>2154</srid>
+                    <authid>EPSG:2154</authid>
+                    <description>RGF93 / Lambert-93</description>
                     <projectionacronym>lcc</projectionacronym>
                     <ellipsoidacronym>GRS80</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
@@ -3511,11 +3761,11 @@
                     <symbol outputUnit="MM" alpha="1" type="fill" name="0">
                         <layer pass="0" class="SimpleFill" locked="0">
                             <prop k="color" v="53,185,80,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color_border" v="140,140,140,255"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="style" v="solid"/>
+                            <prop k="style" v="no"/>
                             <prop k="style_border" v="solid"/>
-                            <prop k="width_border" v="0.26"/>
+                            <prop k="width_border" v="0.08"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -3523,7 +3773,7 @@
                 <sizescale field=""/>
             </renderer-v2>
             <customproperties/>
-            <displayfield></displayfield>
+            <displayfield>NUMERO</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="Étiquette"/>
@@ -3545,10 +3795,31 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <edittypes>
+                <edittype type="0" name="CODE_ARR"/>
+                <edittype type="0" name="CODE_COM"/>
+                <edittype type="0" name="CODE_DEP"/>
+                <edittype type="0" name="COM_ABS"/>
+                <edittype type="0" name="FEUILLE"/>
+                <edittype type="0" name="NOM_COM"/>
+                <edittype type="0" name="NUMERO"/>
+                <edittype type="0" name="SECTION"/>
+            </edittypes>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>Ventilations20120429154703820</id>
@@ -3813,7 +4084,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -3828,14 +4098,12 @@
                 <edittype type="0" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="5" min="1" step="10" name="diametre" max="200"/>
                 <edittype type="8" name="docu2"/>
                 <edittype type="11" name="gid"/>
                 <edittype type="0" name="hauteur"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gi"/>
-
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -3992,7 +4260,6 @@
                 <edittype type="0" name="conso_moyenne"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -4221,7 +4488,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="0" name="essence"/>
                 <edittype type="11" name="gid"/>
@@ -4267,7 +4533,7 @@
                 <scalingAttribute>0</scalingAttribute>
             </overlay>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="600" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>canalisations20120417144444628</id>
             <datasource>../COUCHES_SPANC/canalisations.shp</datasource>
             <title></title>
@@ -4304,7 +4570,7 @@
                     <category symbol="11" value="" label="non renseigné"/>
                 </categories>
                 <symbols>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="0">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,0,255"/>
@@ -4313,7 +4579,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4322,7 +4588,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="1">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,170,0,255"/>
@@ -4331,7 +4597,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4340,7 +4606,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="10">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="10">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -4349,7 +4615,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4358,7 +4624,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="11">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="11">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,127,255"/>
@@ -4367,16 +4633,16 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
-                            <prop k="interval" v="5"/>
+                            <prop k="interval" v="26"/>
                             <prop k="offset" v="0"/>
-                            <prop k="placement" v="interval"/>
+                            <prop k="placement" v="centralpoint"/>
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="2">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="2">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -4385,7 +4651,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4394,7 +4660,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="3">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="3">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,85,0,255"/>
@@ -4403,7 +4669,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4412,7 +4678,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="4">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="4">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="0,0,255,255"/>
@@ -4431,7 +4697,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.2"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4440,7 +4706,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="5">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="5">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="255,255,0,255"/>
@@ -4449,20 +4715,20 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.9"/>
+                            <prop k="width" v="0.2"/>
                         </layer>
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="255,85,0,255"/>
+                            <prop k="color" v="255,0,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="dot"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.15"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="6">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="6">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -4471,7 +4737,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="dot"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="30"/>
@@ -4480,7 +4746,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="7">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="7">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="round"/>
                             <prop k="color" v="121,121,121,255"/>
@@ -4489,10 +4755,10 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="8">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="8">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -4501,7 +4767,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4510,7 +4776,7 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="line" name="9">
+                    <symbol outputUnit="MapUnit" alpha="1" type="line" name="9">
                         <layer pass="3" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
                             <prop k="color" v="85,0,0,255"/>
@@ -4519,7 +4785,7 @@
                             <prop k="offset" v="0"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.5"/>
+                            <prop k="width" v="0.1"/>
                         </layer>
                         <layer pass="0" class="MarkerLine" locked="0">
                             <prop k="interval" v="10"/>
@@ -4528,104 +4794,104 @@
                             <prop k="rotate" v="1"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@0@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@0@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@10@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@10@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
-                            <prop k="color" v="0,255,255,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color" v="0,255,127,255"/>
+                            <prop k="color_border" v="0,255,127,255"/>
                             <prop k="name" v="filled_arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@11@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@11@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
-                            <prop k="color" v="85,0,127,255"/>
+                            <prop k="color" v="0,0,0,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@1@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@1@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="0,170,0,255"/>
                             <prop k="color_border" v="0,170,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@2@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@2@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="85,0,0,255"/>
                             <prop k="color_border" v="85,0,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@3@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@3@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,85,0,255"/>
                             <prop k="color_border" v="255,85,0,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@4@2">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@4@2">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="255,0,0,255"/>
                             <prop k="color_border" v="0,0,127,255"/>
                             <prop k="name" v="arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="2"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@6@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@6@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="90"/>
                             <prop k="color" v="255,0,255,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="arrow"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@8@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@8@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
-                            <prop k="color" v="0,0,127,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color" v="170,0,255,255"/>
+                            <prop k="color_border" v="170,0,255,255"/>
                             <prop k="name" v="filled_arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
-                    <symbol outputUnit="MM" alpha="1" type="marker" name="@9@1">
+                    <symbol outputUnit="MapUnit" alpha="1" type="marker" name="@9@1">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="color" v="85,170,255,255"/>
-                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="color_border" v="0,170,255,255"/>
                             <prop k="name" v="filled_arrowhead"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="3"/>
+                            <prop k="size" v="0.5"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -4664,8 +4930,8 @@
                     <prop k="color2" v="8,48,107,255"/>
                     <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
                 </colorramp>
-                <rotation field=""/>
-                <sizescale field=""/>
+                <rotation field="angle"/>
+                <sizescale field="taille"/>
             </renderer-v2>
             <customproperties/>
             <displayfield>materiau</displayfield>
@@ -4691,13 +4957,55 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype type="0" name="REFDOSS"/>
-                <edittype type="0" name="angle"/>
-                <edittype type="0" name="annee_pose"/>
+                <edittype type="0" name="accessibil"/>
+                <edittype type="3" name="accessibilite">
+                    <valuepair key="accessible" value="accessible"/>
+                    <valuepair key="accès difficile" value="accès difficile"/>
+                    <valuepair key="accès impossible" value="accès impossible"/>
+                    <valuepair key="accès trop profond" value="accès trop profond"/>
+                    <valuepair key="découvert pour contrôle" value="découvert pour contrôle"/>
+                    <valuepair key="engin nécessaire" value="engin nécessaire"/>
+                    <valuepair key="non renseigné" value="non renseigné"/>
+                </edittype>
+                <edittype type="5" min="0" step="15" name="angle" max="360"/>
+                <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
-                <edittype type="5" min="0" step="5" name="diametre" max="500"/>
-                <edittype type="0" name="ident"/>
+                <edittype type="13" name="desaffecte"/>
+                <edittype type="13" name="desaffecte_le"/>
+                <edittype type="5" min="1" step="5" name="diametre" max="500"/>
+                <edittype type="8" name="docu2"/>
+                <edittype type="3" name="ecoulement">
+                    <valuepair key="non renseigné" value="non renseigné"/>
+                    <valuepair key="pas d'écoulement (stagnation)" value="pas d'écoulement (stagnation)"/>
+                    <valuepair key="sens non visible" value="sens non visible"/>
+                    <valuepair key="écoulement correct" value="écoulement correct"/>
+                    <valuepair key="écoulement ralenti" value="écoulement ralenti"/>
+                    <valuepair key="écoulement trop rapide" value="écoulement trop rapide"/>
+                    <valuepair key="écoulement à contre-sens" value="écoulement à contre-sens"/>
+                </edittype>
+                <edittype type="11" name="gid"/>
+                <edittype unchecked="non" type="7" checked="oui" name="gravitaire"/>
+                <edittype type="0" name="haut_prof"/>
+                <edittype type="0" name="identif"/>
+                <edittype type="0" name="install_gi"/>
+                <edittype type="0" name="install_gid"/>
+                <edittype type="3" name="integrite">
+                    <valuepair key="absence de défauts" value="absence de défauts"/>
+                    <valuepair key="corrosion importante" value="corrosion importante"/>
+                    <valuepair key="corrosion légère" value="corrosion légère"/>
+                    <valuepair key="corrosion moyenne" value="corrosion moyenne"/>
+                    <valuepair key="fissuration avec déformation" value="fissuration avec déformation"/>
+                    <valuepair key="fissuration sans déformation" value="fissuration sans déformation"/>
+                    <valuepair key="non renseigné" value="non renseigné"/>
+                    <valuepair key="ouvrage hors-service" value="ouvrage hors-service"/>
+                    <valuepair key="présence de déformation(s)" value="présence de déformation(s)"/>
+                    <valuepair key="rupture des matériaux" value="rupture des matériaux"/>
+                    <valuepair key="étanchéité compromise" value="étanchéité compromise"/>
+                </edittype>
+                <edittype type="0" name="largeur"/>
+                <edittype type="0" name="longueur"/>
+                <edittype type="0" name="marq_constructeur"/>
                 <edittype type="3" name="materiau">
                     <valuepair key="PE" value="PE"/>
                     <valuepair key="PEBD" value="PEBD"/>
@@ -4715,14 +5023,63 @@
                     <valuepair key="plastique inconnu" value="plastique"/>
                 </edittype>
                 <edittype type="13" name="modifie_le"/>
-                <edittype type="8" name="photo1"/>
-                <edittype type="0" name="saisie"/>
+                <edittype type="8" name="photo"/>
+                <edittype type="2" name="poseur"/>
+                <edittype type="3" name="proprete">
+                    <valuepair key="aspect correct" value="aspect correct"/>
+                    <valuepair key="entretien ponctuel" value="entretien ponctuel"/>
+                    <valuepair key="entretien rare" value="entretien rare"/>
+                    <valuepair key="entretien régulier" value="entretien régulier"/>
+                    <valuepair key="jamais entretenu" value="jamais entretenu"/>
+                    <valuepair key="non renseigné" value="non renseigné"/>
+                    <valuepair key="présence de dépôts anormaux" value="présence de dépôts anormaux"/>
+                    <valuepair key="présence de flottants anormaux" value="présence de flottants anormaux"/>
+                    <valuepair key="sans objet" value="sans objet"/>
+                </edittype>
+                <edittype type="0" name="refdoss"/>
+                <edittype type="0" name="renseignem"/>
+                <edittype type="3" name="renseignements">
+                    <valuepair key="inconnu" value="inconnu"/>
+                    <valuepair key="sur document(s)" value="sur document(s)"/>
+                    <valuepair key="sur déclaration" value="sur déclaration"/>
+                    <valuepair key="sur facture" value="sur facture"/>
+                    <valuepair key="sur observations/mesures" value="sur observations/mesures"/>
+                    <valuepair key="sur photo" value="sur photo"/>
+                    <valuepair key="sur plan" value="sur plan"/>
+                </edittype>
+                <edittype type="2" name="saisie_par"/>
+                <edittype type="3" name="securite">
+                    <valuepair key="danger imminent" value="danger imminent"/>
+                    <valuepair key="non évaluée" value="non évaluée"/>
+                    <valuepair key="risques faibles" value="risques faibles"/>
+                    <valuepair key="sécurisé" value="sécurisé"/>
+                </edittype>
+                <edittype type="5" min="0" step="1" name="taille" max="100"/>
                 <edittype type="4" name="type_eau"/>
             </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
-            <attributeactions/>
+            <aliases>
+                <alias field="annee_pose" index="9" name="année de pose"/>
+                <alias field="comments" index="8" name="commentaires"/>
+                <alias field="cree_le" index="22" name="créé le"/>
+                <alias field="ecoulement" index="16" name="écoulement"/>
+                <alias field="identif" index="3" name="identifiant"/>
+                <alias field="integrite" index="14" name="intégrité"/>
+                <alias field="modifie_le" index="23" name="modifié le"/>
+                <alias field="proprete" index="15" name="propreté"/>
+                <alias field="refdoss" index="1" name="référence dossier"/>
+                <alias field="saisie_par" index="24" name="saisie par"/>
+            </aliases>
+            <attributeactions>
+                <actionsetting action="[% &quot;photo&quot; %]" capture="0" type="5" name="Ouvrir fichier"/>
+                <actionsetting action="[% &quot;docu2&quot; %]" capture="0" type="5" name="Ouvrir docu2"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;GID&quot;, &quot;la clef(gid) est [% &quot;gid&quot; %]&quot;)" capture="0" type="1" name="Récupère l'id de l'entité"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;REFDOSS&quot;, &quot;reference dossier :  [% &quot;refdoss&quot; %]&quot;)" capture="0" type="1" name="Valeur REFDOSS"/>
+                <actionsetting action="QtGui.QMessageBox.information(None, &quot;date&quot;, &quot;creation le  [% &quot;cree_le&quot; %], modification le [% &quot;modifie_le&quot; %]&quot;)" capture="0" type="1" name="date création objet"/>
+                <actionsetting action="http://www.google.fr/?q=[% &quot;poseur&quot; %]" capture="0" type="5" name="Recherche web poseur"/>
+            </attributeactions>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
                     <diagramitem size="0" value="0"/>
@@ -5165,7 +5522,6 @@
             </labelattributes>
             <edittypes>
                 <edittype type="0" name="REFDOSS"/>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -5183,7 +5539,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -5198,7 +5553,6 @@
                 <edittype type="0" name="ident"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gi"/>
-
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -5233,7 +5587,6 @@
                 <edittype type="0" name="ref_autori"/>
                 <edittype type="0" name="ref_autorisation"/>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
                     <valuepair key="sur déclaration" value="sur déclaration"/>
@@ -5661,7 +6014,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -5676,7 +6028,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="doc_constr"/>
                 <edittype type="8" name="doc_constructeur"/>
                 <edittype type="8" name="docu2"/>
@@ -5694,7 +6045,6 @@
                 <edittype type="0" name="ident"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gi"/>
-
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -5732,7 +6082,6 @@
                     <valuepair key="sans objet" value="sans objet"/>
                 </edittype>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
                     <valuepair key="sur déclaration" value="sur déclaration"/>
@@ -5765,7 +6114,7 @@
                     <valuepair key="microstations à cultures libres" value="microstations à cultures libres"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
@@ -5878,7 +6227,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="11" name="gid"/>
                 <edittype type="5" min="0" step="1" name="hauteur" max="10"/>
@@ -5889,7 +6237,6 @@
                 <edittype type="8" name="photo"/>
                 <edittype type="0" name="poseur"/>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
                     <valuepair key="sur déclaration" value="sur déclaration"/>
@@ -6099,7 +6446,6 @@
                 <edittype type="13" name="cree_le"/>
                 <edittype type="0" name="date_acte_"/>
                 <edittype type="13" name="date_acte_authentique"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="10" name="gid"/>
                 <edittype type="0" name="identif"/>
@@ -6107,7 +6453,6 @@
                 <edittype type="5" min="1" step="1" name="nb_pp" max="100"/>
                 <edittype type="8" name="photo"/>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
                     <valuepair key="sur déclaration" value="sur déclaration"/>
@@ -6352,7 +6697,7 @@
             <transparencyLevelInt>255</transparencyLevelInt>
             <provider encoding="UTF-8">ogr</provider>
             <vectorjoins/>
-            <renderer-v2 attr="typ_origine" symbollevels="0" type="categorizedSymbol">
+            <renderer-v2 attr="typ_origin" symbollevels="0" type="categorizedSymbol">
                 <categories>
                     <category symbol="0" value="baignoire" label="baignoire"/>
                     <category symbol="1" value="douche" label="douche"/>
@@ -6368,7 +6713,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/baignoire1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6379,7 +6724,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/douche1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6390,7 +6735,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/eviers1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6401,7 +6746,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/lavabo1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6412,7 +6757,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/lave_linge1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6423,7 +6768,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/lave_vaisselle1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6434,7 +6779,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/robinet1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6445,7 +6790,7 @@
                         <layer pass="0" class="SvgMarker" locked="0">
                             <prop k="angle" v="0"/>
                             <prop k="fill" v="#000000"/>
-                            <prop k="name" v=""/>
+                            <prop k="name" v="/origines/wc1.svg"/>
                             <prop k="offset" v="0,0"/>
                             <prop k="outline" v="#000000"/>
                             <prop k="outline-width" v="1"/>
@@ -6515,7 +6860,6 @@
                 <edittype type="13" name="modifie_le"/>
                 <edittype type="8" name="photo"/>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
                     <valuepair key="sur déclaration" value="sur déclaration"/>
@@ -6985,8 +7329,8 @@
                         </layer>
                     </symbol>
                 </symbols>
-                <rotation field=""/>
-                <sizescale field=""/>
+                <rotation field="angle"/>
+                <sizescale field="taille"/>
             </renderer-v2>
             <customproperties/>
             <displayfield>etage</displayfield>
@@ -7047,7 +7391,6 @@
                     <valuepair key="séjour" value="séjour"/>
                 </edittype>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="sur document(s)" value="sur document(s)"/>
                     <valuepair key="sur déclaration" value="sur déclaration"/>
@@ -7235,7 +7578,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -7252,7 +7594,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -7268,7 +7609,6 @@
                 <edittype type="0" name="hmt"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gi"/>
-
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -7302,7 +7642,6 @@
                     <valuepair key="sans objet" value="sans objet"/>
                 </edittype>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="inconnu" value="inconnu"/>
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -7329,7 +7668,7 @@
                 <edittype type="0" name="volume_bac"/>
                 <edittype type="0" name="volume_bache"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
             <aliases>
@@ -7760,7 +8099,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -7775,7 +8113,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -7795,7 +8132,6 @@
                 <edittype type="0" name="haut_prof"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gi"/>
-
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -7847,7 +8183,6 @@
                     <valuepair key="sans objet" value="sans objet"/>
                 </edittype>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="inconnu" value="inconnu"/>
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -8232,7 +8567,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -8247,7 +8581,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -8268,7 +8601,6 @@
                 <edittype type="0" name="haut_prof"/>
                 <edittype type="0" name="identif"/>
                 <edittype type="0" name="install_gi"/>
-
                 <edittype type="3" name="integrite">
                     <valuepair key="absence de défauts" value="absence de défauts"/>
                     <valuepair key="corrosion importante" value="corrosion importante"/>
@@ -8337,7 +8669,6 @@
                     <valuepair key="sans objet" value="sans objet"/>
                 </edittype>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="inconnu" value="inconnu"/>
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -8507,7 +8838,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="3" name="accessibil">
                     <valuepair key="accessible" value="accessible"/>
                     <valuepair key="accès difficile" value="accès difficile"/>
@@ -8527,7 +8857,6 @@
                 <edittype type="12" name="comments"/>
                 <edittype type="13" name="cree_le"/>
                 <edittype type="13" name="desaffecte"/>
-
                 <edittype type="8" name="docu2"/>
                 <edittype type="3" name="ecoulement">
                     <valuepair key="non renseigné" value="non renseigné"/>
@@ -8576,7 +8905,6 @@
                 </edittype>
                 <edittype type="0" name="ref_autori"/>
                 <edittype type="0" name="refdoss"/>
-
                 <edittype type="3" name="renseignem">
                     <valuepair key="inconnu" value="inconnu"/>
                     <valuepair key="sur document(s)" value="sur document(s)"/>
@@ -8951,7 +9279,6 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-
                 <edittype type="5" min="0" step="15" name="angle" max="360"/>
                 <edittype type="13" name="annee_pose"/>
                 <edittype type="12" name="comments"/>
