@@ -1700,7 +1700,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>alim_aep20120526210158865</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="alimentation AEP" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="alim_aep" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>alimentation AEP</layername>
@@ -1887,7 +1887,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>arbres20120526210158892</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="arbres" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="arbres" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>arbres</layername>
@@ -2048,7 +2048,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>canalisations20120526210158934</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="canalisations" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="canalisations" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>canalisations</layername>
@@ -2607,7 +2607,7 @@
             <datasource>dbname='../SQLITE/spancman.sqlite' table="cont_conceptions" sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>cont_conceptions</layername>
+            <layername>controle conceptions</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
@@ -2634,7 +2634,7 @@
             <datasource>dbname='../SQLITE/spancman.sqlite' table="cont_periodiques" sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>cont_periodiques</layername>
+            <layername>controle periodiques</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
@@ -2709,7 +2709,7 @@
             <datasource>dbname='../SQLITE/spancman.sqlite' table="cont_realisations" sql=</datasource>
             <title></title>
             <abstract></abstract>
-            <layername>cont_realisations</layername>
+            <layername>controle realisations</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs</proj4>
@@ -2733,7 +2733,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>dossiers20120603150709927</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="dossiers" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="dossiers" (the_geom) sql=</datasource>
             <title>dossiers SPANC</title>
             <abstract></abstract>
             <layername>dossiers</layername>
@@ -3021,7 +3021,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>filieres_agreees20120526210159020</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="filières agréées" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="filieres_agreees" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>filières agréées</layername>
@@ -3316,7 +3316,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>haies20120526210159035</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="haies" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="haies" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>haies</layername>
@@ -3447,7 +3447,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>immeubles20120621001247872</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="immeubles" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="immeubles" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>immeubles</layername>
@@ -3688,7 +3688,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>infiltrations20120526210159109</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="zones infiltrations" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="infiltrations" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>zones infiltrations</layername>
@@ -3978,7 +3978,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>installations20120617233407927</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="installations" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="installations" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>installations</layername>
@@ -4158,7 +4158,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>origines20120526210159129</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="origines des eaux" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="origines" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>origines des eaux</layername>
@@ -4395,7 +4395,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="500" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>pentes20120526210159181</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="pentes" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="pentes" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>pentes</layername>
@@ -4707,7 +4707,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>pieces20120526210159217</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="pieces" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="pieces" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>pieces</layername>
@@ -4934,7 +4934,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>pompages20120609214242086</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="pompages" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="pompages" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>pompages</layername>
@@ -5217,7 +5217,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>pretraitements20120526210159231</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="pretraitements" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="pretraitements" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>pretraitements</layername>
@@ -5783,7 +5783,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>puits_d_eau20120617204833306</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="puits d'eau" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="puits_d_eau" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>puits d'eau</layername>
@@ -6392,7 +6392,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>puits_dispersion20120603150612901</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="puits de dispersion" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="puits_dispersion" (the_geom) sql=</datasource>
             <title>puits de dispersion</title>
             <abstract>données SPANCMAN</abstract>
             <layername>puits de dispersion</layername>
@@ -6947,7 +6947,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>regards20120526210159262</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="regards" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="regards" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>regards</layername>
@@ -7414,7 +7414,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>rejets20120526210159289</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="rejets" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="rejets" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>rejets</layername>
@@ -7651,7 +7651,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>sondages20120603152728159</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="sondages" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="sondages" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>sondages</layername>
@@ -7768,7 +7768,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>surfaces_terrain20120918224116962</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="occupation terrain" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="surfaces_terrain" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>occupation terrain</layername>
@@ -8155,7 +8155,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>traitements_classiks20120912222104668</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="traitements classiques" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="traitements_classiks" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>traitements classiques</layername>
@@ -8681,7 +8681,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
             <id>ventilations20120526210159342</id>
-            <datasource>dbname='../SQLITE/spancman.sqlite' table="ventilations" (Geometry) sql=</datasource>
+            <datasource>dbname='../SQLITE/spancman.sqlite' table="ventilations" (the_geom) sql=</datasource>
             <title></title>
             <abstract></abstract>
             <layername>ventilations</layername>
